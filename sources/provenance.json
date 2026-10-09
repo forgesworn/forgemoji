@@ -1,0 +1,18 @@
+{
+  "creator": "TheCryptoDonkey",
+  "project": "ForgeSworn / ForgeMoji",
+  "model": "gpt-image-2.5-sunburst",
+  "quality": "high",
+  "output": "RGBA PNG",
+  "background": "transparent",
+  "generationDate": "2026-10-09",
+  "referencePolicy": "Only our own approved familiar-emoji artwork was supplied. No vendor emoji sheet was used.",
+  "sources": [
+    { "file": "core.png", "role": "Approved familiar emoji draft, exact preserved 6 by 6 grid", "prompts": ["prompts/core.txt", "prompts/core-cutout.txt"], "usedRows": 5 },
+    { "file": "human-hands.png", "role": "Approved five human tone rows for six gestures", "prompts": ["prompts/human-hands.txt"] },
+    { "file": "expressions.png", "role": "30 additional everyday faces", "reference": "sources/core.png", "prompts": ["prompts/expressions.txt"] },
+    { "file": "nature.png", "role": "30 animals and nature symbols", "reference": "sources/core.png", "prompts": ["prompts/nature.txt"] },
+    { "file": "everyday.png", "role": "30 food and useful objects", "reference": "sources/core.png", "prompts": ["prompts/everyday.txt"] }
+  ],
+  "processing": "Recorded grid crops, Lanczos scale and transparent square padding with FFmpeg. No runtime generation, graphics service or third-party catalogue."
+}

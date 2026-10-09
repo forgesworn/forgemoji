@@ -1,0 +1,11 @@
+Create exactly 30 original familiar everyday emoji icons, not a monster or character sticker pack. Use the supplied original approved ForgeMoji sheet only as our own style reference. Preserve its warm golden faces, polished soft rounded 3D illustration, clear recognisable expressions, rich saturated colours, restrained highlights and smooth antialiased edges. Do not copy a platform vendor's artwork. No labels, no lettering, no tile backgrounds, no flags, no border and no watermark.
+
+Output exactly 1536x1280 RGBA: a precise SIX COLUMN by FIVE ROW regular grid, one icon per 256x256 cell. Centre each icon inside its own cell. Every silhouette including tears, confetti, petals, ears, handles etc must fit inside a central 208x208 area with at least 24 pixels of completely transparent padding on every cell edge. All backing pixels and gutters must be genuinely transparent alpha zero; absolutely NO diffuse glow, coloured backing, fog, gradient backdrop or drop shadows outside icons. These will be cropped into separate emoji and displayed at 32px: clear shapes and strong readable meanings matter most. Avoid unnecessary detail. Every specified entry must match its Unicode meaning.
+
+Row 1, left to right: Grinning 😀; Slight smile 🙂; Upside down 🙃; Blush 😊; Innocent 😇; Party face 🥳
+Row 2, left to right: Star eyes 🤩; Delicious 😋; Tongue out 😛; Winking tongue 😜; Zany 🤪; Money face 🤑
+Row 3, left to right: Zipped mouth 🤐; Raised eyebrow 🤨; Neutral 😐; Eye roll 🙄; Smirk 😏; Grimace 😬
+Row 4, left to right: Pensive 😔; Pleading 🥺; Huff 😤; Furious 😡; Mind blown 🤯; Hot face 🥵
+Row 5, left to right: Cold face 🥶; Nauseated 🤢; Vomiting 🤮; Fever 🤒; Bandaged head 🤕; Medical mask 😷
+
+Follow the exact order above. Do not omit, duplicate or merge an icon. Never let parts cross cell boundaries. New designs should be visually cohesive with the supplied reference but represent the listed familiar Unicode meanings exactly.

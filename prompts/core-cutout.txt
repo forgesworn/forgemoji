@@ -1,0 +1,5 @@
+Edit this original 36-icon KithMoot emoji sheet. Preserve all 36 icons exactly: same meanings, expressions, positions, proportions, colours, hand gestures, row/column layout, and visual style. Do not redraw or change the emoji themselves.
+
+Remove the coloured backing, atmospheric haze, background gradients, and all diffuse background glows around the icons. The entire space between and behind all icons must be genuinely transparent alpha zero, not a painted background and not a checkerboard. Each icon must become a clean isolated cutout with smooth antialiased edges. Preserve the small blue waving motion strokes, gold applause motion strokes, party confetti, flame details, tears and hearts as parts of their icons. Do not remove or crop any icon. No shadow or fog extending beyond an icon's immediate edge.
+
+Keep the exact 2048x2048 size and the same regular six-column by six-row arrangement. Transparent background is essential so these can be cropped into independent everyday emoji for dark and light chat backgrounds.

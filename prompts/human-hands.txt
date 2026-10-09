@@ -1,0 +1,19 @@
+Generate an original hand emoji sprite sheet that matches the soft polished 3D illustration style and clear hand gesture silhouettes in the supplied KithMoot emoji reference. Use the reference only as a style and gesture guide. This new sheet contains ONLY human hands. No yellow faces, no character stickers, no symbols except small gesture motion marks.
+
+Exactly SIX columns and FIVE rows on a 1536x1280 canvas. Each cell is exactly 256x256. Each icon must be entirely contained in its cell, centred with 25 pixel transparent margins. The entire background and all gutters must be genuinely transparent alpha zero. No coloured backing, no background glow, no shadows cast onto the background, no grid, no lettering. Clean cutout edges.
+
+In EVERY row the same six gestures in this exact order, matching the reference silhouettes:
+Column 1: thumbs UP, closed human fist, thumb points vertically UP.
+Column 2: thumbs DOWN, closed human fist, thumb points vertically DOWN.
+Column 3: waving open human hand, five clear digits, tiny blue motion marks.
+Column 4: TWO human hands clapping, small warm motion marks.
+Column 5: TWO human palms pressed together in thanks/prayer, small blue sleeve cuffs.
+Column 6: human hand giving peace/V-for-victory, index and middle fingers extended, other fingers folded.
+
+Row 1: light skin tone, warm pale ivory.
+Row 2: medium-light skin tone, warm light tan.
+Row 3: medium skin tone, warm medium brown.
+Row 4: medium-dark skin tone, rich dark brown.
+Row 5: dark skin tone, deep brown.
+
+Identical shapes, lighting, proportions, gesture orientation and visual weight down each column, only changing skin pigmentation between rows. Friendly, recognisable everyday emoji. Correct anatomy and clear thumb direction are essential. Do not fuse clapping or praying hands into one hand, and do not turn the thumbs down gesture into thumbs up. All 30 icons are required. Original artwork with familiar universal meanings, no brand imitation.
