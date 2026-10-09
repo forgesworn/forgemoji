@@ -1,0 +1,13 @@
+Create ONE original illustrated sacred stone emoji for ForgeMoji, based on the supplied semantic reference from https://600.wtf/img/sacred-stone.webp . The supplied ForgeMoji sheet is our own approved artwork and is only a STYLE reference. Do not reproduce the stone photograph: draw a new polished soft 3D emoji illustration with a crisp readable silhouette, subtle stone detail, rounded lighting and restrained highlights matching our emoji family.
+
+The subject is a single upright smooth weathered grey oval pebble, slightly taller than wide, broad and gently rounded, viewed almost straight on with a little side thickness. Grey granite-like mottled texture but simplified so it reads cleanly at 32px. No face, eyes, smile, hands, feet, characters, symbols or pedestal.
+
+The front has exactly TWELVE clearly legible BLACK etched digits arranged in exactly FOUR ROWS of THREE DIGITS. The exact inscription from top to bottom is:
+600
+000
+000
+000
+
+This means 600000000000 (six hundred billion): a six followed by eleven zeros. Do NOT change any zero into a six, eight, nine, letter O or other numeral. No extra digit, no missing digit, no punctuation, no other writing. Make the numerals large, bold and black with rounded counters, slightly imperfect as etched/inked markings, each row separately spaced. The FOUR complete rows must be clearly visible and aligned on the broad front. This inscription is the defining meaning of the emoji. Avoid tiny detail which obscures the black digits.
+
+1024x1024 RGBA PNG with genuinely transparent background. Entire stone must fit inside a centred 800x800 square with at least 112px fully transparent padding on all sides. Background/gutters alpha zero, no coloured backing, atmospheric glow, fog, painted backdrop, checkerboard or diffuse shadow. One stone only, not a sprite grid or contact sheet.

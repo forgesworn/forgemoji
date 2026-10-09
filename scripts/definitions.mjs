@@ -31,7 +31,8 @@ export const everyday = [
  ['🎁','gift','Gift','present birthday'],['💡','idea','Light bulb','idea'],['🔑','key','Key','unlock'],['🔒','lock','Lock','private secure'],['🚀','rocket','Rocket','launch space'],['💻','laptop','Laptop','computer work'],
  ['📱','phone','Phone','mobile'],['📷','camera','Camera','photo'],['🎮','gamepad','Gamepad','game play'],['⚽','football','Football','soccer sport'],['🏆','trophy','Trophy','winner award'],['💩','poop','Poop','shit poo']])
 ];
-export const mascot=group('Nature',[['🫏','crypto-donkey','Crypto donkey','orange donkey crypto cryptodonkey thecryptodonkey cute mascot']]);
+export const mascot=group('Nature',[['🫏','crypto-donkey','Donkey','orange donkey crypto cryptodonkey thecryptodonkey cute mascot']]);
+export const sacredStone=[{emoji:'🪨',slug:'sacred-stone',title:'Sacred stone',keywords:['rock','stone','sacred','600','600.wtf','600000000000'],category:'Objects',toneable:false}];
 // Sunburst's expression rows drifted upward; these measured gutters preserve complete silhouettes.
-export const sheets = [{file:'core.png',cols:6,rows:6,entries:core},{file:'expressions.png',cols:6,rows:5,rowEdges:[0,266,506,742,983,1280],entries:expressions},{file:'nature.png',cols:6,rows:5,entries:nature},{file:'everyday.png',cols:6,rows:5,entries:everyday},{file:'crypto-donkey.png',cols:1,rows:1,entries:mascot}];
+export const sheets = [{file:'core.png',cols:6,rows:6,entries:core},{file:'expressions.png',cols:6,rows:5,rowEdges:[0,266,506,742,983,1280],entries:expressions},{file:'nature.png',cols:6,rows:5,entries:nature},{file:'everyday.png',cols:6,rows:5,entries:everyday},{file:'crypto-donkey.png',cols:1,rows:1,entries:mascot},{file:'sacred-stone.png',cols:1,rows:1,entries:sacredStone}];
 export const definitions = sheets.flatMap(sheet => sheet.entries);

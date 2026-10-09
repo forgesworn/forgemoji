@@ -1,5 +1,5 @@
 {
-  "version": "0.1.0",
+  "version": "0.1.1",
   "creator": "TheCryptoDonkey",
   "model": "gpt-image-2.5-sunburst",
   "license": "MIT",
@@ -1398,11 +1398,10 @@
     {
       "emoji": "🫏",
       "slug": "crypto-donkey",
-      "title": "Crypto donkey",
+      "title": "Donkey",
       "keywords": [
-        "crypto donkey",
-        "orange",
         "donkey",
+        "orange",
         "crypto",
         "cryptodonkey",
         "thecryptodonkey",
@@ -1410,6 +1409,21 @@
         "mascot"
       ],
       "category": "Nature",
+      "toneable": false
+    },
+    {
+      "emoji": "🪨",
+      "slug": "sacred-stone",
+      "title": "Sacred stone",
+      "keywords": [
+        "rock",
+        "stone",
+        "sacred",
+        "600",
+        "600.wtf",
+        "600000000000"
+      ],
+      "category": "Objects",
       "toneable": false
     }
   ],
@@ -2772,6 +2786,15 @@
       "file": "png/peace-tone5.png",
       "bytes": 33411,
       "sha256": "33c1b4d165116fe9d86eec92de7bca7f6dc961d2f6eedda1ed8df3431117d8d0"
+    },
+    {
+      "emoji": "🪨",
+      "baseEmoji": "🪨",
+      "slug": "sacred-stone",
+      "tone": 0,
+      "file": "png/sacred-stone.png",
+      "bytes": 58506,
+      "sha256": "69ee04c0f038199fe51751a742422778deee710f7fd7f0cff49770adf7eaf683"
     }
   ]
 }

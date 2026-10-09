@@ -20,11 +20,18 @@ function decodeRgba(data) {
  }return pixels;
 }
 test('manifest has a unique canonical everyday collection', () => {
- assert.equal(definitions.length,121); assert.equal(artwork.length,151);
- assert.equal(new Set(definitions.map(item=>item.emoji)).size,121);
- assert.equal(new Set(artwork.map(item=>item.file)).size,151);
- assert.equal(new Set(artwork.map(item=>item.emoji)).size,151);
+ assert.equal(definitions.length,122); assert.equal(artwork.length,152);
+ assert.equal(new Set(definitions.map(item=>item.emoji)).size,122);
+ assert.equal(new Set(artwork.map(item=>item.file)).size,152);
+ assert.equal(new Set(artwork.map(item=>item.emoji)).size,152);
  assert.ok(definitions.every(item=>!item.title.toLowerCase().includes('flag')));
+});
+test('the sacred stone uses interoperable rock Unicode and the exact community number', () => {
+ const stone=definitions.find(item=>item.slug==='sacred-stone');
+ assert.equal(stone.emoji,'🪨');assert.equal(stone.title,'Sacred stone');
+ assert.ok(stone.keywords.includes('600000000000'));assert.ok(stone.keywords.includes('600.wtf'));
+ assert.equal(withSkinTone('🪨',5),'🪨');
+ assert.equal(artwork.find(item=>item.slug==='sacred-stone').file,'png/sacred-stone.png');
 });
 test('all six hand gestures have five human tones and a yellow default', () => {
  const hands = definitions.filter(item=>item.toneable); assert.equal(hands.length,6);

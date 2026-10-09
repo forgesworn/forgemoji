@@ -1,7 +1,8 @@
 {
   "date": "2026-10-09",
-  "baseChoices": 121,
-  "artworkFiles": 151,
+  "version": "0.1.1",
+  "baseChoices": 122,
+  "artworkFiles": 152,
   "skinTones": 5,
   "phoneWidth": 390,
   "noHorizontalOverflow": true,
@@ -9,6 +10,10 @@
   "pageErrors": [],
   "thumbsUnicode": "👍🏽",
   "donkeyUnicode": "🫏",
+  "donkeyTitle": "Donkey",
+  "sacredStoneUnicode": "🪨",
+  "sacredStoneMarking": "600 / 000 / 000 / 000",
+  "sacredStoneNumber": "600000000000",
   "unicode16Unsupported": [],
   "transparentMarginPixels": 8
 }
