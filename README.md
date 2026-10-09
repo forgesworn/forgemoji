@@ -4,7 +4,7 @@
 
 An original set of everyday emoji illustrations: recognisable faces, human hands, hearts, animals, food and useful objects. Each image maps to ordinary Unicode, so a thumbs-up message is still `👍`, or `👍🏽` with a chosen human skin tone. No private shortcode protocol is needed.
 
-The first collection contains **120 base emoji and 30 human skin-tone variants**: **150 transparent 192×192 PNGs**. All six hand gestures have a yellow default plus five human tones. This is a deliberate everyday selection; it does not cover the entire Unicode emoji standard. Flags and character sticker packs are outside this collection.
+The first collection contains **121 base emoji (including our orange donkey mascot) and 30 human skin-tone variants**: **151 transparent 192×192 PNGs**. All six hand gestures have a yellow default plus five human tones. This is a deliberate everyday selection; it does not cover the entire Unicode emoji standard. Flags and character sticker packs are outside this collection.
 
 ## Preview
 
@@ -30,7 +30,7 @@ The module only exposes metadata and Unicode helpers. It does not fetch images, 
 
 `sources/` contains the original sprite sheets, `prompts/` the exact generation/edit prompts, and `scripts/definitions.mjs` the semantic row/column mapping. Original artwork was generated with explicitly selected **GPT-Image-2.5 Sunburst** (`gpt-image-2.5-sunburst`, high quality), using only our own approved artwork as the style reference. AI raster illustrations are PNG artwork, not editable vectors or a Blender model.
 
-Install FFmpeg/FFprobe and Node 22 or later, then run `npm run build`. It crops each sheet according to the recorded grid, scales with Lanczos into 192×192 transparent PNGs with consistent padding, writes the manifest with exact byte counts and SHA-256 hashes, and rebuilds the standalone gallery. `npm test` checks Unicode mapping, tone completeness, dimensions, PNG hashes and manifest integrity. FFmpeg versions can affect encoded bytes, so compare the checked-in manifest when reproducing an existing release.
+Install FFmpeg/FFprobe and Node 22 or later, then run `npm run build`. It crops each sheet according to the recorded grid, isolates each icon from disconnected neighbouring fragments, scales with Lanczos into 192×192 transparent PNGs with consistent padding, writes the manifest with exact byte counts and SHA-256 hashes, and rebuilds the standalone gallery. `npm test` checks Unicode mapping, tone completeness, dimensions, PNG hashes and manifest integrity. FFmpeg versions can affect encoded bytes, so compare the checked-in manifest when reproducing an existing release.
 
 No API key is needed to rebuild the existing sheets. Regenerating artwork is a separate paid image-generation operation and is not part of the build.
 

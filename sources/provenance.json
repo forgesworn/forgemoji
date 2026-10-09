@@ -12,7 +12,8 @@
     { "file": "human-hands.png", "role": "Approved five human tone rows for six gestures", "prompts": ["prompts/human-hands.txt"] },
     { "file": "expressions.png", "role": "30 additional everyday faces", "reference": "sources/core.png", "prompts": ["prompts/expressions.txt"] },
     { "file": "nature.png", "role": "30 animals and nature symbols", "reference": "sources/core.png", "prompts": ["prompts/nature.txt"] },
-    { "file": "everyday.png", "role": "30 food and useful objects", "reference": "sources/core.png", "prompts": ["prompts/everyday.txt"] }
+    { "file": "everyday.png", "role": "30 food and useful objects", "reference": "sources/core.png", "prompts": ["prompts/everyday.txt"] },
+    { "file": "crypto-donkey.png", "role": "Original soft 3D orange donkey mascot", "references": ["sources/core.png", "sources/the-crypto-donkey-brand-reference.png"], "prompts": ["prompts/crypto-donkey.txt"] }
   ],
-  "processing": "Recorded grid crops, Lanczos scale and transparent square padding with FFmpeg. No runtime generation, graphics service or third-party catalogue."
+  "processing": "Recorded grid crops, connected-component isolation of the central icon and nearby detached details, Lanczos scale and transparent square padding with FFmpeg. No runtime generation, graphics service or third-party catalogue."
 }
