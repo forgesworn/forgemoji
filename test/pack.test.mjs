@@ -20,11 +20,19 @@ function decodeRgba(data) {
  }return pixels;
 }
 test('manifest has a unique canonical everyday collection', () => {
- assert.equal(definitions.length,122); assert.equal(artwork.length,152);
- assert.equal(new Set(definitions.map(item=>item.emoji)).size,122);
- assert.equal(new Set(artwork.map(item=>item.file)).size,152);
- assert.equal(new Set(artwork.map(item=>item.emoji)).size,152);
+ assert.equal(definitions.length,133); assert.equal(artwork.length,163);
+ assert.equal(new Set(definitions.map(item=>item.emoji)).size,133);
+ assert.equal(new Set(artwork.map(item=>item.file)).size,163);
+ assert.equal(new Set(artwork.map(item=>item.emoji)).size,163);
  assert.ok(definitions.every(item=>!item.title.toLowerCase().includes('flag')));
+});
+test('currency and brands are explicit symbols and known shortcodes', () => {
+ const currency=definitions.find(item=>item.slug==='bitcoin');assert.equal(currency.emoji,'₿');assert.equal(currency.kind,'symbol');
+ const spider=definitions.find(item=>item.slug==='jumping-spider');assert.equal(spider.emoji,'🕷️');
+ const expected=['forgesworn','kindred','kithmoot','mysignet','vitark','vitark_den','vitark_train','vitark_still','vitark_record'].map(name=>`:fs_${name}:`);
+ const custom=definitions.filter(item=>item.kind==='custom');assert.deepEqual(custom.map(item=>item.emoji),expected);
+ for(const item of custom){assert.equal(item.category,'forgesworn');assert.equal(item.toneable,false);assert.equal(withSkinTone(item.emoji,5),item.emoji)}
+ assert.equal(withSkinTone(':fs_unknown:',3),':fs_unknown:');assert.equal(withSkinTone('₿',4),'₿');
 });
 test('the sacred stone uses interoperable rock Unicode and the exact community number', () => {
  const stone=definitions.find(item=>item.slug==='sacred-stone');

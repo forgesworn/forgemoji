@@ -33,6 +33,11 @@ export const everyday = [
 ];
 export const mascot=group('Nature',[['🫏','crypto-donkey','Donkey','orange donkey crypto cryptodonkey thecryptodonkey cute mascot']]);
 export const sacredStone=[{emoji:'🪨',slug:'sacred-stone',title:'Sacred stone',keywords:['rock','stone','sacred','600','600.wtf','600000000000'],category:'Objects',toneable:false}];
+export const jumpingSpider=group('Nature',[['🕷️','jumping-spider','Jumping spider','black spider cute littleleap little leap pip jumping fuzzy']]);
+export const bitcoin=[{emoji:'₿',slug:'bitcoin',title:'Bitcoin',keywords:['bitcoin','btc','orange','coin','currency'],category:'Symbols',toneable:false,kind:'symbol'}];
+export const brands=[
+ ['forgesworn','ForgeSworn','png'],['kindred','Kindred','svg'],['kithmoot','KithMoot','svg'],['mysignet','MySignet','svg'],['vitark','Vitark','svg'],['vitark_den','Vitark Den','svg'],['vitark_train','Vitark Train','svg'],['vitark_still','Vitark Still','svg'],['vitark_record','Vitark Record','svg']
+].map(([name,title,extension])=>({file:`brands/fs-${name.replaceAll('_','-')}.${extension}`,cols:1,rows:1,preserve:true,entries:[{emoji:`:fs_${name}:`,slug:`fs-${name.replaceAll('_','-')}`,title,keywords:[title.toLowerCase(),'forgesworn','brand','logo',...name.split('_')],category:'forgesworn',toneable:false,kind:'custom'}]}));
 // Sunburst's expression rows drifted upward; these measured gutters preserve complete silhouettes.
-export const sheets = [{file:'core.png',cols:6,rows:6,entries:core},{file:'expressions.png',cols:6,rows:5,rowEdges:[0,266,506,742,983,1280],entries:expressions},{file:'nature.png',cols:6,rows:5,entries:nature},{file:'everyday.png',cols:6,rows:5,entries:everyday},{file:'crypto-donkey.png',cols:1,rows:1,entries:mascot},{file:'sacred-stone.png',cols:1,rows:1,entries:sacredStone}];
+export const sheets = [{file:'core.png',cols:6,rows:6,entries:core},{file:'expressions.png',cols:6,rows:5,rowEdges:[0,266,506,742,983,1280],entries:expressions},{file:'nature.png',cols:6,rows:5,entries:nature},{file:'everyday.png',cols:6,rows:5,entries:everyday},{file:'crypto-donkey.png',cols:1,rows:1,entries:mascot},{file:'sacred-stone.png',cols:1,rows:1,entries:sacredStone},{file:'jumping-spider.png',cols:1,rows:1,entries:jumpingSpider},{file:'bitcoin.png',cols:1,rows:1,entries:bitcoin},...brands];
 export const definitions = sheets.flatMap(sheet => sheet.entries);

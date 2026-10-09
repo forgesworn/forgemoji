@@ -1,8 +1,10 @@
 {
   "date": "2026-10-09",
-  "version": "0.1.1",
-  "baseChoices": 122,
-  "artworkFiles": 152,
+  "version": "0.1.2",
+  "choices": 133,
+  "basicUnicodeEmojiOrSymbols": 124,
+  "brandShortcodes": 9,
+  "artworkFiles": 163,
   "skinTones": 5,
   "phoneWidth": 390,
   "noHorizontalOverflow": true,
@@ -12,8 +14,10 @@
   "donkeyUnicode": "🫏",
   "donkeyTitle": "Donkey",
   "sacredStoneUnicode": "🪨",
-  "sacredStoneMarking": "600 / 000 / 000 / 000",
   "sacredStoneNumber": "600000000000",
-  "unicode16Unsupported": [],
-  "transparentMarginPixels": 8
+  "spiderUnicode": "🕷️",
+  "bitcoinSymbol": "₿",
+  "knownBrandShortcode": ":fs_kithmoot:",
+  "transparentMarginPixels": 8,
+  "previousArtworkUnchanged": 152
 }

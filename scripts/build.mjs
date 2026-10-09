@@ -5,9 +5,9 @@ import { fileURLToPath } from 'node:url';
 import { sheets, definitions } from './definitions.mjs';
 const root = fileURLToPath(new URL('../', import.meta.url));
 const onlyIndex=process.argv.indexOf('--only');
-const onlySource=onlyIndex<0?null:process.argv[onlyIndex+1];
-if(onlyIndex>=0 && !sheets.some(sheet=>sheet.file===onlySource))throw new Error('--only requires a recorded source sheet filename');
-const changedBases=new Set(onlySource?sheets.find(sheet=>sheet.file===onlySource).entries.map(item=>item.emoji):[]);
+const onlySource=onlyIndex<0?null:process.argv[onlyIndex+1]?.split(',');
+if(onlyIndex>=0 && (!onlySource || onlySource.some(source=>!sheets.some(sheet=>sheet.file===source))))throw new Error('--only requires recorded source sheet filenames, separated by commas');
+const changedBases=new Set(onlySource?sheets.filter(sheet=>onlySource.includes(sheet.file)).flatMap(sheet=>sheet.entries.map(item=>item.emoji)):[]);
 const artwork = onlySource ? JSON.parse(await readFile(`${root}manifest.json`)).artwork.filter(item=>!changedBases.has(item.baseEmoji)) : [];
 const sourceDimensions = new Map();
 await mkdir(`${root}png`, { recursive: true });
@@ -62,13 +62,22 @@ async function crop(source, columns, rows, index, definition, tone = 0, rowEdges
  const emoji = tone ? definition.emoji.replaceAll('\uFE0F','') + String.fromCodePoint(0x1F3FA + tone) : definition.emoji;
  artwork.push({ emoji, baseEmoji: definition.emoji, slug, tone, file, bytes: bytes.length, sha256: createHash('sha256').update(bytes).digest('hex') });
 }
+async function renderBrand(sheet) {
+ const definition=sheet.entries[0],file=`png/${definition.slug}.png`,source=`${root}sources/${sheet.file}`;
+ if(sheet.file.endsWith('.svg')) {
+  const rendered=execFileSync('rsvg-convert',['--width','176','--height','176',source],{maxBuffer:16*1024*1024});
+  execFileSync('ffmpeg',['-v','error','-y','-i','pipe:0','-vf','format=rgba,pad=192:192:(ow-iw)/2:(oh-ih)/2:color=0x00000000','-frames:v','1',`${root}${file}`],{input:rendered});
+ } else execFileSync('ffmpeg',['-v','error','-y','-i',source,'-vf','format=rgba,scale=176:176:force_original_aspect_ratio=decrease:flags=lanczos,pad=192:192:(ow-iw)/2:(oh-ih)/2:color=0x00000000','-frames:v','1',`${root}${file}`]);
+ const bytes=await readFile(`${root}${file}`);artwork.push({emoji:definition.emoji,baseEmoji:definition.emoji,slug:definition.slug,tone:0,file,bytes:bytes.length,sha256:createHash('sha256').update(bytes).digest('hex')});
+}
 for (const sheet of sheets) {
- if(onlySource && sheet.file!==onlySource)continue;
+ if(onlySource && !onlySource.includes(sheet.file))continue;
  try { await readFile(`${root}sources/${sheet.file}`); } catch { if (process.argv.includes('--partial')) continue; throw new Error(`Missing ${sheet.file}`); }
- for (const [index, definition] of sheet.entries.entries()) await crop(`${root}sources/${sheet.file}`,sheet.cols,sheet.rows,index,definition,0,sheet.rowEdges);
+ if(sheet.preserve)await renderBrand(sheet);
+ else for (const [index, definition] of sheet.entries.entries()) await crop(`${root}sources/${sheet.file}`,sheet.cols,sheet.rows,index,definition,0,sheet.rowEdges);
 }
 const hands = definitions.filter(definition => definition.toneable);
 if(!onlySource)for (let tone = 1; tone <= 5; tone++) for (let index = 0; index < hands.length; index++) await crop(`${root}sources/human-hands.png`,6,5,(tone-1)*6+index,hands[index],tone);
-const manifest = { version:'0.1.1', creator:'TheCryptoDonkey', model:'gpt-image-2.5-sunburst', license:'MIT', definitions:[...hands,...definitions.filter(definition => !definition.toneable)], artwork };
+const manifest = { version:'0.1.2', creator:'TheCryptoDonkey', model:'gpt-image-2.5-sunburst', license:'MIT', definitions:[...hands,...definitions.filter(definition => !definition.toneable)], artwork };
 await writeFile(`${root}manifest.json`,JSON.stringify(manifest,null,2)+'\n');
 console.log(`Built ${artwork.length} PNGs; ${definitions.length} base definitions.`);

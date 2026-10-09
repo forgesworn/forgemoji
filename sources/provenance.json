@@ -8,13 +8,129 @@
   "generationDate": "2026-10-09",
   "referencePolicy": "Style references are our own approved familiar-emoji artwork. The sacred stone additionally uses the primary community photograph as a semantic reference, without redistributing that photograph. No vendor emoji sheet was used.",
   "sources": [
-    { "file": "core.png", "role": "Approved familiar emoji draft, exact preserved 6 by 6 grid", "prompts": ["prompts/core.txt", "prompts/core-cutout.txt"], "usedRows": 5 },
-    { "file": "human-hands.png", "role": "Approved five human tone rows for six gestures", "prompts": ["prompts/human-hands.txt"] },
-    { "file": "expressions.png", "role": "30 additional everyday faces", "reference": "sources/core.png", "prompts": ["prompts/expressions.txt"] },
-    { "file": "nature.png", "role": "30 animals and nature symbols", "reference": "sources/core.png", "prompts": ["prompts/nature.txt"] },
-    { "file": "everyday.png", "role": "30 food and useful objects", "reference": "sources/core.png", "prompts": ["prompts/everyday.txt"] },
-    { "file": "crypto-donkey.png", "role": "Original soft 3D orange donkey mascot", "references": ["sources/core.png", "sources/the-crypto-donkey-brand-reference.png"], "prompts": ["prompts/crypto-donkey.txt"] },
-    { "file": "sacred-stone.png", "role": "Original illustrated sacred stone bearing exactly four rows: 600 / 000 / 000 / 000", "styleReference": "sources/core.png", "semanticReferenceUrl": "https://600.wtf/img/sacred-stone.webp", "referenceRedistributed": false, "prompts": ["prompts/sacred-stone.txt"] }
+    {
+      "file": "core.png",
+      "role": "Approved familiar emoji draft, exact preserved 6 by 6 grid",
+      "prompts": [
+        "prompts/core.txt",
+        "prompts/core-cutout.txt"
+      ],
+      "usedRows": 5
+    },
+    {
+      "file": "human-hands.png",
+      "role": "Approved five human tone rows for six gestures",
+      "prompts": [
+        "prompts/human-hands.txt"
+      ]
+    },
+    {
+      "file": "expressions.png",
+      "role": "30 additional everyday faces",
+      "reference": "sources/core.png",
+      "prompts": [
+        "prompts/expressions.txt"
+      ]
+    },
+    {
+      "file": "nature.png",
+      "role": "30 animals and nature symbols",
+      "reference": "sources/core.png",
+      "prompts": [
+        "prompts/nature.txt"
+      ]
+    },
+    {
+      "file": "everyday.png",
+      "role": "30 food and useful objects",
+      "reference": "sources/core.png",
+      "prompts": [
+        "prompts/everyday.txt"
+      ]
+    },
+    {
+      "file": "crypto-donkey.png",
+      "role": "Original soft 3D orange donkey mascot",
+      "references": [
+        "sources/core.png",
+        "sources/the-crypto-donkey-brand-reference.png"
+      ],
+      "prompts": [
+        "prompts/crypto-donkey.txt"
+      ]
+    },
+    {
+      "file": "sacred-stone.png",
+      "role": "Original illustrated sacred stone bearing exactly four rows: 600 / 000 / 000 / 000",
+      "styleReference": "sources/core.png",
+      "semanticReferenceUrl": "https://600.wtf/img/sacred-stone.webp",
+      "referenceRedistributed": false,
+      "prompts": [
+        "prompts/sacred-stone.txt"
+      ]
+    },
+    {
+      "file": "jumping-spider.png",
+      "role": "Original cute black LittleLeap jumping spider, overriding orange reference colour",
+      "styleReference": "sources/core.png",
+      "ownedSemanticReferences": [
+        "LittleLeap/public/art/icon-flare.png",
+        "LittleLeap/public/art/v03/portraits/pip.webp"
+      ],
+      "prompts": [
+        "prompts/jumping-spider.txt"
+      ]
+    },
+    {
+      "file": "bitcoin.png",
+      "role": "Original orange coin with white Bitcoin currency mark U+20BF",
+      "styleReference": "sources/core.png",
+      "prompts": [
+        "prompts/bitcoin.txt"
+      ]
+    },
+    {
+      "role": "Established owned ForgeSworn project branding, preserved without AI redrawing",
+      "processing": "Rasterise SVG masters with librsvg; Lanczos scale existing PNG with FFmpeg; transparent 192px padding",
+      "sources": [
+        {
+          "file": "brands/fs-forgesworn.png",
+          "origin": "branding/forgesworn/svg/forgesworn-anvil-transparent-800.png"
+        },
+        {
+          "file": "brands/fs-kindred.svg",
+          "origin": "branding/kindred/svg/kindred-app-icon.svg"
+        },
+        {
+          "file": "brands/fs-kithmoot.svg",
+          "origin": "branding/kithmoot/KithMoot-SVG-pack/kithmoot-symbol-gradient.svg"
+        },
+        {
+          "file": "brands/fs-mysignet.svg",
+          "origin": "branding/mysignet/svg/mysignet-emblem.svg"
+        },
+        {
+          "file": "brands/fs-vitark.svg",
+          "origin": "branding/vitark/svg/vitark-icon.svg"
+        },
+        {
+          "file": "brands/fs-vitark-den.svg",
+          "origin": "branding/vitark/svg/vitark-den-icon.svg"
+        },
+        {
+          "file": "brands/fs-vitark-train.svg",
+          "origin": "branding/vitark/svg/vitark-train-icon.svg"
+        },
+        {
+          "file": "brands/fs-vitark-still.svg",
+          "origin": "branding/vitark/svg/vitark-still-icon.svg"
+        },
+        {
+          "file": "brands/fs-vitark-record.svg",
+          "origin": "branding/vitark/svg/vitark-record-icon.svg"
+        }
+      ]
+    }
   ],
   "processing": "Recorded grid crops, connected-component isolation of the central icon and nearby detached details, Lanczos scale and transparent square padding with FFmpeg. No runtime generation, graphics service or third-party catalogue."
 }
