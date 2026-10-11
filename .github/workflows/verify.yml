@@ -10,5 +10,10 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: 24
+          cache: npm
+      - run: npm ci
+      - run: npm run build:svg
+      - name: Check generated assets are current
+        run: git diff --exit-code -- svg manifest.json index.html vector-review.html review/vectors/tiger-review.html review/vectors/lion-review.html review/vectors/sacred-stone-review.html
       - run: npm test
       - run: npm pack --dry-run

@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>ForgeMoji · Lion comparison</title>
+<style>
+:root{color-scheme:dark;--bg:#191b23;--panel:#222630;--ink:#f1eee6;--line:#444857}
+body.light{color-scheme:light;--bg:#f5f3ed;--panel:#fffdf7;--ink:#29251d;--line:#d7d2c7}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.5 system-ui,sans-serif}
+main{max-width:1200px;margin:auto;padding:28px}h1{margin:0;font-size:28px}p{margin:8px 0 18px}a{color:inherit}
+nav{display:flex;flex-wrap:wrap;align-items:center;gap:16px;margin:24px 0}button,select{font:inherit;color:inherit;background:var(--panel);border:1px solid var(--line);border-radius:7px;padding:7px 12px}
+.pair{display:grid;grid-template-columns:1fr 1fr;gap:20px}figure{margin:0;background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:16px;text-align:center}
+figcaption{font-weight:650;margin-bottom:16px}.art{width:384px;height:auto;aspect-ratio:1;max-width:100%;object-fit:contain}.overlay{margin:24px auto 0;max-width:600px}.stack{position:relative;width:384px;aspect-ratio:1;max-width:100%;margin:auto}.stack img{position:absolute;inset:0;width:100%;height:100%;object-fit:contain}#overlay-svg{opacity:.5}input{width:min(100%,340px);vertical-align:middle}small{display:block;margin-top:12px}
+@media(max-width:720px){main{padding:16px}.pair{grid-template-columns:1fr}.art{height:auto;aspect-ratio:1}}
+</style>
+<main><h1>Lion</h1><p>Original PNG beside the compact SVG, with matching scale and background.</p>
+<p><strong>15.95 KB SVG</strong> · 3.81 KB compressed · 91.9% smaller · 31 paths and 27 gradients</p>
+<nav><label>Size <select id="size"><option>32</option><option>64</option><option>192</option><option selected>384</option><option>512</option><option>1024</option></select> px</label><button id="theme">Light background</button><a href="../../svg/lion.svg?v=061f416358de" download="lion.svg">Download SVG</a><a href="../../vector-review.html">Full collection</a></nav>
+<section class="pair"><figure><figcaption>PNG reference</figcaption><img class="art" src="../../png/lion.png?v=49c8d0ecd8f3" alt="PNG reference"></figure><figure><figcaption>Compact SVG</figcaption><img class="art" src="../../svg/lion.svg?v=061f416358de" alt="Rebuilt Lion SVG"></figure></section>
+<figure class="overlay"><figcaption>Overlay comparison</figcaption><div class="stack"><img src="../../png/lion.png?v=49c8d0ecd8f3" alt="Reference beneath overlay"><img id="overlay-svg" src="../../svg/lion.svg?v=061f416358de" alt="SVG overlay"></div><label>SVG opacity <input id="blend" type="range" min="0" max="100" value="50"><output id="opacity">50%</output></label><small>0% shows the reference. 100% shows the SVG.</small></figure>
+</main><script>
+const size=document.querySelector('#size');size.addEventListener('change',()=>{for(const el of document.querySelectorAll('.art,.stack')){el.style.width=size.value+'px'}});
+document.querySelector('#theme').addEventListener('click',()=>{const light=document.body.classList.toggle('light');document.querySelector('#theme').textContent=light?'Dark background':'Light background'});
+document.querySelector('#blend').addEventListener('input',event=>{document.querySelector('#overlay-svg').style.opacity=event.target.value/100;document.querySelector('#opacity').value=event.target.value+'%'});
+</script></html>

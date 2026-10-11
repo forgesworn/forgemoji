@@ -1,0 +1,374 @@
+{
+  "reference": {
+    "file": "/private/tmp/forgemoji-stone-pass/reference-normalised.png",
+    "width": 192,
+    "height": 192,
+    "sha256": "f3c12a8695654f1e20508259ac4d42295d49ea49a82196c6d3dcb35457568ede"
+  },
+  "candidate": {
+    "bytes": 10110,
+    "gzipBytes": 4078,
+    "sha256": "bc8ee61ebd019950738914e47018501ff6f9ae9768a716f7c503d60bc8d0b7ad",
+    "viewBox": [
+      0.0,
+      0.0,
+      192.0,
+      192.0
+    ],
+    "paths": 10,
+    "pathCommands": 82,
+    "gradients": 4,
+    "stops": 13,
+    "filters": 3,
+    "uses": 0,
+    "shapeElements": 16
+  },
+  "previous": {
+    "bytes": 413657,
+    "gzipBytes": 92461,
+    "sha256": "581b6cca3e60dfe9cb623e36b79ffe64b5066675ada69ff138dfd5559cf419df",
+    "viewBox": [
+      0.0,
+      0.0,
+      192.0,
+      192.0
+    ],
+    "paths": 463,
+    "pathCommands": 120674,
+    "gradients": 0,
+    "stops": 0,
+    "filters": 1,
+    "uses": 0,
+    "shapeElements": 464
+  },
+  "renders": [
+    {
+      "longEdge": 32,
+      "width": 32,
+      "height": 32,
+      "visiblePixels": 548,
+      "alphaBounds": [
+        4,
+        1,
+        28,
+        31
+      ]
+    },
+    {
+      "longEdge": 64,
+      "width": 64,
+      "height": 64,
+      "visiblePixels": 2164,
+      "alphaBounds": [
+        8,
+        2,
+        55,
+        62
+      ]
+    },
+    {
+      "longEdge": 192,
+      "width": 192,
+      "height": 192,
+      "visiblePixels": 19329,
+      "alphaBounds": [
+        26,
+        8,
+        165,
+        184
+      ]
+    },
+    {
+      "longEdge": 512,
+      "width": 512,
+      "height": 512,
+      "visiblePixels": 137146,
+      "alphaBounds": [
+        70,
+        21,
+        440,
+        489
+      ]
+    },
+    {
+      "longEdge": 1024,
+      "width": 1024,
+      "height": 1024,
+      "visiblePixels": 548250,
+      "alphaBounds": [
+        141,
+        42,
+        879,
+        978
+      ]
+    }
+  ],
+  "browserVerification": "Verified separately in installed Google Chrome; see sacred-stone-browser-checks.json",
+  "ownerAcceptance": "Awaiting owner feedback",
+  "note": "Channel error is diagnostic, not a visual acceptance threshold. Static renders use librsvg; inspect actual Chrome separately.",
+  "plainReductionPercent": 97.56,
+  "transparentPaddingChecked": 8,
+  "referenceComparisonNative": {
+    "meanAbsoluteChannelErrorByBackground": {
+      "black": 13.8199,
+      "white": 13.9241
+    },
+    "maxBackgroundMeanAbsoluteChannelError": 13.9241
+  },
+  "previousReferenceComparisonNative": {
+    "meanAbsoluteChannelErrorByBackground": {
+      "black": 4.3314,
+      "white": 4.5744
+    },
+    "maxBackgroundMeanAbsoluteChannelError": 4.5744
+  },
+  "compactionComparisonNative": {
+    "meanAbsoluteChannelErrorByBackground": {
+      "black": 0.0,
+      "white": 0.0
+    },
+    "maxBackgroundMeanAbsoluteChannelError": 0.0
+  },
+  "hashPreservation": {
+    "originalPngs": 163,
+    "otherDistributedSvgs": 162,
+    "otherMasterSvgs": 162,
+    "changedArtwork": [
+      "svg/sacred-stone.svg",
+      "sources/vectors/sacred-stone.svg"
+    ]
+  },
+  "referenceSource": "https://600.wtf/img/sacred-stone.webp",
+  "referenceSourceSha256": "317add9f9e026abc66ffd42474956e8b14d109e930f879bf62522240f5276b06",
+  "textureChoice": "Compact realistic texture using gradients and procedural grain",
+  "textureFidelity": "Photographic outline and painted glyphs are measured; individual photographic grains are not encoded",
+  "chromeVersusLibrsvg192px": {
+    "meanAbsoluteChannelError": 11.4606,
+    "p99ChannelError": 67.0,
+    "note": "Procedural turbulence produces different individual grains between renderers; contour, numeral geometry and material samples are checked separately. Not an aesthetic acceptance threshold."
+  },
+  "numeralGeometry": {
+    "inscription": [
+      "600",
+      "000",
+      "000",
+      "000"
+    ],
+    "glyphs": 12,
+    "closedCounters": 12,
+    "materialPoints": [
+      {
+        "bounds": [
+          58,
+          27,
+          18,
+          26
+        ],
+        "ink": [
+          66,
+          47
+        ],
+        "counter": [
+          67,
+          40
+        ],
+        "counterPixels": 14
+      },
+      {
+        "bounds": [
+          78,
+          27,
+          19,
+          24
+        ],
+        "ink": [
+          86,
+          44
+        ],
+        "counter": [
+          88,
+          35
+        ],
+        "counterPixels": 24
+      },
+      {
+        "bounds": [
+          99,
+          26,
+          19,
+          24
+        ],
+        "ink": [
+          108,
+          45
+        ],
+        "counter": [
+          109,
+          36
+        ],
+        "counterPixels": 37
+      },
+      {
+        "bounds": [
+          56,
+          55,
+          21,
+          27
+        ],
+        "ink": [
+          65,
+          75
+        ],
+        "counter": [
+          66,
+          66
+        ],
+        "counterPixels": 26
+      },
+      {
+        "bounds": [
+          78,
+          54,
+          20,
+          26
+        ],
+        "ink": [
+          85,
+          72
+        ],
+        "counter": [
+          88,
+          63
+        ],
+        "counterPixels": 27
+      },
+      {
+        "bounds": [
+          100,
+          53,
+          20,
+          26
+        ],
+        "ink": [
+          110,
+          72
+        ],
+        "counter": [
+          110,
+          61
+        ],
+        "counterPixels": 33
+      },
+      {
+        "bounds": [
+          56,
+          84,
+          20,
+          29
+        ],
+        "ink": [
+          64,
+          105
+        ],
+        "counter": [
+          65,
+          94
+        ],
+        "counterPixels": 51
+      },
+      {
+        "bounds": [
+          79,
+          84,
+          20,
+          27
+        ],
+        "ink": [
+          90,
+          104
+        ],
+        "counter": [
+          88,
+          93
+        ],
+        "counterPixels": 36
+      },
+      {
+        "bounds": [
+          100,
+          84,
+          22,
+          26
+        ],
+        "ink": [
+          113,
+          102
+        ],
+        "counter": [
+          111,
+          91
+        ],
+        "counterPixels": 35
+      },
+      {
+        "bounds": [
+          55,
+          116,
+          21,
+          30
+        ],
+        "ink": [
+          65,
+          138
+        ],
+        "counter": [
+          64,
+          126
+        ],
+        "counterPixels": 39
+      },
+      {
+        "bounds": [
+          78,
+          114,
+          21,
+          32
+        ],
+        "ink": [
+          89,
+          137
+        ],
+        "counter": [
+          88,
+          125
+        ],
+        "counterPixels": 45
+      },
+      {
+        "bounds": [
+          101,
+          113,
+          23,
+          33
+        ],
+        "ink": [
+          115,
+          136
+        ],
+        "counter": [
+          110,
+          125
+        ],
+        "counterPixels": 50
+      }
+    ]
+  },
+  "enlargedReviewReference": {
+    "source": "https://600.wtf/img/sacred-stone.webp",
+    "cachedOutsideRepository": true,
+    "reviewCanvas": [
+      1024,
+      1024
+    ]
+  }
+}

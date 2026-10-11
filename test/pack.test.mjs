@@ -2,8 +2,8 @@ import test from 'node:test';
 import assert from 'node:assert/strict';
 import { readFile } from 'node:fs/promises';
 import { createHash } from 'node:crypto';
-import { inflateSync } from 'node:zlib';
-import { definitions, artwork, withSkinTone } from '../index.mjs';
+import { inflateSync, gzipSync } from 'node:zlib';
+import { definitions, artwork, vectorArtwork, version, withSkinTone } from '../index.mjs';
 function decodeRgba(data) {
  const chunks=[];for(let offset=8;offset<data.length;) {
   const length=data.readUInt32BE(offset),kind=data.subarray(offset+4,offset+8).toString();
@@ -19,12 +19,32 @@ function decodeRgba(data) {
   }
  }return pixels;
 }
-test('manifest has a unique canonical everyday collection', () => {
+test('manifest has a unique canonical everyday collection', async () => {
+ assert.equal(version,JSON.parse(await readFile(new URL('../package.json',import.meta.url),'utf8')).version);
  assert.equal(definitions.length,133); assert.equal(artwork.length,163);
  assert.equal(new Set(definitions.map(item=>item.emoji)).size,133);
  assert.equal(new Set(artwork.map(item=>item.file)).size,163);
  assert.equal(new Set(artwork.map(item=>item.emoji)).size,163);
  assert.ok(definitions.every(item=>!item.title.toLowerCase().includes('flag')));
+});
+test('every PNG entry has a scalable vector with the same Unicode and tone', async () => {
+ assert.equal(vectorArtwork.length,artwork.length);
+ assert.deepEqual(vectorArtwork.map(({emoji,baseEmoji,slug,tone})=>({emoji,baseEmoji,slug,tone})),artwork.map(({emoji,baseEmoji,slug,tone})=>({emoji,baseEmoji,slug,tone})));
+ for(const image of vectorArtwork) {
+  assert.match(image.file,/^svg\/[a-z0-9-]+\.svg$/);
+  const data=await readFile(new URL('../'+image.file,import.meta.url));
+  assert.equal(data.length,image.bytes,image.file);
+  assert.equal(createHash('sha256').update(data).digest('hex'),image.sha256,image.file);
+  assert.deepEqual(data,await readFile(new URL('../sources/vectors/'+image.slug+'.svg',import.meta.url)));
+  const svg=data.toString('utf8');
+  assert.match(svg,/viewBox="0 0 192 192"/);
+  assert.doesNotMatch(svg,/<image\b|data:image|<script\b|<foreignObject\b|<!ENTITY|(?:xlink:)?href\s*=\s*["'](?!#)/i,image.file);
+  const ids=[...svg.matchAll(/\bid="([^"]+)"/g)].map(match=>match[1]);
+  assert.equal(new Set(ids).size,ids.length,`${image.file}: duplicate SVG identifiers`);
+  for(const reference of svg.matchAll(/(?:url\(#([^\)]+)\)|(?:xlink:)?href="#([^"]+)")/g)) {
+   assert.ok(ids.includes(reference[1]??reference[2]),`${image.file}: missing paint, mask or shape ${reference[1]??reference[2]}`);
+  }
+ }
 });
 test('currency and brands are explicit symbols and known shortcodes', () => {
  const currency=definitions.find(item=>item.slug==='bitcoin');assert.equal(currency.emoji,'₿');assert.equal(currency.kind,'symbol');
@@ -33,6 +53,21 @@ test('currency and brands are explicit symbols and known shortcodes', () => {
  const custom=definitions.filter(item=>item.kind==='custom');assert.deepEqual(custom.map(item=>item.emoji),expected);
  for(const item of custom){assert.equal(item.category,'forgesworn');assert.equal(item.toneable,false);assert.equal(withSkinTone(item.emoji,5),item.emoji)}
  assert.equal(withSkinTone(':fs_unknown:',3),':fs_unknown:');assert.equal(withSkinTone('₿',4),'₿');
+});
+test('detailed familiar vectors stay within plain and compressed download budgets', async () => {
+ const custom = new Set(definitions.filter(item=>item.kind==='custom').map(item=>item.slug));
+ const rawLimits = {'tiger':16*1024,'lion':16*1024,'jumping-spider':768*1024,'sacred-stone':32*1024};
+ const gzipLimits = {'tiger':4*1024,'lion':4*1024,'jumping-spider':192*1024,'sacred-stone':8*1024};
+ const familiar=vectorArtwork.filter(item=>!custom.has(item.slug));
+ let compressedTotal=0;
+ for(const image of familiar) {
+  assert.ok(image.bytes<=(rawLimits[image.slug]??256*1024),`${image.file}: plain SVG exceeds its detail budget`);
+  const gzipBytes=gzipSync(await readFile(new URL('../'+image.file,import.meta.url)),{level:9}).length;
+  assert.ok(gzipBytes<=(gzipLimits[image.slug]??48*1024),`${image.file}: compressed SVG exceeds its download budget`);
+  compressedTotal+=gzipBytes;
+ }
+ assert.ok(familiar.reduce((sum,image)=>sum+image.bytes,0)<=10*1024*1024,'familiar SVG collection exceeds 10 MiB');
+ assert.ok(compressedTotal<=1.8*1024*1024,'compressed familiar SVG collection exceeds 1.8 MiB');
 });
 test('the sacred stone uses interoperable rock Unicode and the exact community number', () => {
  const stone=definitions.find(item=>item.slug==='sacred-stone');

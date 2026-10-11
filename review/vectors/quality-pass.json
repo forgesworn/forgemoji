@@ -1,0 +1,2594 @@
+{
+  "scope": "Owner feedback pass: reference-fitted animals, hands, food and objects, vegetarian pizza, DONKEY engraving, enlarged star eyes and photographic spider/stone. Compaction error compares the new masters before/after optimisation; the separate reference comparison measures design fidelity.",
+  "beforeBytes": 1838839,
+  "afterBytes": 9496566,
+  "reductionPercent": -416.44,
+  "medianBytes": 16934,
+  "gzipBytesSum": 1523581,
+  "changedVectors": 73,
+  "originalPngsPreserved": 163,
+  "brandVectorsPreserved": 9,
+  "categories": {
+    "Faces": {
+      "count": 48,
+      "beforeBytes": 561060,
+      "afterBytes": 561074,
+      "medianBytes": 11339.5,
+      "maxBytes": 22562
+    },
+    "Food": {
+      "count": 18,
+      "beforeBytes": 149926,
+      "afterBytes": 2417039,
+      "medianBytes": 130142.5,
+      "maxBytes": 234007
+    },
+    "Hands": {
+      "count": 36,
+      "beforeBytes": 137886,
+      "afterBytes": 3466049,
+      "medianBytes": 98731.5,
+      "maxBytes": 121302
+    },
+    "Nature": {
+      "count": 32,
+      "beforeBytes": 489262,
+      "afterBytes": 2043146,
+      "medianBytes": 6968.0,
+      "maxBytes": 769634
+    },
+    "Objects": {
+      "count": 13,
+      "beforeBytes": 221446,
+      "afterBytes": 729999,
+      "medianBytes": 10110,
+      "maxBytes": 128282
+    },
+    "Symbols": {
+      "count": 7,
+      "beforeBytes": 20812,
+      "afterBytes": 20812,
+      "medianBytes": 2487,
+      "maxBytes": 5556
+    },
+    "forgesworn": {
+      "count": 9,
+      "beforeBytes": 258447,
+      "afterBytes": 258447,
+      "medianBytes": 965,
+      "maxBytes": 249987
+    }
+  },
+  "compactionRenderComparison192px": [
+    {
+      "slug": "tears-of-joy",
+      "meanAbsoluteChannelError": 0.0,
+      "p99ChannelError": 0.0,
+      "maxChannelError": 0.0
+    },
+    {
+      "slug": "heart-eyes",
+      "meanAbsoluteChannelError": 0.0,
+      "p99ChannelError": 0.0,
+      "maxChannelError": 0.0
+    },
+    {
+      "slug": "cool",
+      "meanAbsoluteChannelError": 0.0,
+      "p99ChannelError": 0.0,
+      "maxChannelError": 0.0
+    },
+    {
+      "slug": "wink",
+      "meanAbsoluteChannelError": 0.0,
+      "p99ChannelError": 0.0,
+      "maxChannelError": 0.0
+    },
+    {
+      "slug": "kiss",
+      "meanAbsoluteChannelError": 0.0,
+      "p99ChannelError": 0.0,
+      "maxChannelError": 0.0
+    },
+    {
+      "slug": "sad",
+      "meanAbsoluteChannelError": 0.0,
+      "p99ChannelError": 0.0,
+      "maxChannelError": 0.0
+    },
+    {
+      "slug": "crying",
+      "meanAbsoluteChannelError": 0.0,
+      "p99ChannelError": 0.0,
+      "maxChannelError": 0.0
+    },
+    {
+      "slug": "angry",
+      "meanAbsoluteChannelError": 0.0,
+      "p99ChannelError": 0.0,
+      "maxChannelError": 0.0
+    },
+    {
+      "slug": "surprised",
+      "meanAbsoluteChannelError": 0.0,
+      "p99ChannelError": 0.0,
+      "maxChannelError": 0.0
+    },
+    {
+      "slug": "thinking",
+      "meanAbsoluteChannelError": 0.0,
+      "p99ChannelError": 0.0,
+      "maxChannelError": 0.0
+    },
+    {
+      "slug": "unimpressed",
+      "meanAbsoluteChannelError": 0.0,
+      "p99ChannelError": 0.0,
+      "maxChannelError": 0.0
+    },
+    {
+      "slug": "grin",
+      "meanAbsoluteChannelError": 0.0,
+      "p99ChannelError": 0.0,
+      "maxChannelError": 0.0
+    },
+    {
+      "slug": "rolling-laughter",
+      "meanAbsoluteChannelError": 0.0,
+      "p99ChannelError": 0.0,
+      "maxChannelError": 0.0
+    },
+    {
+      "slug": "love",
+      "meanAbsoluteChannelError": 0.0,
+      "p99ChannelError": 0.0,
+      "maxChannelError": 0.0
+    },
+    {
+      "slug": "shocked",
+      "meanAbsoluteChannelError": 0.0,
+      "p99ChannelError": 0.0,
+      "maxChannelError": 0.0
+    },
+    {
+      "slug": "sleepy",
+      "meanAbsoluteChannelError": 0.0,
+      "p99ChannelError": 0.0,
+      "maxChannelError": 0.0
+    },
+    {
+      "slug": "phew",
+      "meanAbsoluteChannelError": 0.0,
+      "p99ChannelError": 0.0,
+      "maxChannelError": 0.0
+    },
+    {
+      "slug": "heart",
+      "meanAbsoluteChannelError": 0.0,
+      "p99ChannelError": 0.0,
+      "maxChannelError": 0.0
+    },
+    {
+      "slug": "broken-heart",
+      "meanAbsoluteChannelError": 0.0,
+      "p99ChannelError": 0.0,
+      "maxChannelError": 0.0
+    },
+    {
+      "slug": "fire",
+      "meanAbsoluteChannelError": 0.0,
+      "p99ChannelError": 0.0,
+      "maxChannelError": 0.0
+    },
+    {
+      "slug": "celebrate",
+      "meanAbsoluteChannelError": 0.0,
+      "p99ChannelError": 0.0,
+      "maxChannelError": 0.0
+    },
+    {
+      "slug": "yes",
+      "meanAbsoluteChannelError": 0.0,
+      "p99ChannelError": 0.0,
+      "maxChannelError": 0.0
+    },
+    {
+      "slug": "no",
+      "meanAbsoluteChannelError": 0.0,
+      "p99ChannelError": 0.0,
+      "maxChannelError": 0.0
+    },
+    {
+      "slug": "thumbs-up",
+      "meanAbsoluteChannelError": 0.0,
+      "p99ChannelError": 0.0,
+      "maxChannelError": 0.0
+    },
+    {
+      "slug": "thumbs-down",
+      "meanAbsoluteChannelError": 0.0,
+      "p99ChannelError": 0.0,
+      "maxChannelError": 0.0
+    },
+    {
+      "slug": "wave",
+      "meanAbsoluteChannelError": 0.0,
+      "p99ChannelError": 0.0,
+      "maxChannelError": 0.0
+    },
+    {
+      "slug": "clap",
+      "meanAbsoluteChannelError": 0.0,
+      "p99ChannelError": 0.0,
+      "maxChannelError": 0.0
+    },
+    {
+      "slug": "thanks",
+      "meanAbsoluteChannelError": 0.0,
+      "p99ChannelError": 0.0,
+      "maxChannelError": 0.0
+    },
+    {
+      "slug": "peace",
+      "meanAbsoluteChannelError": 0.0,
+      "p99ChannelError": 0.0,
+      "maxChannelError": 0.0
+    },
+    {
+      "slug": "grinning",
+      "meanAbsoluteChannelError": 0.0,
+      "p99ChannelError": 0.0,
+      "maxChannelError": 0.0
+    },
+    {
+      "slug": "slight-smile",
+      "meanAbsoluteChannelError": 0.0,
+      "p99ChannelError": 0.0,
+      "maxChannelError": 0.0
+    },
+    {
+      "slug": "upside-down",
+      "meanAbsoluteChannelError": 0.0,
+      "p99ChannelError": 0.0,
+      "maxChannelError": 0.0
+    },
+    {
+      "slug": "blush",
+      "meanAbsoluteChannelError": 0.0,
+      "p99ChannelError": 0.0,
+      "maxChannelError": 0.0
+    },
+    {
+      "slug": "innocent",
+      "meanAbsoluteChannelError": 0.0,
+      "p99ChannelError": 0.0,
+      "maxChannelError": 0.0
+    },
+    {
+      "slug": "party-face",
+      "meanAbsoluteChannelError": 0.0,
+      "p99ChannelError": 0.0,
+      "maxChannelError": 0.0
+    },
+    {
+      "slug": "star-eyes",
+      "meanAbsoluteChannelError": 0.079,
+      "p99ChannelError": 1.0,
+      "maxChannelError": 2.247
+    },
+    {
+      "slug": "delicious",
+      "meanAbsoluteChannelError": 0.0,
+      "p99ChannelError": 0.0,
+      "maxChannelError": 0.0
+    },
+    {
+      "slug": "tongue",
+      "meanAbsoluteChannelError": 0.0,
+      "p99ChannelError": 0.0,
+      "maxChannelError": 0.0
+    },
+    {
+      "slug": "wink-tongue",
+      "meanAbsoluteChannelError": 0.0,
+      "p99ChannelError": 0.0,
+      "maxChannelError": 0.0
+    },
+    {
+      "slug": "zany",
+      "meanAbsoluteChannelError": 0.0,
+      "p99ChannelError": 0.0,
+      "maxChannelError": 0.0
+    },
+    {
+      "slug": "money-face",
+      "meanAbsoluteChannelError": 0.0,
+      "p99ChannelError": 0.0,
+      "maxChannelError": 0.0
+    },
+    {
+      "slug": "zip-mouth",
+      "meanAbsoluteChannelError": 0.0,
+      "p99ChannelError": 0.0,
+      "maxChannelError": 0.0
+    },
+    {
+      "slug": "raised-eyebrow",
+      "meanAbsoluteChannelError": 0.0,
+      "p99ChannelError": 0.0,
+      "maxChannelError": 0.0
+    },
+    {
+      "slug": "neutral",
+      "meanAbsoluteChannelError": 0.0,
+      "p99ChannelError": 0.0,
+      "maxChannelError": 0.0
+    },
+    {
+      "slug": "eye-roll",
+      "meanAbsoluteChannelError": 0.0,
+      "p99ChannelError": 0.0,
+      "maxChannelError": 0.0
+    },
+    {
+      "slug": "smirk",
+      "meanAbsoluteChannelError": 0.0,
+      "p99ChannelError": 0.0,
+      "maxChannelError": 0.0
+    },
+    {
+      "slug": "grimace",
+      "meanAbsoluteChannelError": 0.0,
+      "p99ChannelError": 0.0,
+      "maxChannelError": 0.0
+    },
+    {
+      "slug": "pensive",
+      "meanAbsoluteChannelError": 0.0,
+      "p99ChannelError": 0.0,
+      "maxChannelError": 0.0
+    },
+    {
+      "slug": "pleading",
+      "meanAbsoluteChannelError": 0.0,
+      "p99ChannelError": 0.0,
+      "maxChannelError": 0.0
+    },
+    {
+      "slug": "huff",
+      "meanAbsoluteChannelError": 0.0,
+      "p99ChannelError": 0.0,
+      "maxChannelError": 0.0
+    },
+    {
+      "slug": "furious",
+      "meanAbsoluteChannelError": 0.0,
+      "p99ChannelError": 0.0,
+      "maxChannelError": 0.0
+    },
+    {
+      "slug": "mind-blown",
+      "meanAbsoluteChannelError": 0.0,
+      "p99ChannelError": 0.0,
+      "maxChannelError": 0.0
+    },
+    {
+      "slug": "hot-face",
+      "meanAbsoluteChannelError": 0.0,
+      "p99ChannelError": 0.0,
+      "maxChannelError": 0.0
+    },
+    {
+      "slug": "cold-face",
+      "meanAbsoluteChannelError": 0.0,
+      "p99ChannelError": 0.0,
+      "maxChannelError": 0.0
+    },
+    {
+      "slug": "nauseated",
+      "meanAbsoluteChannelError": 0.0,
+      "p99ChannelError": 0.0,
+      "maxChannelError": 0.0
+    },
+    {
+      "slug": "vomit",
+      "meanAbsoluteChannelError": 0.0,
+      "p99ChannelError": 0.0,
+      "maxChannelError": 0.0
+    },
+    {
+      "slug": "fever",
+      "meanAbsoluteChannelError": 0.0,
+      "p99ChannelError": 0.0,
+      "maxChannelError": 0.0
+    },
+    {
+      "slug": "bandage",
+      "meanAbsoluteChannelError": 0.0,
+      "p99ChannelError": 0.0,
+      "maxChannelError": 0.0
+    },
+    {
+      "slug": "mask",
+      "meanAbsoluteChannelError": 0.0,
+      "p99ChannelError": 0.0,
+      "maxChannelError": 0.0
+    },
+    {
+      "slug": "dog",
+      "meanAbsoluteChannelError": 0.0,
+      "p99ChannelError": 0.0,
+      "maxChannelError": 0.0
+    },
+    {
+      "slug": "cat",
+      "meanAbsoluteChannelError": 0.0,
+      "p99ChannelError": 0.0,
+      "maxChannelError": 0.0
+    },
+    {
+      "slug": "mouse",
+      "meanAbsoluteChannelError": 0.0,
+      "p99ChannelError": 0.0,
+      "maxChannelError": 0.0
+    },
+    {
+      "slug": "hamster",
+      "meanAbsoluteChannelError": 0.0,
+      "p99ChannelError": 0.0,
+      "maxChannelError": 0.0
+    },
+    {
+      "slug": "rabbit",
+      "meanAbsoluteChannelError": 0.0,
+      "p99ChannelError": 0.0,
+      "maxChannelError": 0.0
+    },
+    {
+      "slug": "fox",
+      "meanAbsoluteChannelError": 0.0,
+      "p99ChannelError": 0.0,
+      "maxChannelError": 0.0
+    },
+    {
+      "slug": "bear",
+      "meanAbsoluteChannelError": 0.0,
+      "p99ChannelError": 0.0,
+      "maxChannelError": 0.0
+    },
+    {
+      "slug": "panda",
+      "meanAbsoluteChannelError": 0.0,
+      "p99ChannelError": 0.0,
+      "maxChannelError": 0.0
+    },
+    {
+      "slug": "koala",
+      "meanAbsoluteChannelError": 0.0,
+      "p99ChannelError": 0.0,
+      "maxChannelError": 0.0
+    },
+    {
+      "slug": "tiger",
+      "meanAbsoluteChannelError": 0.0,
+      "p99ChannelError": 0.0,
+      "maxChannelError": 0.0
+    },
+    {
+      "slug": "lion",
+      "meanAbsoluteChannelError": 0.0009,
+      "p99ChannelError": 0.0,
+      "maxChannelError": 1.0
+    },
+    {
+      "slug": "cow",
+      "meanAbsoluteChannelError": 0.0,
+      "p99ChannelError": 0.0,
+      "maxChannelError": 0.0
+    },
+    {
+      "slug": "pig",
+      "meanAbsoluteChannelError": 0.0,
+      "p99ChannelError": 0.0,
+      "maxChannelError": 0.0
+    },
+    {
+      "slug": "frog",
+      "meanAbsoluteChannelError": 0.0,
+      "p99ChannelError": 0.0,
+      "maxChannelError": 0.0
+    },
+    {
+      "slug": "monkey",
+      "meanAbsoluteChannelError": 0.0,
+      "p99ChannelError": 0.0,
+      "maxChannelError": 0.0
+    },
+    {
+      "slug": "chicken",
+      "meanAbsoluteChannelError": 0.0,
+      "p99ChannelError": 0.0,
+      "maxChannelError": 0.0
+    },
+    {
+      "slug": "penguin",
+      "meanAbsoluteChannelError": 0.0,
+      "p99ChannelError": 0.0,
+      "maxChannelError": 0.0
+    },
+    {
+      "slug": "duck",
+      "meanAbsoluteChannelError": 0.0,
+      "p99ChannelError": 0.0,
+      "maxChannelError": 0.0
+    },
+    {
+      "slug": "owl",
+      "meanAbsoluteChannelError": 0.0,
+      "p99ChannelError": 0.0,
+      "maxChannelError": 0.0
+    },
+    {
+      "slug": "butterfly",
+      "meanAbsoluteChannelError": 0.0,
+      "p99ChannelError": 0.0,
+      "maxChannelError": 0.0
+    },
+    {
+      "slug": "bee",
+      "meanAbsoluteChannelError": 0.0,
+      "p99ChannelError": 0.0,
+      "maxChannelError": 0.0
+    },
+    {
+      "slug": "turtle",
+      "meanAbsoluteChannelError": 0.0,
+      "p99ChannelError": 0.0,
+      "maxChannelError": 1.02
+    },
+    {
+      "slug": "octopus",
+      "meanAbsoluteChannelError": 0.0,
+      "p99ChannelError": 0.0,
+      "maxChannelError": 0.0
+    },
+    {
+      "slug": "whale",
+      "meanAbsoluteChannelError": 0.0,
+      "p99ChannelError": 0.0,
+      "maxChannelError": 0.0
+    },
+    {
+      "slug": "sunflower",
+      "meanAbsoluteChannelError": 0.0,
+      "p99ChannelError": 0.0,
+      "maxChannelError": 0.0
+    },
+    {
+      "slug": "rose",
+      "meanAbsoluteChannelError": 0.0,
+      "p99ChannelError": 0.0,
+      "maxChannelError": 0.0
+    },
+    {
+      "slug": "rainbow",
+      "meanAbsoluteChannelError": 0.0,
+      "p99ChannelError": 0.0,
+      "maxChannelError": 0.0
+    },
+    {
+      "slug": "sun",
+      "meanAbsoluteChannelError": 0.0,
+      "p99ChannelError": 0.0,
+      "maxChannelError": 0.0
+    },
+    {
+      "slug": "moon",
+      "meanAbsoluteChannelError": 0.0,
+      "p99ChannelError": 0.0,
+      "maxChannelError": 0.0
+    },
+    {
+      "slug": "star",
+      "meanAbsoluteChannelError": 0.0,
+      "p99ChannelError": 0.0,
+      "maxChannelError": 0.0
+    },
+    {
+      "slug": "apple",
+      "meanAbsoluteChannelError": 0.0,
+      "p99ChannelError": 0.0,
+      "maxChannelError": 0.0
+    },
+    {
+      "slug": "banana",
+      "meanAbsoluteChannelError": 0.0,
+      "p99ChannelError": 0.0,
+      "maxChannelError": 0.0
+    },
+    {
+      "slug": "strawberry",
+      "meanAbsoluteChannelError": 0.0,
+      "p99ChannelError": 0.0,
+      "maxChannelError": 0.0
+    },
+    {
+      "slug": "watermelon",
+      "meanAbsoluteChannelError": 0.0,
+      "p99ChannelError": 0.0,
+      "maxChannelError": 0.0
+    },
+    {
+      "slug": "lemon",
+      "meanAbsoluteChannelError": 0.0,
+      "p99ChannelError": 0.0,
+      "maxChannelError": 0.0
+    },
+    {
+      "slug": "avocado",
+      "meanAbsoluteChannelError": 0.0,
+      "p99ChannelError": 0.0,
+      "maxChannelError": 0.0
+    },
+    {
+      "slug": "pizza",
+      "meanAbsoluteChannelError": 0.0,
+      "p99ChannelError": 0.0,
+      "maxChannelError": 0.0
+    },
+    {
+      "slug": "burger",
+      "meanAbsoluteChannelError": 0.0,
+      "p99ChannelError": 0.0,
+      "maxChannelError": 0.0
+    },
+    {
+      "slug": "fries",
+      "meanAbsoluteChannelError": 0.0,
+      "p99ChannelError": 0.0,
+      "maxChannelError": 0.0
+    },
+    {
+      "slug": "taco",
+      "meanAbsoluteChannelError": 0.0,
+      "p99ChannelError": 0.0,
+      "maxChannelError": 0.0
+    },
+    {
+      "slug": "popcorn",
+      "meanAbsoluteChannelError": 0.0,
+      "p99ChannelError": 0.0,
+      "maxChannelError": 0.0
+    },
+    {
+      "slug": "cake",
+      "meanAbsoluteChannelError": 0.0,
+      "p99ChannelError": 0.0,
+      "maxChannelError": 0.0
+    },
+    {
+      "slug": "doughnut",
+      "meanAbsoluteChannelError": 0.0,
+      "p99ChannelError": 0.0,
+      "maxChannelError": 0.0
+    },
+    {
+      "slug": "cookie",
+      "meanAbsoluteChannelError": 0.0,
+      "p99ChannelError": 0.0,
+      "maxChannelError": 0.0
+    },
+    {
+      "slug": "ice-cream",
+      "meanAbsoluteChannelError": 0.0,
+      "p99ChannelError": 0.0,
+      "maxChannelError": 0.0
+    },
+    {
+      "slug": "coffee",
+      "meanAbsoluteChannelError": 0.0,
+      "p99ChannelError": 0.0,
+      "maxChannelError": 0.0
+    },
+    {
+      "slug": "beer",
+      "meanAbsoluteChannelError": 0.0,
+      "p99ChannelError": 0.0,
+      "maxChannelError": 0.0
+    },
+    {
+      "slug": "cheers",
+      "meanAbsoluteChannelError": 0.0002,
+      "p99ChannelError": 0.0,
+      "maxChannelError": 1.506
+    },
+    {
+      "slug": "gift",
+      "meanAbsoluteChannelError": 0.0,
+      "p99ChannelError": 0.0,
+      "maxChannelError": 0.0
+    },
+    {
+      "slug": "idea",
+      "meanAbsoluteChannelError": 0.0,
+      "p99ChannelError": 0.0,
+      "maxChannelError": 0.0
+    },
+    {
+      "slug": "key",
+      "meanAbsoluteChannelError": 0.0,
+      "p99ChannelError": 0.0,
+      "maxChannelError": 0.0
+    },
+    {
+      "slug": "lock",
+      "meanAbsoluteChannelError": 0.0,
+      "p99ChannelError": 0.0,
+      "maxChannelError": 0.0
+    },
+    {
+      "slug": "rocket",
+      "meanAbsoluteChannelError": 0.0,
+      "p99ChannelError": 0.0,
+      "maxChannelError": 0.0
+    },
+    {
+      "slug": "laptop",
+      "meanAbsoluteChannelError": 0.0,
+      "p99ChannelError": 0.0,
+      "maxChannelError": 0.0
+    },
+    {
+      "slug": "phone",
+      "meanAbsoluteChannelError": 0.0,
+      "p99ChannelError": 0.0,
+      "maxChannelError": 0.0
+    },
+    {
+      "slug": "camera",
+      "meanAbsoluteChannelError": 0.0,
+      "p99ChannelError": 0.0,
+      "maxChannelError": 0.0
+    },
+    {
+      "slug": "gamepad",
+      "meanAbsoluteChannelError": 0.0,
+      "p99ChannelError": 0.0,
+      "maxChannelError": 0.0
+    },
+    {
+      "slug": "football",
+      "meanAbsoluteChannelError": 0.0,
+      "p99ChannelError": 0.0,
+      "maxChannelError": 0.0
+    },
+    {
+      "slug": "trophy",
+      "meanAbsoluteChannelError": 0.0026,
+      "p99ChannelError": 0.0,
+      "maxChannelError": 5.0
+    },
+    {
+      "slug": "poop",
+      "meanAbsoluteChannelError": 0.0,
+      "p99ChannelError": 0.0,
+      "maxChannelError": 0.0
+    },
+    {
+      "slug": "crypto-donkey",
+      "meanAbsoluteChannelError": 0.0,
+      "p99ChannelError": 0.0,
+      "maxChannelError": 0.0
+    },
+    {
+      "slug": "thumbs-up-tone1",
+      "meanAbsoluteChannelError": 0.0,
+      "p99ChannelError": 0.0,
+      "maxChannelError": 0.0
+    },
+    {
+      "slug": "thumbs-down-tone1",
+      "meanAbsoluteChannelError": 0.0,
+      "p99ChannelError": 0.0,
+      "maxChannelError": 0.0
+    },
+    {
+      "slug": "wave-tone1",
+      "meanAbsoluteChannelError": 0.0,
+      "p99ChannelError": 0.0,
+      "maxChannelError": 1.024
+    },
+    {
+      "slug": "clap-tone1",
+      "meanAbsoluteChannelError": 0.0,
+      "p99ChannelError": 0.0,
+      "maxChannelError": 0.0
+    },
+    {
+      "slug": "thanks-tone1",
+      "meanAbsoluteChannelError": 0.0,
+      "p99ChannelError": 0.0,
+      "maxChannelError": 0.0
+    },
+    {
+      "slug": "peace-tone1",
+      "meanAbsoluteChannelError": 0.0,
+      "p99ChannelError": 0.0,
+      "maxChannelError": 0.0
+    },
+    {
+      "slug": "thumbs-up-tone2",
+      "meanAbsoluteChannelError": 0.0,
+      "p99ChannelError": 0.0,
+      "maxChannelError": 0.0
+    },
+    {
+      "slug": "thumbs-down-tone2",
+      "meanAbsoluteChannelError": 0.0,
+      "p99ChannelError": 0.0,
+      "maxChannelError": 0.0
+    },
+    {
+      "slug": "wave-tone2",
+      "meanAbsoluteChannelError": 0.0002,
+      "p99ChannelError": 0.0,
+      "maxChannelError": 4.039
+    },
+    {
+      "slug": "clap-tone2",
+      "meanAbsoluteChannelError": 0.0,
+      "p99ChannelError": 0.0,
+      "maxChannelError": 0.0
+    },
+    {
+      "slug": "thanks-tone2",
+      "meanAbsoluteChannelError": 0.0,
+      "p99ChannelError": 0.0,
+      "maxChannelError": 0.0
+    },
+    {
+      "slug": "peace-tone2",
+      "meanAbsoluteChannelError": 0.0,
+      "p99ChannelError": 0.0,
+      "maxChannelError": 0.0
+    },
+    {
+      "slug": "thumbs-up-tone3",
+      "meanAbsoluteChannelError": 0.0,
+      "p99ChannelError": 0.0,
+      "maxChannelError": 0.0
+    },
+    {
+      "slug": "thumbs-down-tone3",
+      "meanAbsoluteChannelError": 0.0,
+      "p99ChannelError": 0.0,
+      "maxChannelError": 0.0
+    },
+    {
+      "slug": "wave-tone3",
+      "meanAbsoluteChannelError": 0.0001,
+      "p99ChannelError": 0.0,
+      "maxChannelError": 1.486
+    },
+    {
+      "slug": "clap-tone3",
+      "meanAbsoluteChannelError": 0.0,
+      "p99ChannelError": 0.0,
+      "maxChannelError": 0.0
+    },
+    {
+      "slug": "thanks-tone3",
+      "meanAbsoluteChannelError": 0.0,
+      "p99ChannelError": 0.0,
+      "maxChannelError": 0.0
+    },
+    {
+      "slug": "peace-tone3",
+      "meanAbsoluteChannelError": 0.0,
+      "p99ChannelError": 0.0,
+      "maxChannelError": 0.0
+    },
+    {
+      "slug": "thumbs-up-tone4",
+      "meanAbsoluteChannelError": 0.0,
+      "p99ChannelError": 0.0,
+      "maxChannelError": 0.0
+    },
+    {
+      "slug": "thumbs-down-tone4",
+      "meanAbsoluteChannelError": 0.0,
+      "p99ChannelError": 0.0,
+      "maxChannelError": 0.0
+    },
+    {
+      "slug": "wave-tone4",
+      "meanAbsoluteChannelError": 0.0,
+      "p99ChannelError": 0.0,
+      "maxChannelError": 0.0
+    },
+    {
+      "slug": "clap-tone4",
+      "meanAbsoluteChannelError": 0.0,
+      "p99ChannelError": 0.0,
+      "maxChannelError": 0.0
+    },
+    {
+      "slug": "thanks-tone4",
+      "meanAbsoluteChannelError": 0.0,
+      "p99ChannelError": 0.0,
+      "maxChannelError": 0.0
+    },
+    {
+      "slug": "peace-tone4",
+      "meanAbsoluteChannelError": 0.0001,
+      "p99ChannelError": 0.0,
+      "maxChannelError": 1.043
+    },
+    {
+      "slug": "thumbs-up-tone5",
+      "meanAbsoluteChannelError": 0.0,
+      "p99ChannelError": 0.0,
+      "maxChannelError": 0.0
+    },
+    {
+      "slug": "thumbs-down-tone5",
+      "meanAbsoluteChannelError": 0.0,
+      "p99ChannelError": 0.0,
+      "maxChannelError": 0.0
+    },
+    {
+      "slug": "wave-tone5",
+      "meanAbsoluteChannelError": 0.0006,
+      "p99ChannelError": 0.0,
+      "maxChannelError": 4.039
+    },
+    {
+      "slug": "clap-tone5",
+      "meanAbsoluteChannelError": 0.0,
+      "p99ChannelError": 0.0,
+      "maxChannelError": 0.0
+    },
+    {
+      "slug": "thanks-tone5",
+      "meanAbsoluteChannelError": 0.0,
+      "p99ChannelError": 0.0,
+      "maxChannelError": 0.0
+    },
+    {
+      "slug": "peace-tone5",
+      "meanAbsoluteChannelError": 0.0,
+      "p99ChannelError": 0.0,
+      "maxChannelError": 0.0
+    },
+    {
+      "slug": "sacred-stone",
+      "meanAbsoluteChannelError": 0.0,
+      "p99ChannelError": 0.0,
+      "maxChannelError": 1.0
+    },
+    {
+      "slug": "jumping-spider",
+      "meanAbsoluteChannelError": 0.0,
+      "p99ChannelError": 0.0,
+      "maxChannelError": 0.0
+    },
+    {
+      "slug": "bitcoin",
+      "meanAbsoluteChannelError": 0.0,
+      "p99ChannelError": 0.0,
+      "maxChannelError": 0.0
+    }
+  ],
+  "assets": [
+    {
+      "slug": "happy",
+      "category": "Faces",
+      "beforeBytes": 18446,
+      "afterBytes": 18446,
+      "gzipBytes": 3616
+    },
+    {
+      "slug": "tears-of-joy",
+      "category": "Faces",
+      "beforeBytes": 22562,
+      "afterBytes": 22562,
+      "gzipBytes": 5392
+    },
+    {
+      "slug": "heart-eyes",
+      "category": "Faces",
+      "beforeBytes": 13878,
+      "afterBytes": 13878,
+      "gzipBytes": 3316
+    },
+    {
+      "slug": "cool",
+      "category": "Faces",
+      "beforeBytes": 15667,
+      "afterBytes": 15667,
+      "gzipBytes": 3868
+    },
+    {
+      "slug": "wink",
+      "category": "Faces",
+      "beforeBytes": 11873,
+      "afterBytes": 11873,
+      "gzipBytes": 2780
+    },
+    {
+      "slug": "kiss",
+      "category": "Faces",
+      "beforeBytes": 15176,
+      "afterBytes": 15176,
+      "gzipBytes": 3593
+    },
+    {
+      "slug": "sad",
+      "category": "Faces",
+      "beforeBytes": 17452,
+      "afterBytes": 17452,
+      "gzipBytes": 3998
+    },
+    {
+      "slug": "crying",
+      "category": "Faces",
+      "beforeBytes": 18443,
+      "afterBytes": 18443,
+      "gzipBytes": 4383
+    },
+    {
+      "slug": "angry",
+      "category": "Faces",
+      "beforeBytes": 2084,
+      "afterBytes": 2084,
+      "gzipBytes": 661
+    },
+    {
+      "slug": "surprised",
+      "category": "Faces",
+      "beforeBytes": 11626,
+      "afterBytes": 11626,
+      "gzipBytes": 2653
+    },
+    {
+      "slug": "thinking",
+      "category": "Faces",
+      "beforeBytes": 15954,
+      "afterBytes": 15954,
+      "gzipBytes": 3747
+    },
+    {
+      "slug": "unimpressed",
+      "category": "Faces",
+      "beforeBytes": 9773,
+      "afterBytes": 9773,
+      "gzipBytes": 2330
+    },
+    {
+      "slug": "grin",
+      "category": "Faces",
+      "beforeBytes": 11832,
+      "afterBytes": 11832,
+      "gzipBytes": 3081
+    },
+    {
+      "slug": "rolling-laughter",
+      "category": "Faces",
+      "beforeBytes": 22207,
+      "afterBytes": 22207,
+      "gzipBytes": 5472
+    },
+    {
+      "slug": "love",
+      "category": "Faces",
+      "beforeBytes": 20815,
+      "afterBytes": 20815,
+      "gzipBytes": 4993
+    },
+    {
+      "slug": "shocked",
+      "category": "Faces",
+      "beforeBytes": 8977,
+      "afterBytes": 8977,
+      "gzipBytes": 1614
+    },
+    {
+      "slug": "sleepy",
+      "category": "Faces",
+      "beforeBytes": 10418,
+      "afterBytes": 10418,
+      "gzipBytes": 2448
+    },
+    {
+      "slug": "phew",
+      "category": "Faces",
+      "beforeBytes": 16586,
+      "afterBytes": 16586,
+      "gzipBytes": 4143
+    },
+    {
+      "slug": "heart",
+      "category": "Symbols",
+      "beforeBytes": 2212,
+      "afterBytes": 2212,
+      "gzipBytes": 808
+    },
+    {
+      "slug": "broken-heart",
+      "category": "Symbols",
+      "beforeBytes": 2487,
+      "afterBytes": 2487,
+      "gzipBytes": 840
+    },
+    {
+      "slug": "fire",
+      "category": "Symbols",
+      "beforeBytes": 3069,
+      "afterBytes": 3069,
+      "gzipBytes": 924
+    },
+    {
+      "slug": "celebrate",
+      "category": "Symbols",
+      "beforeBytes": 5556,
+      "afterBytes": 5556,
+      "gzipBytes": 1259
+    },
+    {
+      "slug": "yes",
+      "category": "Symbols",
+      "beforeBytes": 1886,
+      "afterBytes": 1886,
+      "gzipBytes": 725
+    },
+    {
+      "slug": "no",
+      "category": "Symbols",
+      "beforeBytes": 2079,
+      "afterBytes": 2079,
+      "gzipBytes": 742
+    },
+    {
+      "slug": "thumbs-up",
+      "category": "Hands",
+      "beforeBytes": 4216,
+      "afterBytes": 85622,
+      "gzipBytes": 12300
+    },
+    {
+      "slug": "thumbs-down",
+      "category": "Hands",
+      "beforeBytes": 4260,
+      "afterBytes": 83976,
+      "gzipBytes": 12561
+    },
+    {
+      "slug": "wave",
+      "category": "Hands",
+      "beforeBytes": 3307,
+      "afterBytes": 115227,
+      "gzipBytes": 17617
+    },
+    {
+      "slug": "clap",
+      "category": "Hands",
+      "beforeBytes": 3654,
+      "afterBytes": 114744,
+      "gzipBytes": 16511
+    },
+    {
+      "slug": "thanks",
+      "category": "Hands",
+      "beforeBytes": 3873,
+      "afterBytes": 107973,
+      "gzipBytes": 14392
+    },
+    {
+      "slug": "peace",
+      "category": "Hands",
+      "beforeBytes": 3596,
+      "afterBytes": 97974,
+      "gzipBytes": 14946
+    },
+    {
+      "slug": "grinning",
+      "category": "Faces",
+      "beforeBytes": 11741,
+      "afterBytes": 11741,
+      "gzipBytes": 2987
+    },
+    {
+      "slug": "slight-smile",
+      "category": "Faces",
+      "beforeBytes": 9249,
+      "afterBytes": 9249,
+      "gzipBytes": 2145
+    },
+    {
+      "slug": "upside-down",
+      "category": "Faces",
+      "beforeBytes": 9288,
+      "afterBytes": 9288,
+      "gzipBytes": 2165
+    },
+    {
+      "slug": "blush",
+      "category": "Faces",
+      "beforeBytes": 10443,
+      "afterBytes": 10443,
+      "gzipBytes": 2463
+    },
+    {
+      "slug": "innocent",
+      "category": "Faces",
+      "beforeBytes": 7471,
+      "afterBytes": 7471,
+      "gzipBytes": 1375
+    },
+    {
+      "slug": "party-face",
+      "category": "Faces",
+      "beforeBytes": 9377,
+      "afterBytes": 9377,
+      "gzipBytes": 1684
+    },
+    {
+      "slug": "star-eyes",
+      "category": "Faces",
+      "beforeBytes": 11056,
+      "afterBytes": 11070,
+      "gzipBytes": 2947
+    },
+    {
+      "slug": "delicious",
+      "category": "Faces",
+      "beforeBytes": 6538,
+      "afterBytes": 6538,
+      "gzipBytes": 1249
+    },
+    {
+      "slug": "tongue",
+      "category": "Faces",
+      "beforeBytes": 6789,
+      "afterBytes": 6789,
+      "gzipBytes": 1304
+    },
+    {
+      "slug": "wink-tongue",
+      "category": "Faces",
+      "beforeBytes": 7049,
+      "afterBytes": 7049,
+      "gzipBytes": 1371
+    },
+    {
+      "slug": "zany",
+      "category": "Faces",
+      "beforeBytes": 8149,
+      "afterBytes": 8149,
+      "gzipBytes": 1534
+    },
+    {
+      "slug": "money-face",
+      "category": "Faces",
+      "beforeBytes": 7194,
+      "afterBytes": 7194,
+      "gzipBytes": 1336
+    },
+    {
+      "slug": "zip-mouth",
+      "category": "Faces",
+      "beforeBytes": 12077,
+      "afterBytes": 12077,
+      "gzipBytes": 1683
+    },
+    {
+      "slug": "raised-eyebrow",
+      "category": "Faces",
+      "beforeBytes": 11609,
+      "afterBytes": 11609,
+      "gzipBytes": 2651
+    },
+    {
+      "slug": "neutral",
+      "category": "Faces",
+      "beforeBytes": 9331,
+      "afterBytes": 9331,
+      "gzipBytes": 2128
+    },
+    {
+      "slug": "eye-roll",
+      "category": "Faces",
+      "beforeBytes": 14310,
+      "afterBytes": 14310,
+      "gzipBytes": 3602
+    },
+    {
+      "slug": "smirk",
+      "category": "Faces",
+      "beforeBytes": 11893,
+      "afterBytes": 11893,
+      "gzipBytes": 2803
+    },
+    {
+      "slug": "grimace",
+      "category": "Faces",
+      "beforeBytes": 7695,
+      "afterBytes": 7695,
+      "gzipBytes": 1444
+    },
+    {
+      "slug": "pensive",
+      "category": "Faces",
+      "beforeBytes": 12248,
+      "afterBytes": 12248,
+      "gzipBytes": 2793
+    },
+    {
+      "slug": "pleading",
+      "category": "Faces",
+      "beforeBytes": 22102,
+      "afterBytes": 22102,
+      "gzipBytes": 5001
+    },
+    {
+      "slug": "huff",
+      "category": "Faces",
+      "beforeBytes": 8067,
+      "afterBytes": 8067,
+      "gzipBytes": 1409
+    },
+    {
+      "slug": "furious",
+      "category": "Faces",
+      "beforeBytes": 2032,
+      "afterBytes": 2032,
+      "gzipBytes": 634
+    },
+    {
+      "slug": "mind-blown",
+      "category": "Faces",
+      "beforeBytes": 18977,
+      "afterBytes": 18977,
+      "gzipBytes": 5737
+    },
+    {
+      "slug": "hot-face",
+      "category": "Faces",
+      "beforeBytes": 3362,
+      "afterBytes": 3362,
+      "gzipBytes": 903
+    },
+    {
+      "slug": "cold-face",
+      "category": "Faces",
+      "beforeBytes": 4140,
+      "afterBytes": 4140,
+      "gzipBytes": 933
+    },
+    {
+      "slug": "nauseated",
+      "category": "Faces",
+      "beforeBytes": 2213,
+      "afterBytes": 2213,
+      "gzipBytes": 667
+    },
+    {
+      "slug": "vomit",
+      "category": "Faces",
+      "beforeBytes": 15746,
+      "afterBytes": 15746,
+      "gzipBytes": 3953
+    },
+    {
+      "slug": "fever",
+      "category": "Faces",
+      "beforeBytes": 19756,
+      "afterBytes": 19756,
+      "gzipBytes": 4689
+    },
+    {
+      "slug": "bandage",
+      "category": "Faces",
+      "beforeBytes": 8293,
+      "afterBytes": 8293,
+      "gzipBytes": 1572
+    },
+    {
+      "slug": "mask",
+      "category": "Faces",
+      "beforeBytes": 9096,
+      "afterBytes": 9096,
+      "gzipBytes": 1559
+    },
+    {
+      "slug": "dog",
+      "category": "Nature",
+      "beforeBytes": 5228,
+      "afterBytes": 5228,
+      "gzipBytes": 1205
+    },
+    {
+      "slug": "cat",
+      "category": "Nature",
+      "beforeBytes": 4549,
+      "afterBytes": 4549,
+      "gzipBytes": 1037
+    },
+    {
+      "slug": "mouse",
+      "category": "Nature",
+      "beforeBytes": 4248,
+      "afterBytes": 4248,
+      "gzipBytes": 990
+    },
+    {
+      "slug": "hamster",
+      "category": "Nature",
+      "beforeBytes": 4868,
+      "afterBytes": 4868,
+      "gzipBytes": 1100
+    },
+    {
+      "slug": "rabbit",
+      "category": "Nature",
+      "beforeBytes": 4871,
+      "afterBytes": 4871,
+      "gzipBytes": 1083
+    },
+    {
+      "slug": "fox",
+      "category": "Nature",
+      "beforeBytes": 5958,
+      "afterBytes": 5958,
+      "gzipBytes": 1272
+    },
+    {
+      "slug": "bear",
+      "category": "Nature",
+      "beforeBytes": 4763,
+      "afterBytes": 4763,
+      "gzipBytes": 1078
+    },
+    {
+      "slug": "panda",
+      "category": "Nature",
+      "beforeBytes": 4854,
+      "afterBytes": 4854,
+      "gzipBytes": 1080
+    },
+    {
+      "slug": "koala",
+      "category": "Nature",
+      "beforeBytes": 4538,
+      "afterBytes": 4538,
+      "gzipBytes": 1005
+    },
+    {
+      "slug": "tiger",
+      "category": "Nature",
+      "beforeBytes": 7859,
+      "afterBytes": 9398,
+      "gzipBytes": 2547
+    },
+    {
+      "slug": "lion",
+      "category": "Nature",
+      "beforeBytes": 6810,
+      "afterBytes": 15948,
+      "gzipBytes": 3839
+    },
+    {
+      "slug": "cow",
+      "category": "Nature",
+      "beforeBytes": 5496,
+      "afterBytes": 100049,
+      "gzipBytes": 15621
+    },
+    {
+      "slug": "pig",
+      "category": "Nature",
+      "beforeBytes": 4374,
+      "afterBytes": 4374,
+      "gzipBytes": 976
+    },
+    {
+      "slug": "frog",
+      "category": "Nature",
+      "beforeBytes": 3674,
+      "afterBytes": 3674,
+      "gzipBytes": 864
+    },
+    {
+      "slug": "monkey",
+      "category": "Nature",
+      "beforeBytes": 4846,
+      "afterBytes": 104041,
+      "gzipBytes": 15633
+    },
+    {
+      "slug": "chicken",
+      "category": "Nature",
+      "beforeBytes": 4748,
+      "afterBytes": 111260,
+      "gzipBytes": 16141
+    },
+    {
+      "slug": "penguin",
+      "category": "Nature",
+      "beforeBytes": 4231,
+      "afterBytes": 4231,
+      "gzipBytes": 1011
+    },
+    {
+      "slug": "duck",
+      "category": "Nature",
+      "beforeBytes": 4357,
+      "afterBytes": 99236,
+      "gzipBytes": 15117
+    },
+    {
+      "slug": "owl",
+      "category": "Nature",
+      "beforeBytes": 4712,
+      "afterBytes": 4712,
+      "gzipBytes": 982
+    },
+    {
+      "slug": "butterfly",
+      "category": "Nature",
+      "beforeBytes": 7992,
+      "afterBytes": 7992,
+      "gzipBytes": 1106
+    },
+    {
+      "slug": "bee",
+      "category": "Nature",
+      "beforeBytes": 5139,
+      "afterBytes": 123483,
+      "gzipBytes": 18994
+    },
+    {
+      "slug": "turtle",
+      "category": "Nature",
+      "beforeBytes": 5871,
+      "afterBytes": 104862,
+      "gzipBytes": 15481
+    },
+    {
+      "slug": "octopus",
+      "category": "Nature",
+      "beforeBytes": 5032,
+      "afterBytes": 111838,
+      "gzipBytes": 16407
+    },
+    {
+      "slug": "whale",
+      "category": "Nature",
+      "beforeBytes": 3713,
+      "afterBytes": 102449,
+      "gzipBytes": 15034
+    },
+    {
+      "slug": "sunflower",
+      "category": "Nature",
+      "beforeBytes": 41806,
+      "afterBytes": 41806,
+      "gzipBytes": 3650
+    },
+    {
+      "slug": "rose",
+      "category": "Nature",
+      "beforeBytes": 4983,
+      "afterBytes": 179066,
+      "gzipBytes": 25408
+    },
+    {
+      "slug": "rainbow",
+      "category": "Nature",
+      "beforeBytes": 5923,
+      "afterBytes": 5923,
+      "gzipBytes": 985
+    },
+    {
+      "slug": "sun",
+      "category": "Nature",
+      "beforeBytes": 4512,
+      "afterBytes": 4512,
+      "gzipBytes": 965
+    },
+    {
+      "slug": "moon",
+      "category": "Nature",
+      "beforeBytes": 1534,
+      "afterBytes": 1534,
+      "gzipBytes": 542
+    },
+    {
+      "slug": "star",
+      "category": "Nature",
+      "beforeBytes": 3247,
+      "afterBytes": 81269,
+      "gzipBytes": 12193
+    },
+    {
+      "slug": "apple",
+      "category": "Food",
+      "beforeBytes": 3207,
+      "afterBytes": 88049,
+      "gzipBytes": 12609
+    },
+    {
+      "slug": "banana",
+      "category": "Food",
+      "beforeBytes": 4021,
+      "afterBytes": 109891,
+      "gzipBytes": 16371
+    },
+    {
+      "slug": "strawberry",
+      "category": "Food",
+      "beforeBytes": 9164,
+      "afterBytes": 200177,
+      "gzipBytes": 27310
+    },
+    {
+      "slug": "watermelon",
+      "category": "Food",
+      "beforeBytes": 5255,
+      "afterBytes": 102515,
+      "gzipBytes": 14154
+    },
+    {
+      "slug": "lemon",
+      "category": "Food",
+      "beforeBytes": 6464,
+      "afterBytes": 142802,
+      "gzipBytes": 18210
+    },
+    {
+      "slug": "avocado",
+      "category": "Food",
+      "beforeBytes": 3744,
+      "afterBytes": 128251,
+      "gzipBytes": 16970
+    },
+    {
+      "slug": "pizza",
+      "category": "Food",
+      "beforeBytes": 5362,
+      "afterBytes": 197456,
+      "gzipBytes": 26593
+    },
+    {
+      "slug": "burger",
+      "category": "Food",
+      "beforeBytes": 8423,
+      "afterBytes": 132034,
+      "gzipBytes": 19886
+    },
+    {
+      "slug": "fries",
+      "category": "Food",
+      "beforeBytes": 8005,
+      "afterBytes": 151058,
+      "gzipBytes": 19684
+    },
+    {
+      "slug": "taco",
+      "category": "Food",
+      "beforeBytes": 16934,
+      "afterBytes": 16934,
+      "gzipBytes": 2151
+    },
+    {
+      "slug": "popcorn",
+      "category": "Food",
+      "beforeBytes": 12799,
+      "afterBytes": 230784,
+      "gzipBytes": 30231
+    },
+    {
+      "slug": "cake",
+      "category": "Food",
+      "beforeBytes": 12013,
+      "afterBytes": 188475,
+      "gzipBytes": 25102
+    },
+    {
+      "slug": "doughnut",
+      "category": "Food",
+      "beforeBytes": 10105,
+      "afterBytes": 149612,
+      "gzipBytes": 22783
+    },
+    {
+      "slug": "cookie",
+      "category": "Food",
+      "beforeBytes": 5386,
+      "afterBytes": 234007,
+      "gzipBytes": 32086
+    },
+    {
+      "slug": "ice-cream",
+      "category": "Food",
+      "beforeBytes": 3524,
+      "afterBytes": 112716,
+      "gzipBytes": 15414
+    },
+    {
+      "slug": "coffee",
+      "category": "Food",
+      "beforeBytes": 3865,
+      "afterBytes": 91303,
+      "gzipBytes": 14303
+    },
+    {
+      "slug": "beer",
+      "category": "Food",
+      "beforeBytes": 26312,
+      "afterBytes": 26312,
+      "gzipBytes": 3279
+    },
+    {
+      "slug": "cheers",
+      "category": "Food",
+      "beforeBytes": 5343,
+      "afterBytes": 114663,
+      "gzipBytes": 17283
+    },
+    {
+      "slug": "gift",
+      "category": "Objects",
+      "beforeBytes": 5088,
+      "afterBytes": 5088,
+      "gzipBytes": 1246
+    },
+    {
+      "slug": "idea",
+      "category": "Objects",
+      "beforeBytes": 4037,
+      "afterBytes": 4037,
+      "gzipBytes": 1097
+    },
+    {
+      "slug": "key",
+      "category": "Objects",
+      "beforeBytes": 2579,
+      "afterBytes": 97057,
+      "gzipBytes": 12872
+    },
+    {
+      "slug": "lock",
+      "category": "Objects",
+      "beforeBytes": 3605,
+      "afterBytes": 3605,
+      "gzipBytes": 1082
+    },
+    {
+      "slug": "rocket",
+      "category": "Objects",
+      "beforeBytes": 4958,
+      "afterBytes": 128282,
+      "gzipBytes": 19058
+    },
+    {
+      "slug": "laptop",
+      "category": "Objects",
+      "beforeBytes": 9443,
+      "afterBytes": 9443,
+      "gzipBytes": 1380
+    },
+    {
+      "slug": "phone",
+      "category": "Objects",
+      "beforeBytes": 6537,
+      "afterBytes": 6537,
+      "gzipBytes": 1091
+    },
+    {
+      "slug": "camera",
+      "category": "Objects",
+      "beforeBytes": 5450,
+      "afterBytes": 125757,
+      "gzipBytes": 16627
+    },
+    {
+      "slug": "gamepad",
+      "category": "Objects",
+      "beforeBytes": 4854,
+      "afterBytes": 88930,
+      "gzipBytes": 13455
+    },
+    {
+      "slug": "football",
+      "category": "Objects",
+      "beforeBytes": 3161,
+      "afterBytes": 124502,
+      "gzipBytes": 17889
+    },
+    {
+      "slug": "trophy",
+      "category": "Objects",
+      "beforeBytes": 5069,
+      "afterBytes": 122225,
+      "gzipBytes": 17118
+    },
+    {
+      "slug": "poop",
+      "category": "Objects",
+      "beforeBytes": 4426,
+      "afterBytes": 4426,
+      "gzipBytes": 1082
+    },
+    {
+      "slug": "crypto-donkey",
+      "category": "Nature",
+      "beforeBytes": 7978,
+      "afterBytes": 7978,
+      "gzipBytes": 1419
+    },
+    {
+      "slug": "thumbs-up-tone1",
+      "category": "Hands",
+      "beforeBytes": 4231,
+      "afterBytes": 82232,
+      "gzipBytes": 11925
+    },
+    {
+      "slug": "thumbs-down-tone1",
+      "category": "Hands",
+      "beforeBytes": 4275,
+      "afterBytes": 83989,
+      "gzipBytes": 12258
+    },
+    {
+      "slug": "wave-tone1",
+      "category": "Hands",
+      "beforeBytes": 3322,
+      "afterBytes": 115757,
+      "gzipBytes": 16532
+    },
+    {
+      "slug": "clap-tone1",
+      "category": "Hands",
+      "beforeBytes": 3669,
+      "afterBytes": 121302,
+      "gzipBytes": 17927
+    },
+    {
+      "slug": "thanks-tone1",
+      "category": "Hands",
+      "beforeBytes": 3888,
+      "afterBytes": 108571,
+      "gzipBytes": 14390
+    },
+    {
+      "slug": "peace-tone1",
+      "category": "Hands",
+      "beforeBytes": 3611,
+      "afterBytes": 97719,
+      "gzipBytes": 13671
+    },
+    {
+      "slug": "thumbs-up-tone2",
+      "category": "Hands",
+      "beforeBytes": 4231,
+      "afterBytes": 81329,
+      "gzipBytes": 11918
+    },
+    {
+      "slug": "thumbs-down-tone2",
+      "category": "Hands",
+      "beforeBytes": 4275,
+      "afterBytes": 82693,
+      "gzipBytes": 12259
+    },
+    {
+      "slug": "wave-tone2",
+      "category": "Hands",
+      "beforeBytes": 3322,
+      "afterBytes": 115444,
+      "gzipBytes": 16590
+    },
+    {
+      "slug": "clap-tone2",
+      "category": "Hands",
+      "beforeBytes": 3669,
+      "afterBytes": 112403,
+      "gzipBytes": 17025
+    },
+    {
+      "slug": "thanks-tone2",
+      "category": "Hands",
+      "beforeBytes": 3888,
+      "afterBytes": 108892,
+      "gzipBytes": 15075
+    },
+    {
+      "slug": "peace-tone2",
+      "category": "Hands",
+      "beforeBytes": 3611,
+      "afterBytes": 93119,
+      "gzipBytes": 14574
+    },
+    {
+      "slug": "thumbs-up-tone3",
+      "category": "Hands",
+      "beforeBytes": 4231,
+      "afterBytes": 77325,
+      "gzipBytes": 11157
+    },
+    {
+      "slug": "thumbs-down-tone3",
+      "category": "Hands",
+      "beforeBytes": 4275,
+      "afterBytes": 79263,
+      "gzipBytes": 11713
+    },
+    {
+      "slug": "wave-tone3",
+      "category": "Hands",
+      "beforeBytes": 3322,
+      "afterBytes": 115864,
+      "gzipBytes": 16665
+    },
+    {
+      "slug": "clap-tone3",
+      "category": "Hands",
+      "beforeBytes": 3669,
+      "afterBytes": 107905,
+      "gzipBytes": 16456
+    },
+    {
+      "slug": "thanks-tone3",
+      "category": "Hands",
+      "beforeBytes": 3888,
+      "afterBytes": 107975,
+      "gzipBytes": 14614
+    },
+    {
+      "slug": "peace-tone3",
+      "category": "Hands",
+      "beforeBytes": 3611,
+      "afterBytes": 90808,
+      "gzipBytes": 12780
+    },
+    {
+      "slug": "thumbs-up-tone4",
+      "category": "Hands",
+      "beforeBytes": 4231,
+      "afterBytes": 73209,
+      "gzipBytes": 10579
+    },
+    {
+      "slug": "thumbs-down-tone4",
+      "category": "Hands",
+      "beforeBytes": 4275,
+      "afterBytes": 75864,
+      "gzipBytes": 11256
+    },
+    {
+      "slug": "wave-tone4",
+      "category": "Hands",
+      "beforeBytes": 3322,
+      "afterBytes": 105310,
+      "gzipBytes": 16577
+    },
+    {
+      "slug": "clap-tone4",
+      "category": "Hands",
+      "beforeBytes": 3669,
+      "afterBytes": 104032,
+      "gzipBytes": 15862
+    },
+    {
+      "slug": "thanks-tone4",
+      "category": "Hands",
+      "beforeBytes": 3888,
+      "afterBytes": 103701,
+      "gzipBytes": 13827
+    },
+    {
+      "slug": "peace-tone4",
+      "category": "Hands",
+      "beforeBytes": 3611,
+      "afterBytes": 86493,
+      "gzipBytes": 12213
+    },
+    {
+      "slug": "thumbs-up-tone5",
+      "category": "Hands",
+      "beforeBytes": 4231,
+      "afterBytes": 70437,
+      "gzipBytes": 10320
+    },
+    {
+      "slug": "thumbs-down-tone5",
+      "category": "Hands",
+      "beforeBytes": 4275,
+      "afterBytes": 72460,
+      "gzipBytes": 10712
+    },
+    {
+      "slug": "wave-tone5",
+      "category": "Hands",
+      "beforeBytes": 3322,
+      "afterBytes": 102614,
+      "gzipBytes": 14873
+    },
+    {
+      "slug": "clap-tone5",
+      "category": "Hands",
+      "beforeBytes": 3669,
+      "afterBytes": 101524,
+      "gzipBytes": 15185
+    },
+    {
+      "slug": "thanks-tone5",
+      "category": "Hands",
+      "beforeBytes": 3888,
+      "afterBytes": 99489,
+      "gzipBytes": 13248
+    },
+    {
+      "slug": "peace-tone5",
+      "category": "Hands",
+      "beforeBytes": 3611,
+      "afterBytes": 82810,
+      "gzipBytes": 13105
+    },
+    {
+      "slug": "sacred-stone",
+      "category": "Objects",
+      "beforeBytes": 162239,
+      "afterBytes": 10110,
+      "gzipBytes": 4078
+    },
+    {
+      "slug": "jumping-spider",
+      "category": "Nature",
+      "beforeBytes": 296548,
+      "afterBytes": 769634,
+      "gzipBytes": 185370
+    },
+    {
+      "slug": "bitcoin",
+      "category": "Symbols",
+      "beforeBytes": 3523,
+      "afterBytes": 3523,
+      "gzipBytes": 1063
+    },
+    {
+      "slug": "fs-forgesworn",
+      "category": "forgesworn",
+      "beforeBytes": 249987,
+      "afterBytes": 249987,
+      "gzipBytes": 58193
+    },
+    {
+      "slug": "fs-kindred",
+      "category": "forgesworn",
+      "beforeBytes": 618,
+      "afterBytes": 618,
+      "gzipBytes": 359
+    },
+    {
+      "slug": "fs-kithmoot",
+      "category": "forgesworn",
+      "beforeBytes": 2389,
+      "afterBytes": 2389,
+      "gzipBytes": 731
+    },
+    {
+      "slug": "fs-mysignet",
+      "category": "forgesworn",
+      "beforeBytes": 965,
+      "afterBytes": 965,
+      "gzipBytes": 455
+    },
+    {
+      "slug": "fs-vitark",
+      "category": "forgesworn",
+      "beforeBytes": 824,
+      "afterBytes": 824,
+      "gzipBytes": 490
+    },
+    {
+      "slug": "fs-vitark-den",
+      "category": "forgesworn",
+      "beforeBytes": 969,
+      "afterBytes": 969,
+      "gzipBytes": 476
+    },
+    {
+      "slug": "fs-vitark-train",
+      "category": "forgesworn",
+      "beforeBytes": 987,
+      "afterBytes": 987,
+      "gzipBytes": 560
+    },
+    {
+      "slug": "fs-vitark-still",
+      "category": "forgesworn",
+      "beforeBytes": 915,
+      "afterBytes": 915,
+      "gzipBytes": 452
+    },
+    {
+      "slug": "fs-vitark-record",
+      "category": "forgesworn",
+      "beforeBytes": 793,
+      "afterBytes": 793,
+      "gzipBytes": 453
+    }
+  ],
+  "referenceComparison192px": [
+    {
+      "slug": "thumbs-up",
+      "reference": "png/thumbs-up.png",
+      "beforeMeanAbsoluteChannelError": 33.8521,
+      "afterMeanAbsoluteChannelError": 3.7349
+    },
+    {
+      "slug": "thumbs-down",
+      "reference": "png/thumbs-down.png",
+      "beforeMeanAbsoluteChannelError": 36.1534,
+      "afterMeanAbsoluteChannelError": 3.9662
+    },
+    {
+      "slug": "wave",
+      "reference": "png/wave.png",
+      "beforeMeanAbsoluteChannelError": 58.8793,
+      "afterMeanAbsoluteChannelError": 4.5702
+    },
+    {
+      "slug": "clap",
+      "reference": "png/clap.png",
+      "beforeMeanAbsoluteChannelError": 36.078,
+      "afterMeanAbsoluteChannelError": 4.1508
+    },
+    {
+      "slug": "thanks",
+      "reference": "png/thanks.png",
+      "beforeMeanAbsoluteChannelError": 21.408,
+      "afterMeanAbsoluteChannelError": 3.474
+    },
+    {
+      "slug": "peace",
+      "reference": "png/peace.png",
+      "beforeMeanAbsoluteChannelError": 40.747,
+      "afterMeanAbsoluteChannelError": 3.3144
+    },
+    {
+      "slug": "tiger",
+      "reference": "png/tiger.png",
+      "beforeMeanAbsoluteChannelError": 52.6942,
+      "afterMeanAbsoluteChannelError": 10.9875
+    },
+    {
+      "slug": "lion",
+      "reference": "png/lion.png",
+      "beforeMeanAbsoluteChannelError": 44.1053,
+      "afterMeanAbsoluteChannelError": 7.7743
+    },
+    {
+      "slug": "cow",
+      "reference": "png/cow.png",
+      "beforeMeanAbsoluteChannelError": 33.058,
+      "afterMeanAbsoluteChannelError": 5.0235
+    },
+    {
+      "slug": "monkey",
+      "reference": "png/monkey.png",
+      "beforeMeanAbsoluteChannelError": 38.2029,
+      "afterMeanAbsoluteChannelError": 4.4719
+    },
+    {
+      "slug": "chicken",
+      "reference": "png/chicken.png",
+      "beforeMeanAbsoluteChannelError": 20.1597,
+      "afterMeanAbsoluteChannelError": 4.6674
+    },
+    {
+      "slug": "duck",
+      "reference": "png/duck.png",
+      "beforeMeanAbsoluteChannelError": 43.0562,
+      "afterMeanAbsoluteChannelError": 4.6449
+    },
+    {
+      "slug": "bee",
+      "reference": "png/bee.png",
+      "beforeMeanAbsoluteChannelError": 45.7961,
+      "afterMeanAbsoluteChannelError": 5.6489
+    },
+    {
+      "slug": "turtle",
+      "reference": "png/turtle.png",
+      "beforeMeanAbsoluteChannelError": 41.4061,
+      "afterMeanAbsoluteChannelError": 4.4557
+    },
+    {
+      "slug": "octopus",
+      "reference": "png/octopus.png",
+      "beforeMeanAbsoluteChannelError": 38.3465,
+      "afterMeanAbsoluteChannelError": 5.0556
+    },
+    {
+      "slug": "whale",
+      "reference": "png/whale.png",
+      "beforeMeanAbsoluteChannelError": 45.5978,
+      "afterMeanAbsoluteChannelError": 4.6405
+    },
+    {
+      "slug": "rose",
+      "reference": "png/rose.png",
+      "beforeMeanAbsoluteChannelError": 46.4157,
+      "afterMeanAbsoluteChannelError": 4.3435
+    },
+    {
+      "slug": "star",
+      "reference": "png/star.png",
+      "beforeMeanAbsoluteChannelError": 40.9873,
+      "afterMeanAbsoluteChannelError": 3.6382
+    },
+    {
+      "slug": "apple",
+      "reference": "png/apple.png",
+      "beforeMeanAbsoluteChannelError": 35.6322,
+      "afterMeanAbsoluteChannelError": 3.8607
+    },
+    {
+      "slug": "banana",
+      "reference": "png/banana.png",
+      "beforeMeanAbsoluteChannelError": 41.2032,
+      "afterMeanAbsoluteChannelError": 3.8749
+    },
+    {
+      "slug": "strawberry",
+      "reference": "png/strawberry.png",
+      "beforeMeanAbsoluteChannelError": 42.3053,
+      "afterMeanAbsoluteChannelError": 4.412
+    },
+    {
+      "slug": "watermelon",
+      "reference": "png/watermelon.png",
+      "beforeMeanAbsoluteChannelError": 33.951,
+      "afterMeanAbsoluteChannelError": 4.2685
+    },
+    {
+      "slug": "lemon",
+      "reference": "png/lemon.png",
+      "beforeMeanAbsoluteChannelError": 33.0054,
+      "afterMeanAbsoluteChannelError": 3.5279
+    },
+    {
+      "slug": "avocado",
+      "reference": "png/avocado.png",
+      "beforeMeanAbsoluteChannelError": 45.0954,
+      "afterMeanAbsoluteChannelError": 4.619
+    },
+    {
+      "slug": "burger",
+      "reference": "png/burger.png",
+      "beforeMeanAbsoluteChannelError": 47.646,
+      "afterMeanAbsoluteChannelError": 7.127
+    },
+    {
+      "slug": "fries",
+      "reference": "png/fries.png",
+      "beforeMeanAbsoluteChannelError": 42.6493,
+      "afterMeanAbsoluteChannelError": 4.5263
+    },
+    {
+      "slug": "popcorn",
+      "reference": "png/popcorn.png",
+      "beforeMeanAbsoluteChannelError": 35.492,
+      "afterMeanAbsoluteChannelError": 5.1103
+    },
+    {
+      "slug": "cake",
+      "reference": "png/cake.png",
+      "beforeMeanAbsoluteChannelError": 43.4558,
+      "afterMeanAbsoluteChannelError": 5.1401
+    },
+    {
+      "slug": "doughnut",
+      "reference": "png/doughnut.png",
+      "beforeMeanAbsoluteChannelError": 44.9661,
+      "afterMeanAbsoluteChannelError": 6.3482
+    },
+    {
+      "slug": "cookie",
+      "reference": "png/cookie.png",
+      "beforeMeanAbsoluteChannelError": 35.4452,
+      "afterMeanAbsoluteChannelError": 4.5892
+    },
+    {
+      "slug": "ice-cream",
+      "reference": "png/ice-cream.png",
+      "beforeMeanAbsoluteChannelError": 13.4896,
+      "afterMeanAbsoluteChannelError": 2.7306
+    },
+    {
+      "slug": "coffee",
+      "reference": "png/coffee.png",
+      "beforeMeanAbsoluteChannelError": 40.1939,
+      "afterMeanAbsoluteChannelError": 5.4156
+    },
+    {
+      "slug": "cheers",
+      "reference": "png/cheers.png",
+      "beforeMeanAbsoluteChannelError": 40.0563,
+      "afterMeanAbsoluteChannelError": 4.6722
+    },
+    {
+      "slug": "key",
+      "reference": "png/key.png",
+      "beforeMeanAbsoluteChannelError": 31.4197,
+      "afterMeanAbsoluteChannelError": 3.5441
+    },
+    {
+      "slug": "rocket",
+      "reference": "png/rocket.png",
+      "beforeMeanAbsoluteChannelError": 44.1765,
+      "afterMeanAbsoluteChannelError": 5.4294
+    },
+    {
+      "slug": "camera",
+      "reference": "png/camera.png",
+      "beforeMeanAbsoluteChannelError": 41.132,
+      "afterMeanAbsoluteChannelError": 8.2297
+    },
+    {
+      "slug": "gamepad",
+      "reference": "png/gamepad.png",
+      "beforeMeanAbsoluteChannelError": 29.0888,
+      "afterMeanAbsoluteChannelError": 4.779
+    },
+    {
+      "slug": "football",
+      "reference": "png/football.png",
+      "beforeMeanAbsoluteChannelError": 37.0465,
+      "afterMeanAbsoluteChannelError": 6.9003
+    },
+    {
+      "slug": "thumbs-up-tone1",
+      "reference": "png/thumbs-up-tone1.png",
+      "beforeMeanAbsoluteChannelError": 26.2918,
+      "afterMeanAbsoluteChannelError": 3.5285
+    },
+    {
+      "slug": "thumbs-down-tone1",
+      "reference": "png/thumbs-down-tone1.png",
+      "beforeMeanAbsoluteChannelError": 31.0619,
+      "afterMeanAbsoluteChannelError": 4.1347
+    },
+    {
+      "slug": "wave-tone1",
+      "reference": "png/wave-tone1.png",
+      "beforeMeanAbsoluteChannelError": 61.9778,
+      "afterMeanAbsoluteChannelError": 4.4135
+    },
+    {
+      "slug": "clap-tone1",
+      "reference": "png/clap-tone1.png",
+      "beforeMeanAbsoluteChannelError": 41.6839,
+      "afterMeanAbsoluteChannelError": 4.6587
+    },
+    {
+      "slug": "thanks-tone1",
+      "reference": "png/thanks-tone1.png",
+      "beforeMeanAbsoluteChannelError": 21.5432,
+      "afterMeanAbsoluteChannelError": 3.6007
+    },
+    {
+      "slug": "peace-tone1",
+      "reference": "png/peace-tone1.png",
+      "beforeMeanAbsoluteChannelError": 36.8965,
+      "afterMeanAbsoluteChannelError": 3.2626
+    },
+    {
+      "slug": "thumbs-up-tone2",
+      "reference": "png/thumbs-up-tone2.png",
+      "beforeMeanAbsoluteChannelError": 29.4231,
+      "afterMeanAbsoluteChannelError": 3.6714
+    },
+    {
+      "slug": "thumbs-down-tone2",
+      "reference": "png/thumbs-down-tone2.png",
+      "beforeMeanAbsoluteChannelError": 35.2966,
+      "afterMeanAbsoluteChannelError": 4.2249
+    },
+    {
+      "slug": "wave-tone2",
+      "reference": "png/wave-tone2.png",
+      "beforeMeanAbsoluteChannelError": 60.466,
+      "afterMeanAbsoluteChannelError": 4.6513
+    },
+    {
+      "slug": "clap-tone2",
+      "reference": "png/clap-tone2.png",
+      "beforeMeanAbsoluteChannelError": 38.5919,
+      "afterMeanAbsoluteChannelError": 4.341
+    },
+    {
+      "slug": "thanks-tone2",
+      "reference": "png/thanks-tone2.png",
+      "beforeMeanAbsoluteChannelError": 21.7667,
+      "afterMeanAbsoluteChannelError": 3.5498
+    },
+    {
+      "slug": "peace-tone2",
+      "reference": "png/peace-tone2.png",
+      "beforeMeanAbsoluteChannelError": 35.399,
+      "afterMeanAbsoluteChannelError": 3.317
+    },
+    {
+      "slug": "thumbs-up-tone3",
+      "reference": "png/thumbs-up-tone3.png",
+      "beforeMeanAbsoluteChannelError": 29.2669,
+      "afterMeanAbsoluteChannelError": 3.72
+    },
+    {
+      "slug": "thumbs-down-tone3",
+      "reference": "png/thumbs-down-tone3.png",
+      "beforeMeanAbsoluteChannelError": 35.2057,
+      "afterMeanAbsoluteChannelError": 4.2604
+    },
+    {
+      "slug": "wave-tone3",
+      "reference": "png/wave-tone3.png",
+      "beforeMeanAbsoluteChannelError": 55.8607,
+      "afterMeanAbsoluteChannelError": 4.8421
+    },
+    {
+      "slug": "clap-tone3",
+      "reference": "png/clap-tone3.png",
+      "beforeMeanAbsoluteChannelError": 34.4679,
+      "afterMeanAbsoluteChannelError": 4.4269
+    },
+    {
+      "slug": "thanks-tone3",
+      "reference": "png/thanks-tone3.png",
+      "beforeMeanAbsoluteChannelError": 21.4337,
+      "afterMeanAbsoluteChannelError": 3.4235
+    },
+    {
+      "slug": "peace-tone3",
+      "reference": "png/peace-tone3.png",
+      "beforeMeanAbsoluteChannelError": 33.5446,
+      "afterMeanAbsoluteChannelError": 3.4509
+    },
+    {
+      "slug": "thumbs-up-tone4",
+      "reference": "png/thumbs-up-tone4.png",
+      "beforeMeanAbsoluteChannelError": 26.3774,
+      "afterMeanAbsoluteChannelError": 3.7911
+    },
+    {
+      "slug": "thumbs-down-tone4",
+      "reference": "png/thumbs-down-tone4.png",
+      "beforeMeanAbsoluteChannelError": 35.6625,
+      "afterMeanAbsoluteChannelError": 4.2489
+    },
+    {
+      "slug": "wave-tone4",
+      "reference": "png/wave-tone4.png",
+      "beforeMeanAbsoluteChannelError": 54.8951,
+      "afterMeanAbsoluteChannelError": 4.9997
+    },
+    {
+      "slug": "clap-tone4",
+      "reference": "png/clap-tone4.png",
+      "beforeMeanAbsoluteChannelError": 32.9835,
+      "afterMeanAbsoluteChannelError": 4.4
+    },
+    {
+      "slug": "thanks-tone4",
+      "reference": "png/thanks-tone4.png",
+      "beforeMeanAbsoluteChannelError": 21.2208,
+      "afterMeanAbsoluteChannelError": 3.3067
+    },
+    {
+      "slug": "peace-tone4",
+      "reference": "png/peace-tone4.png",
+      "beforeMeanAbsoluteChannelError": 32.4425,
+      "afterMeanAbsoluteChannelError": 3.5926
+    },
+    {
+      "slug": "thumbs-up-tone5",
+      "reference": "png/thumbs-up-tone5.png",
+      "beforeMeanAbsoluteChannelError": 25.7879,
+      "afterMeanAbsoluteChannelError": 3.7756
+    },
+    {
+      "slug": "thumbs-down-tone5",
+      "reference": "png/thumbs-down-tone5.png",
+      "beforeMeanAbsoluteChannelError": 34.8147,
+      "afterMeanAbsoluteChannelError": 4.2049
+    },
+    {
+      "slug": "wave-tone5",
+      "reference": "png/wave-tone5.png",
+      "beforeMeanAbsoluteChannelError": 55.7051,
+      "afterMeanAbsoluteChannelError": 5.0411
+    },
+    {
+      "slug": "clap-tone5",
+      "reference": "png/clap-tone5.png",
+      "beforeMeanAbsoluteChannelError": 30.6383,
+      "afterMeanAbsoluteChannelError": 4.7291
+    },
+    {
+      "slug": "thanks-tone5",
+      "reference": "png/thanks-tone5.png",
+      "beforeMeanAbsoluteChannelError": 21.1799,
+      "afterMeanAbsoluteChannelError": 3.5684
+    },
+    {
+      "slug": "peace-tone5",
+      "reference": "png/peace-tone5.png",
+      "beforeMeanAbsoluteChannelError": 33.3754,
+      "afterMeanAbsoluteChannelError": 3.6697
+    },
+    {
+      "slug": "sacred-stone",
+      "reference": "https://600.wtf/img/sacred-stone.webp",
+      "beforeMeanAbsoluteChannelError": 30.3157,
+      "afterMeanAbsoluteChannelError": 14.5059,
+      "note": "Compact procedural texture selected by the owner; photographic grains are not copied."
+    },
+    {
+      "slug": "jumping-spider",
+      "reference": "png/jumping-spider.png",
+      "beforeMeanAbsoluteChannelError": 41.4627,
+      "afterMeanAbsoluteChannelError": 5.9629
+    }
+  ],
+  "referenceComparisonSummary": {
+    "count": 70,
+    "improved": 70,
+    "beforeMeanAbsoluteChannelError": 37.1633,
+    "afterMeanAbsoluteChannelError": 4.6992,
+    "note": "Two background whole-image channel comparison at 192px; not a claim of aesthetic acceptance or unlimited source detail."
+  },
+  "svgArchive": {
+    "file": "review/vectors/forgemoji-svg.zip",
+    "bytes": 1538245,
+    "entries": 163,
+    "sha256": "4b768254246605b81441f80ef043378fef240616f07b1eca9b3107d03f602349"
+  },
+  "compactComponentPasses": {
+    "lion": {
+      "previousBytes": 195919,
+      "bytes": 15948,
+      "gzipBytes": 3839,
+      "plainReductionPercent": 91.86,
+      "paths": 31,
+      "gradients": 27,
+      "stops": 118,
+      "sha256": "061f416358dee08f4d5ec9f25dfbf43fa1e24601908d5e662c4e9a950885d783",
+      "review": "review/vectors/lion-review.html",
+      "diagnosticReport": "review/vectors/lion/report.json",
+      "ownerAcceptance": {
+        "status": "approved",
+        "feedback": "this is great",
+        "svgSha256": "061f416358dee08f4d5ec9f25dfbf43fa1e24601908d5e662c4e9a950885d783"
+      }
+    },
+    "sacred-stone": {
+      "previousBytes": 413657,
+      "bytes": 10110,
+      "gzipBytes": 4078,
+      "plainReductionPercent": 97.56,
+      "paths": 10,
+      "gradients": 4,
+      "stops": 13,
+      "sha256": "bc8ee61ebd019950738914e47018501ff6f9ae9768a716f7c503d60bc8d0b7ad",
+      "review": "review/vectors/sacred-stone-review.html",
+      "diagnosticReport": "review/vectors/sacred-stone-quality.json",
+      "textureChoice": "Compact realistic texture using gradients and procedural grain",
+      "ownerAcceptance": "Awaiting owner feedback"
+    }
+  }
+}

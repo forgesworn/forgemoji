@@ -1,13 +1,40 @@
 {
   "name": "@forgesworn/forgemoji",
-  "version": "0.1.2",
+  "version": "0.2.0",
   "description": "Original familiar Unicode emoji artwork by TheCryptoDonkey for ForgeSworn. Bundle locally, without a graphics service.",
   "type": "module",
   "license": "MIT",
   "author": "TheCryptoDonkey",
   "repository": "github:forgesworn/forgemoji",
-  "exports": { ".": "./index.mjs", "./manifest.json": "./manifest.json", "./png/*": "./png/*" },
-  "files": ["index.mjs", "index.d.ts", "manifest.json", "png", "LICENSE", "README.md"],
-  "scripts": { "build": "node scripts/build.mjs && node scripts/build-gallery.mjs", "test": "node --test", "preview": "python3 -m http.server 8765 --bind 127.0.0.1" },
-  "engines": { "node": ">=22" }
+  "exports": {
+    ".": "./index.mjs",
+    "./manifest.json": "./manifest.json",
+    "./png/*": "./png/*",
+    "./svg/*": "./svg/*"
+  },
+  "files": [
+    "index.mjs",
+    "index.d.ts",
+    "manifest.json",
+    "png",
+    "svg",
+    "LICENSE",
+    "README.md"
+  ],
+  "scripts": {
+    "build": "node scripts/build.mjs && node scripts/build-vectors.mjs && node scripts/build-gallery.mjs && node scripts/build-vector-review.mjs",
+    "build:svg": "node scripts/build-vectors.mjs && node scripts/build-gallery.mjs && node scripts/build-vector-review.mjs",
+    "rebuild:vectors": "python3 scripts/reconstruct-vectors.py && node scripts/optimize-vector-masters.mjs && npm run build:svg",
+    "optimize:vectors": "node scripts/optimize-vector-masters.mjs && npm run build:svg",
+    "verify:vectors": "node scripts/verify-vectors.mjs",
+    "test": "node --test",
+    "preview": "python3 -m http.server 8765 --bind 127.0.0.1"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "devDependencies": {
+    "playwright": "1.64.0",
+    "svgo": "4.1.0"
+  }
 }

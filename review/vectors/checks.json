@@ -1,0 +1,910 @@
+{
+  "rendered": [
+    {
+      "slug": "happy",
+      "visiblePixels": 22735
+    },
+    {
+      "slug": "tears-of-joy",
+      "visiblePixels": 19518
+    },
+    {
+      "slug": "heart-eyes",
+      "visiblePixels": 22747
+    },
+    {
+      "slug": "cool",
+      "visiblePixels": 22580
+    },
+    {
+      "slug": "wink",
+      "visiblePixels": 22477
+    },
+    {
+      "slug": "kiss",
+      "visiblePixels": 21273
+    },
+    {
+      "slug": "sad",
+      "visiblePixels": 22544
+    },
+    {
+      "slug": "crying",
+      "visiblePixels": 22510
+    },
+    {
+      "slug": "angry",
+      "visiblePixels": 22359
+    },
+    {
+      "slug": "surprised",
+      "visiblePixels": 22726
+    },
+    {
+      "slug": "thinking",
+      "visiblePixels": 22897
+    },
+    {
+      "slug": "unimpressed",
+      "visiblePixels": 22422
+    },
+    {
+      "slug": "grin",
+      "visiblePixels": 22537
+    },
+    {
+      "slug": "rolling-laughter",
+      "visiblePixels": 21225
+    },
+    {
+      "slug": "love",
+      "visiblePixels": 22377
+    },
+    {
+      "slug": "shocked",
+      "visiblePixels": 24516
+    },
+    {
+      "slug": "sleepy",
+      "visiblePixels": 22617
+    },
+    {
+      "slug": "phew",
+      "visiblePixels": 23378
+    },
+    {
+      "slug": "heart",
+      "visiblePixels": 20181
+    },
+    {
+      "slug": "broken-heart",
+      "visiblePixels": 17139
+    },
+    {
+      "slug": "fire",
+      "visiblePixels": 16086
+    },
+    {
+      "slug": "celebrate",
+      "visiblePixels": 10682
+    },
+    {
+      "slug": "yes",
+      "visiblePixels": 8975
+    },
+    {
+      "slug": "no",
+      "visiblePixels": 14420
+    },
+    {
+      "slug": "thumbs-up",
+      "visiblePixels": 15994
+    },
+    {
+      "slug": "thumbs-down",
+      "visiblePixels": 17885
+    },
+    {
+      "slug": "wave",
+      "visiblePixels": 18016
+    },
+    {
+      "slug": "clap",
+      "visiblePixels": 16602
+    },
+    {
+      "slug": "thanks",
+      "visiblePixels": 13902
+    },
+    {
+      "slug": "peace",
+      "visiblePixels": 13754
+    },
+    {
+      "slug": "grinning",
+      "visiblePixels": 22245
+    },
+    {
+      "slug": "slight-smile",
+      "visiblePixels": 22417
+    },
+    {
+      "slug": "upside-down",
+      "visiblePixels": 22648
+    },
+    {
+      "slug": "blush",
+      "visiblePixels": 22308
+    },
+    {
+      "slug": "innocent",
+      "visiblePixels": 23377
+    },
+    {
+      "slug": "party-face",
+      "visiblePixels": 23303
+    },
+    {
+      "slug": "star-eyes",
+      "visiblePixels": 22639
+    },
+    {
+      "slug": "delicious",
+      "visiblePixels": 22359
+    },
+    {
+      "slug": "tongue",
+      "visiblePixels": 22359
+    },
+    {
+      "slug": "wink-tongue",
+      "visiblePixels": 22359
+    },
+    {
+      "slug": "zany",
+      "visiblePixels": 22359
+    },
+    {
+      "slug": "money-face",
+      "visiblePixels": 22359
+    },
+    {
+      "slug": "zip-mouth",
+      "visiblePixels": 22551
+    },
+    {
+      "slug": "raised-eyebrow",
+      "visiblePixels": 22395
+    },
+    {
+      "slug": "neutral",
+      "visiblePixels": 22395
+    },
+    {
+      "slug": "eye-roll",
+      "visiblePixels": 22626
+    },
+    {
+      "slug": "smirk",
+      "visiblePixels": 22532
+    },
+    {
+      "slug": "grimace",
+      "visiblePixels": 22359
+    },
+    {
+      "slug": "pensive",
+      "visiblePixels": 22650
+    },
+    {
+      "slug": "pleading",
+      "visiblePixels": 22557
+    },
+    {
+      "slug": "huff",
+      "visiblePixels": 22986
+    },
+    {
+      "slug": "furious",
+      "visiblePixels": 22359
+    },
+    {
+      "slug": "mind-blown",
+      "visiblePixels": 19989
+    },
+    {
+      "slug": "hot-face",
+      "visiblePixels": 22359
+    },
+    {
+      "slug": "cold-face",
+      "visiblePixels": 22863
+    },
+    {
+      "slug": "nauseated",
+      "visiblePixels": 22359
+    },
+    {
+      "slug": "vomit",
+      "visiblePixels": 20956
+    },
+    {
+      "slug": "fever",
+      "visiblePixels": 22728
+    },
+    {
+      "slug": "bandage",
+      "visiblePixels": 22368
+    },
+    {
+      "slug": "mask",
+      "visiblePixels": 22513
+    },
+    {
+      "slug": "dog",
+      "visiblePixels": 16204
+    },
+    {
+      "slug": "cat",
+      "visiblePixels": 17694
+    },
+    {
+      "slug": "mouse",
+      "visiblePixels": 17095
+    },
+    {
+      "slug": "hamster",
+      "visiblePixels": 18145
+    },
+    {
+      "slug": "rabbit",
+      "visiblePixels": 15730
+    },
+    {
+      "slug": "fox",
+      "visiblePixels": 18694
+    },
+    {
+      "slug": "bear",
+      "visiblePixels": 17653
+    },
+    {
+      "slug": "panda",
+      "visiblePixels": 22143
+    },
+    {
+      "slug": "koala",
+      "visiblePixels": 16378
+    },
+    {
+      "slug": "tiger",
+      "visiblePixels": 20656
+    },
+    {
+      "slug": "lion",
+      "visiblePixels": 21845
+    },
+    {
+      "slug": "cow",
+      "visiblePixels": 15632
+    },
+    {
+      "slug": "pig",
+      "visiblePixels": 18275
+    },
+    {
+      "slug": "frog",
+      "visiblePixels": 15888
+    },
+    {
+      "slug": "monkey",
+      "visiblePixels": 15118
+    },
+    {
+      "slug": "chicken",
+      "visiblePixels": 16769
+    },
+    {
+      "slug": "penguin",
+      "visiblePixels": 18453
+    },
+    {
+      "slug": "duck",
+      "visiblePixels": 17183
+    },
+    {
+      "slug": "owl",
+      "visiblePixels": 21761
+    },
+    {
+      "slug": "butterfly",
+      "visiblePixels": 16096
+    },
+    {
+      "slug": "bee",
+      "visiblePixels": 16471
+    },
+    {
+      "slug": "turtle",
+      "visiblePixels": 15565
+    },
+    {
+      "slug": "octopus",
+      "visiblePixels": 19097
+    },
+    {
+      "slug": "whale",
+      "visiblePixels": 15909
+    },
+    {
+      "slug": "sunflower",
+      "visiblePixels": 13504
+    },
+    {
+      "slug": "rose",
+      "visiblePixels": 17061
+    },
+    {
+      "slug": "rainbow",
+      "visiblePixels": 13723
+    },
+    {
+      "slug": "sun",
+      "visiblePixels": 13070
+    },
+    {
+      "slug": "moon",
+      "visiblePixels": 13951
+    },
+    {
+      "slug": "star",
+      "visiblePixels": 15205
+    },
+    {
+      "slug": "apple",
+      "visiblePixels": 20809
+    },
+    {
+      "slug": "banana",
+      "visiblePixels": 15448
+    },
+    {
+      "slug": "strawberry",
+      "visiblePixels": 18588
+    },
+    {
+      "slug": "watermelon",
+      "visiblePixels": 15076
+    },
+    {
+      "slug": "lemon",
+      "visiblePixels": 21344
+    },
+    {
+      "slug": "avocado",
+      "visiblePixels": 20222
+    },
+    {
+      "slug": "pizza",
+      "visiblePixels": 15208
+    },
+    {
+      "slug": "burger",
+      "visiblePixels": 22662
+    },
+    {
+      "slug": "fries",
+      "visiblePixels": 20886
+    },
+    {
+      "slug": "taco",
+      "visiblePixels": 17985
+    },
+    {
+      "slug": "popcorn",
+      "visiblePixels": 19529
+    },
+    {
+      "slug": "cake",
+      "visiblePixels": 21329
+    },
+    {
+      "slug": "doughnut",
+      "visiblePixels": 21808
+    },
+    {
+      "slug": "cookie",
+      "visiblePixels": 22339
+    },
+    {
+      "slug": "ice-cream",
+      "visiblePixels": 10389
+    },
+    {
+      "slug": "coffee",
+      "visiblePixels": 15711
+    },
+    {
+      "slug": "beer",
+      "visiblePixels": 19019
+    },
+    {
+      "slug": "cheers",
+      "visiblePixels": 9319
+    },
+    {
+      "slug": "gift",
+      "visiblePixels": 21228
+    },
+    {
+      "slug": "idea",
+      "visiblePixels": 14217
+    },
+    {
+      "slug": "key",
+      "visiblePixels": 12074
+    },
+    {
+      "slug": "lock",
+      "visiblePixels": 16015
+    },
+    {
+      "slug": "rocket",
+      "visiblePixels": 15730
+    },
+    {
+      "slug": "laptop",
+      "visiblePixels": 20973
+    },
+    {
+      "slug": "phone",
+      "visiblePixels": 17372
+    },
+    {
+      "slug": "camera",
+      "visiblePixels": 21716
+    },
+    {
+      "slug": "gamepad",
+      "visiblePixels": 14335
+    },
+    {
+      "slug": "football",
+      "visiblePixels": 22969
+    },
+    {
+      "slug": "trophy",
+      "visiblePixels": 16539
+    },
+    {
+      "slug": "poop",
+      "visiblePixels": 15450
+    },
+    {
+      "slug": "crypto-donkey",
+      "visiblePixels": 12295
+    },
+    {
+      "slug": "thumbs-up-tone1",
+      "visiblePixels": 14890
+    },
+    {
+      "slug": "thumbs-down-tone1",
+      "visiblePixels": 18157
+    },
+    {
+      "slug": "wave-tone1",
+      "visiblePixels": 17728
+    },
+    {
+      "slug": "clap-tone1",
+      "visiblePixels": 17146
+    },
+    {
+      "slug": "thanks-tone1",
+      "visiblePixels": 14053
+    },
+    {
+      "slug": "peace-tone1",
+      "visiblePixels": 13884
+    },
+    {
+      "slug": "thumbs-up-tone2",
+      "visiblePixels": 14758
+    },
+    {
+      "slug": "thumbs-down-tone2",
+      "visiblePixels": 18207
+    },
+    {
+      "slug": "wave-tone2",
+      "visiblePixels": 18010
+    },
+    {
+      "slug": "clap-tone2",
+      "visiblePixels": 16077
+    },
+    {
+      "slug": "thanks-tone2",
+      "visiblePixels": 14034
+    },
+    {
+      "slug": "peace-tone2",
+      "visiblePixels": 13732
+    },
+    {
+      "slug": "thumbs-up-tone3",
+      "visiblePixels": 14923
+    },
+    {
+      "slug": "thumbs-down-tone3",
+      "visiblePixels": 18212
+    },
+    {
+      "slug": "wave-tone3",
+      "visiblePixels": 18146
+    },
+    {
+      "slug": "clap-tone3",
+      "visiblePixels": 15499
+    },
+    {
+      "slug": "thanks-tone3",
+      "visiblePixels": 14129
+    },
+    {
+      "slug": "peace-tone3",
+      "visiblePixels": 13748
+    },
+    {
+      "slug": "thumbs-up-tone4",
+      "visiblePixels": 14820
+    },
+    {
+      "slug": "thumbs-down-tone4",
+      "visiblePixels": 18020
+    },
+    {
+      "slug": "wave-tone4",
+      "visiblePixels": 18061
+    },
+    {
+      "slug": "clap-tone4",
+      "visiblePixels": 15758
+    },
+    {
+      "slug": "thanks-tone4",
+      "visiblePixels": 14015
+    },
+    {
+      "slug": "peace-tone4",
+      "visiblePixels": 13535
+    },
+    {
+      "slug": "thumbs-up-tone5",
+      "visiblePixels": 14695
+    },
+    {
+      "slug": "thumbs-down-tone5",
+      "visiblePixels": 17965
+    },
+    {
+      "slug": "wave-tone5",
+      "visiblePixels": 18002
+    },
+    {
+      "slug": "clap-tone5",
+      "visiblePixels": 18480
+    },
+    {
+      "slug": "thanks-tone5",
+      "visiblePixels": 13884
+    },
+    {
+      "slug": "peace-tone5",
+      "visiblePixels": 13796
+    },
+    {
+      "slug": "sacred-stone",
+      "visiblePixels": 19329
+    },
+    {
+      "slug": "jumping-spider",
+      "visiblePixels": 13111
+    },
+    {
+      "slug": "bitcoin",
+      "visiblePixels": 23886
+    },
+    {
+      "slug": "fs-forgesworn",
+      "visiblePixels": 9043
+    },
+    {
+      "slug": "fs-kindred",
+      "visiblePixels": 29663
+    },
+    {
+      "slug": "fs-kithmoot",
+      "visiblePixels": 18264
+    },
+    {
+      "slug": "fs-mysignet",
+      "visiblePixels": 6328
+    },
+    {
+      "slug": "fs-vitark",
+      "visiblePixels": 29770
+    },
+    {
+      "slug": "fs-vitark-den",
+      "visiblePixels": 29770
+    },
+    {
+      "slug": "fs-vitark-train",
+      "visiblePixels": 29770
+    },
+    {
+      "slug": "fs-vitark-still",
+      "visiblePixels": 29770
+    },
+    {
+      "slug": "fs-vitark-record",
+      "visiblePixels": 29770
+    }
+  ],
+  "renderedSizes": [
+    32,
+    192,
+    512
+  ],
+  "pageErrors": [],
+  "externalRequests": [],
+  "categoryCounts": {
+    "Hands": 36,
+    "Faces": 48,
+    "Symbols": 7,
+    "Nature": 32,
+    "Food": 18,
+    "Objects": 13,
+    "forgesworn": 9
+  },
+  "handTones": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "mirroredMaterialChecks": [
+    {
+      "slug": "thumbs-down",
+      "pixels": [
+        [
+          249,
+          195,
+          63,
+          255
+        ],
+        [
+          252,
+          210,
+          78,
+          255
+        ]
+      ]
+    },
+    {
+      "slug": "thumbs-down-tone1",
+      "pixels": [
+        [
+          250,
+          207,
+          166,
+          255
+        ],
+        [
+          250,
+          207,
+          165,
+          255
+        ]
+      ]
+    },
+    {
+      "slug": "thumbs-down-tone2",
+      "pixels": [
+        [
+          232,
+          167,
+          112,
+          255
+        ],
+        [
+          236,
+          177,
+          120,
+          255
+        ]
+      ]
+    },
+    {
+      "slug": "thumbs-down-tone3",
+      "pixels": [
+        [
+          177,
+          117,
+          80,
+          255
+        ],
+        [
+          184,
+          125,
+          87,
+          255
+        ]
+      ]
+    },
+    {
+      "slug": "thumbs-down-tone4",
+      "pixels": [
+        [
+          133,
+          81,
+          56,
+          255
+        ],
+        [
+          155,
+          104,
+          76,
+          255
+        ]
+      ]
+    },
+    {
+      "slug": "thumbs-down-tone5",
+      "pixels": [
+        [
+          103,
+          64,
+          46,
+          255
+        ],
+        [
+          124,
+          82,
+          64,
+          255
+        ]
+      ]
+    },
+    {
+      "slug": "thanks",
+      "pixels": [
+        [
+          252,
+          204,
+          71,
+          255
+        ],
+        [
+          251,
+          201,
+          69,
+          255
+        ]
+      ]
+    },
+    {
+      "slug": "thanks-tone1",
+      "pixels": [
+        [
+          253,
+          224,
+          184,
+          255
+        ],
+        [
+          253,
+          217,
+          174,
+          255
+        ]
+      ]
+    },
+    {
+      "slug": "thanks-tone2",
+      "pixels": [
+        [
+          252,
+          201,
+          143,
+          255
+        ],
+        [
+          252,
+          194,
+          134,
+          255
+        ]
+      ]
+    },
+    {
+      "slug": "thanks-tone3",
+      "pixels": [
+        [
+          217,
+          153,
+          102,
+          255
+        ],
+        [
+          213,
+          148,
+          97,
+          255
+        ]
+      ]
+    },
+    {
+      "slug": "thanks-tone4",
+      "pixels": [
+        [
+          177,
+          119,
+          85,
+          255
+        ],
+        [
+          173,
+          112,
+          78,
+          255
+        ]
+      ]
+    },
+    {
+      "slug": "thanks-tone5",
+      "pixels": [
+        [
+          148,
+          98,
+          70,
+          255
+        ],
+        [
+          144,
+          93,
+          66,
+          255
+        ]
+      ]
+    }
+  ],
+  "browser": "Installed Google Chrome",
+  "mobileWidth": 390,
+  "finalStoneCheck": {
+    "svgSha256": "bc8ee61ebd019950738914e47018501ff6f9ae9768a716f7c503d60bc8d0b7ad",
+    "renderedSizes": [
+      32,
+      64,
+      192,
+      512,
+      1024
+    ],
+    "browserReport": "review/vectors/sacred-stone-browser-checks.json",
+    "diagnosticReport": "review/vectors/sacred-stone-quality.json",
+    "glyphs": 12,
+    "counters": 12,
+    "inscription": [
+      "600",
+      "000",
+      "000",
+      "000"
+    ],
+    "originalPngsPreserved": 163,
+    "otherDistributedSvgsPreserved": 162
+  }
+}

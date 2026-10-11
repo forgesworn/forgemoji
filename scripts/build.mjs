@@ -4,6 +4,7 @@ import { createHash } from 'node:crypto';
 import { fileURLToPath } from 'node:url';
 import { sheets, definitions } from './definitions.mjs';
 const root = fileURLToPath(new URL('../', import.meta.url));
+const { version } = JSON.parse(await readFile(`${root}package.json`, 'utf8'));
 const onlyIndex=process.argv.indexOf('--only');
 const onlySource=onlyIndex<0?null:process.argv[onlyIndex+1]?.split(',');
 if(onlyIndex>=0 && (!onlySource || onlySource.some(source=>!sheets.some(sheet=>sheet.file===source))))throw new Error('--only requires recorded source sheet filenames, separated by commas');
@@ -78,6 +79,6 @@ for (const sheet of sheets) {
 }
 const hands = definitions.filter(definition => definition.toneable);
 if(!onlySource)for (let tone = 1; tone <= 5; tone++) for (let index = 0; index < hands.length; index++) await crop(`${root}sources/human-hands.png`,6,5,(tone-1)*6+index,hands[index],tone);
-const manifest = { version:'0.1.2', creator:'TheCryptoDonkey', model:'gpt-image-2.5-sunburst', license:'MIT', definitions:[...hands,...definitions.filter(definition => !definition.toneable)], artwork };
+const manifest = { version, creator:'TheCryptoDonkey', model:'gpt-image-2.5-sunburst', license:'MIT', definitions:[...hands,...definitions.filter(definition => !definition.toneable)], artwork };
 await writeFile(`${root}manifest.json`,JSON.stringify(manifest,null,2)+'\n');
 console.log(`Built ${artwork.length} PNGs; ${definitions.length} base definitions.`);

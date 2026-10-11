@@ -1,0 +1,15 @@
+{
+  "svg": "svg/tiger.svg",
+  "source": "png/tiger.png",
+  "previousBytes": 221207,
+  "bytes": 9398,
+  "gzipBytes": 2547,
+  "reductionPercent": 95.75,
+  "sha256": "885595ef01bef7acfe9adcf621223b2a3e56c4bbf271f17833e114a8dbc33500",
+  "paths": 16,
+  "gradients": 14,
+  "gradientStops": 53,
+  "chromeLibrsvgMeanAbsoluteChannelDifference": 1.2445,
+  "referenceMeanAbsoluteChannelDifference": 10.965,
+  "note": "Native component reconstruction, with smooth gradients and reference-measured geometry; remains a visual approximation rather than a pixel-identical encoding. All other SVGs and all PNGs retain their previous hashes."
+}
