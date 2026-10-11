@@ -1,6 +1,6 @@
 {
   "name": "@forgesworn/forgemoji",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Original familiar Unicode emoji artwork by TheCryptoDonkey for ForgeSworn. Bundle locally, without a graphics service.",
   "type": "module",
   "license": "MIT",

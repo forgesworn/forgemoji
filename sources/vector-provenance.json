@@ -759,12 +759,11 @@
     {
       "slug": "monkey",
       "emoji": "🐵",
-      "strategy": "png-reference-fitted-cubic-contours-and-continuous-native-vector-colour-ramps",
-      "bytes": 104041,
-      "materialPaths": 147,
+      "strategy": "component-authored-reference-fitted-monkey-with-compact-material-gradients",
+      "bytes": 6005,
+      "materialPaths": 9,
       "source": "png/monkey.png",
       "sourceSha256": "fdda6b09bc42de4432e4d50efed7599d4e6f2c60dc69897411dbf264a974d35b",
-      "colourResolution": 96,
       "optimisation": "SVGO 4.1.0; three-decimal geometry; colour/alpha ramp error bounded at 0.8/255"
     },
     {

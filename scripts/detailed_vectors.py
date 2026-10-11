@@ -159,6 +159,9 @@ def photo_source(slug):
 
 
 def rebuild(slug,title):
+    if slug == 'monkey':
+        from monkey_vectors import rebuild as rebuild_monkey
+        return rebuild_monkey(title)
     if slug == 'tiger':
         from tiger_vectors import rebuild as rebuild_tiger
         return rebuild_tiger(title)

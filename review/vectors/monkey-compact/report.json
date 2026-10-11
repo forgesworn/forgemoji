@@ -1,0 +1,575 @@
+{
+  "reference": {
+    "file": "png/monkey.png",
+    "width": 192,
+    "height": 192,
+    "sha256": "fdda6b09bc42de4432e4d50efed7599d4e6f2c60dc69897411dbf264a974d35b"
+  },
+  "candidate": {
+    "bytes": 6005,
+    "gzipBytes": 1770,
+    "sha256": "eea346d482f665fb504e03b5c912a347bcb4d62953cfa41c7678b8d095e3a0a9",
+    "viewBox": [
+      0.0,
+      0.0,
+      192.0,
+      192.0
+    ],
+    "paths": 9,
+    "pathCommands": 37,
+    "pathNumbers": 256,
+    "gradients": 11,
+    "stops": 40,
+    "filters": 4,
+    "uses": 0,
+    "shapeElements": 17,
+    "filterPrimitives": 12,
+    "clipPaths": 1,
+    "masks": 0,
+    "warnings": []
+  },
+  "previous": {
+    "bytes": 104041,
+    "gzipBytes": 15633,
+    "sha256": "a9a9ead100841c230d0a7fe409e17c4b71b2c7226588cd19808e006cde69c1fe",
+    "viewBox": [
+      0.0,
+      0.0,
+      192.0,
+      192.0
+    ],
+    "paths": 147,
+    "pathCommands": 926,
+    "pathNumbers": 1911,
+    "gradients": 74,
+    "stops": 1858,
+    "filters": 0,
+    "uses": 0,
+    "shapeElements": 148,
+    "filterPrimitives": 0,
+    "clipPaths": 1,
+    "masks": 2,
+    "warnings": []
+  },
+  "unoptimised": {
+    "bytes": 6339,
+    "gzipBytes": 1897,
+    "sha256": "6e263fbfefa7e75d75c69f83140c941b21a3e036d9b6d11993d17d57daefa119",
+    "viewBox": [
+      0.0,
+      0.0,
+      192.0,
+      192.0
+    ],
+    "paths": 9,
+    "pathCommands": 61,
+    "pathNumbers": 256,
+    "gradients": 11,
+    "stops": 40,
+    "filters": 4,
+    "uses": 0,
+    "shapeElements": 17,
+    "filterPrimitives": 12,
+    "clipPaths": 1,
+    "masks": 0,
+    "warnings": []
+  },
+  "renders": [
+    {
+      "longEdge": 24,
+      "width": 24,
+      "height": 24,
+      "visiblePixels": 265,
+      "alphaBounds": [
+        1,
+        3,
+        23,
+        21
+      ],
+      "referenceAlphaBounds": [
+        0,
+        1,
+        24,
+        23
+      ],
+      "referenceComparison": {
+        "meanAbsoluteChannelErrorByBackground": {
+          "black": 5.1493,
+          "white": 6.9288
+        },
+        "maxBackgroundMeanAbsoluteChannelError": 6.9288,
+        "foregroundPixels": 268,
+        "foregroundMeanAbsoluteChannelErrorByBackground": {
+          "black": 10.7861,
+          "white": 14.2525
+        },
+        "maxBackgroundForegroundMeanAbsoluteChannelError": 14.2525,
+        "maxAbsoluteChannelError": 99,
+        "alphaMeanAbsoluteError": 4.7205,
+        "alphaMaxAbsoluteError": 102,
+        "silhouetteIoUAtAlpha128": 0.939024
+      },
+      "transparentPaddingWholePixelsChecked": [
+        1,
+        1
+      ],
+      "previousReferenceComparison": {
+        "meanAbsoluteChannelErrorByBackground": {
+          "black": 5.2656,
+          "white": 5.5237
+        },
+        "maxBackgroundMeanAbsoluteChannelError": 5.5237,
+        "foregroundPixels": 264,
+        "foregroundMeanAbsoluteChannelErrorByBackground": {
+          "black": 11.2336,
+          "white": 11.5795
+        },
+        "maxBackgroundForegroundMeanAbsoluteChannelError": 11.5795,
+        "maxAbsoluteChannelError": 104,
+        "alphaMeanAbsoluteError": 1.5764,
+        "alphaMaxAbsoluteError": 27,
+        "silhouetteIoUAtAlpha128": 1.0
+      },
+      "compactionComparison": {
+        "meanAbsoluteChannelErrorByBackground": {
+          "black": 0.0,
+          "white": 0.0
+        },
+        "maxBackgroundMeanAbsoluteChannelError": 0.0,
+        "foregroundPixels": 265,
+        "foregroundMeanAbsoluteChannelErrorByBackground": {
+          "black": 0.0,
+          "white": 0.0
+        },
+        "maxBackgroundForegroundMeanAbsoluteChannelError": 0.0,
+        "maxAbsoluteChannelError": 0,
+        "alphaMeanAbsoluteError": 0.0,
+        "alphaMaxAbsoluteError": 0,
+        "silhouetteIoUAtAlpha128": 1.0
+      }
+    },
+    {
+      "longEdge": 32,
+      "width": 32,
+      "height": 32,
+      "visiblePixels": 464,
+      "alphaBounds": [
+        1,
+        4,
+        31,
+        28
+      ],
+      "referenceAlphaBounds": [
+        0,
+        2,
+        32,
+        30
+      ],
+      "referenceComparison": {
+        "meanAbsoluteChannelErrorByBackground": {
+          "black": 5.2132,
+          "white": 6.7923
+        },
+        "maxBackgroundMeanAbsoluteChannelError": 6.7923,
+        "foregroundPixels": 470,
+        "foregroundMeanAbsoluteChannelErrorByBackground": {
+          "black": 11.1113,
+          "white": 14.2929
+        },
+        "maxBackgroundForegroundMeanAbsoluteChannelError": 14.2929,
+        "maxAbsoluteChannelError": 113,
+        "alphaMeanAbsoluteError": 4.876,
+        "alphaMaxAbsoluteError": 115,
+        "silhouetteIoUAtAlpha128": 0.958716
+      },
+      "transparentPaddingWholePixelsChecked": [
+        1,
+        1
+      ],
+      "previousReferenceComparison": {
+        "meanAbsoluteChannelErrorByBackground": {
+          "black": 4.2054,
+          "white": 4.5811
+        },
+        "maxBackgroundMeanAbsoluteChannelError": 4.5811,
+        "foregroundPixels": 454,
+        "foregroundMeanAbsoluteChannelErrorByBackground": {
+          "black": 9.2768,
+          "white": 9.7313
+        },
+        "maxBackgroundForegroundMeanAbsoluteChannelError": 9.7313,
+        "maxAbsoluteChannelError": 72,
+        "alphaMeanAbsoluteError": 1.8867,
+        "alphaMaxAbsoluteError": 55,
+        "silhouetteIoUAtAlpha128": 0.997613
+      },
+      "compactionComparison": {
+        "meanAbsoluteChannelErrorByBackground": {
+          "black": 0.0,
+          "white": 0.0
+        },
+        "maxBackgroundMeanAbsoluteChannelError": 0.0,
+        "foregroundPixels": 464,
+        "foregroundMeanAbsoluteChannelErrorByBackground": {
+          "black": 0.0,
+          "white": 0.0
+        },
+        "maxBackgroundForegroundMeanAbsoluteChannelError": 0.0,
+        "maxAbsoluteChannelError": 0,
+        "alphaMeanAbsoluteError": 0.0,
+        "alphaMaxAbsoluteError": 0,
+        "silhouetteIoUAtAlpha128": 1.0
+      }
+    },
+    {
+      "longEdge": 64,
+      "width": 64,
+      "height": 64,
+      "visiblePixels": 1770,
+      "alphaBounds": [
+        3,
+        9,
+        61,
+        56
+      ],
+      "referenceAlphaBounds": [
+        1,
+        6,
+        63,
+        57
+      ],
+      "referenceComparison": {
+        "meanAbsoluteChannelErrorByBackground": {
+          "black": 5.2892,
+          "white": 6.8101
+        },
+        "maxBackgroundMeanAbsoluteChannelError": 6.8101,
+        "foregroundPixels": 1792,
+        "foregroundMeanAbsoluteChannelErrorByBackground": {
+          "black": 11.9606,
+          "white": 15.2866
+        },
+        "maxBackgroundForegroundMeanAbsoluteChannelError": 15.2866,
+        "maxAbsoluteChannelError": 195,
+        "alphaMeanAbsoluteError": 4.426,
+        "alphaMaxAbsoluteError": 196,
+        "silhouetteIoUAtAlpha128": 0.963668
+      },
+      "transparentPaddingWholePixelsChecked": [
+        2,
+        2
+      ],
+      "previousReferenceComparison": {
+        "meanAbsoluteChannelErrorByBackground": {
+          "black": 2.2446,
+          "white": 2.9748
+        },
+        "maxBackgroundMeanAbsoluteChannelError": 2.9748,
+        "foregroundPixels": 1752,
+        "foregroundMeanAbsoluteChannelErrorByBackground": {
+          "black": 5.1157,
+          "white": 6.6828
+        },
+        "maxBackgroundForegroundMeanAbsoluteChannelError": 6.6828,
+        "maxAbsoluteChannelError": 55,
+        "alphaMeanAbsoluteError": 2.0771,
+        "alphaMaxAbsoluteError": 57,
+        "silhouetteIoUAtAlpha128": 0.985731
+      },
+      "compactionComparison": {
+        "meanAbsoluteChannelErrorByBackground": {
+          "black": 0.0,
+          "white": 0.0
+        },
+        "maxBackgroundMeanAbsoluteChannelError": 0.0,
+        "foregroundPixels": 1770,
+        "foregroundMeanAbsoluteChannelErrorByBackground": {
+          "black": 0.0,
+          "white": 0.0
+        },
+        "maxBackgroundForegroundMeanAbsoluteChannelError": 0.0,
+        "maxAbsoluteChannelError": 0,
+        "alphaMeanAbsoluteError": 0.0,
+        "alphaMaxAbsoluteError": 0,
+        "silhouetteIoUAtAlpha128": 1.0
+      }
+    },
+    {
+      "longEdge": 192,
+      "width": 192,
+      "height": 192,
+      "visiblePixels": 15566,
+      "alphaBounds": [
+        9,
+        27,
+        183,
+        166
+      ],
+      "referenceAlphaBounds": [
+        8,
+        25,
+        184,
+        166
+      ],
+      "referenceComparison": {
+        "meanAbsoluteChannelErrorByBackground": {
+          "black": 5.4051,
+          "white": 7.0195
+        },
+        "maxBackgroundMeanAbsoluteChannelError": 7.0195,
+        "foregroundPixels": 15720,
+        "foregroundMeanAbsoluteChannelErrorByBackground": {
+          "black": 12.6145,
+          "white": 16.3689
+        },
+        "maxBackgroundForegroundMeanAbsoluteChannelError": 16.3689,
+        "maxAbsoluteChannelError": 254,
+        "alphaMeanAbsoluteError": 4.3657,
+        "alphaMaxAbsoluteError": 255,
+        "silhouetteIoUAtAlpha128": 0.965715
+      },
+      "transparentPaddingWholePixelsChecked": [
+        8,
+        8
+      ],
+      "previousReferenceComparison": {
+        "meanAbsoluteChannelErrorByBackground": {
+          "black": 3.3615,
+          "white": 4.1251
+        },
+        "maxBackgroundMeanAbsoluteChannelError": 4.1251,
+        "foregroundPixels": 15345,
+        "foregroundMeanAbsoluteChannelErrorByBackground": {
+          "black": 7.9844,
+          "white": 9.7867
+        },
+        "maxBackgroundForegroundMeanAbsoluteChannelError": 9.7867,
+        "maxAbsoluteChannelError": 152,
+        "alphaMeanAbsoluteError": 2.2975,
+        "alphaMaxAbsoluteError": 143,
+        "silhouetteIoUAtAlpha128": 0.983954
+      },
+      "compactionComparison": {
+        "meanAbsoluteChannelErrorByBackground": {
+          "black": 0.0,
+          "white": 0.0
+        },
+        "maxBackgroundMeanAbsoluteChannelError": 0.0,
+        "foregroundPixels": 15566,
+        "foregroundMeanAbsoluteChannelErrorByBackground": {
+          "black": 0.0,
+          "white": 0.0
+        },
+        "maxBackgroundForegroundMeanAbsoluteChannelError": 0.0,
+        "maxAbsoluteChannelError": 0,
+        "alphaMeanAbsoluteError": 0.0,
+        "alphaMaxAbsoluteError": 0,
+        "silhouetteIoUAtAlpha128": 1.0
+      }
+    },
+    {
+      "longEdge": 512,
+      "width": 512,
+      "height": 512,
+      "visiblePixels": 109798,
+      "alphaBounds": [
+        25,
+        73,
+        487,
+        442
+      ],
+      "referenceAlphaBounds": [
+        20,
+        66,
+        494,
+        445
+      ],
+      "referenceComparison": {
+        "meanAbsoluteChannelErrorByBackground": {
+          "black": 5.489,
+          "white": 7.0584
+        },
+        "maxBackgroundMeanAbsoluteChannelError": 7.0584,
+        "foregroundPixels": 111462,
+        "foregroundMeanAbsoluteChannelErrorByBackground": {
+          "black": 12.8263,
+          "white": 16.4833
+        },
+        "maxBackgroundForegroundMeanAbsoluteChannelError": 16.4833,
+        "maxAbsoluteChannelError": 254,
+        "alphaMeanAbsoluteError": 4.4786,
+        "alphaMaxAbsoluteError": 255,
+        "silhouetteIoUAtAlpha128": 0.966235
+      },
+      "transparentPaddingWholePixelsChecked": [
+        21,
+        21
+      ],
+      "previousReferenceComparison": {
+        "meanAbsoluteChannelErrorByBackground": {
+          "black": 3.3518,
+          "white": 4.0213
+        },
+        "maxBackgroundMeanAbsoluteChannelError": 4.0213,
+        "foregroundPixels": 109366,
+        "foregroundMeanAbsoluteChannelErrorByBackground": {
+          "black": 7.9144,
+          "white": 9.4773
+        },
+        "maxBackgroundForegroundMeanAbsoluteChannelError": 9.4773,
+        "maxAbsoluteChannelError": 179,
+        "alphaMeanAbsoluteError": 2.3668,
+        "alphaMaxAbsoluteError": 200,
+        "silhouetteIoUAtAlpha128": 0.982266
+      },
+      "compactionComparison": {
+        "meanAbsoluteChannelErrorByBackground": {
+          "black": 0.0,
+          "white": 0.0
+        },
+        "maxBackgroundMeanAbsoluteChannelError": 0.0,
+        "foregroundPixels": 109798,
+        "foregroundMeanAbsoluteChannelErrorByBackground": {
+          "black": 0.0,
+          "white": 0.0
+        },
+        "maxBackgroundForegroundMeanAbsoluteChannelError": 0.0,
+        "maxAbsoluteChannelError": 0,
+        "alphaMeanAbsoluteError": 0.0,
+        "alphaMaxAbsoluteError": 0,
+        "silhouetteIoUAtAlpha128": 1.0
+      }
+    },
+    {
+      "longEdge": 1024,
+      "width": 1024,
+      "height": 1024,
+      "visiblePixels": 438154,
+      "alphaBounds": [
+        50,
+        146,
+        974,
+        883
+      ],
+      "referenceAlphaBounds": [
+        40,
+        131,
+        988,
+        891
+      ],
+      "referenceComparison": {
+        "meanAbsoluteChannelErrorByBackground": {
+          "black": 5.5129,
+          "white": 7.0999
+        },
+        "maxBackgroundMeanAbsoluteChannelError": 7.0999,
+        "foregroundPixels": 445390,
+        "foregroundMeanAbsoluteChannelErrorByBackground": {
+          "black": 12.895,
+          "white": 16.5987
+        },
+        "maxBackgroundForegroundMeanAbsoluteChannelError": 16.5987,
+        "maxAbsoluteChannelError": 254,
+        "alphaMeanAbsoluteError": 4.5251,
+        "alphaMaxAbsoluteError": 255,
+        "silhouetteIoUAtAlpha128": 0.966136
+      },
+      "transparentPaddingWholePixelsChecked": [
+        42,
+        42
+      ],
+      "previousReferenceComparison": {
+        "meanAbsoluteChannelErrorByBackground": {
+          "black": 3.3984,
+          "white": 4.0556
+        },
+        "maxBackgroundMeanAbsoluteChannelError": 4.0556,
+        "foregroundPixels": 437458,
+        "foregroundMeanAbsoluteChannelErrorByBackground": {
+          "black": 8.0255,
+          "white": 9.5594
+        },
+        "maxBackgroundForegroundMeanAbsoluteChannelError": 9.5594,
+        "maxAbsoluteChannelError": 192,
+        "alphaMeanAbsoluteError": 2.3843,
+        "alphaMaxAbsoluteError": 215,
+        "silhouetteIoUAtAlpha128": 0.980991
+      },
+      "compactionComparison": {
+        "meanAbsoluteChannelErrorByBackground": {
+          "black": 0.0,
+          "white": 0.0
+        },
+        "maxBackgroundMeanAbsoluteChannelError": 0.0,
+        "foregroundPixels": 438154,
+        "foregroundMeanAbsoluteChannelErrorByBackground": {
+          "black": 0.0,
+          "white": 0.0
+        },
+        "maxBackgroundForegroundMeanAbsoluteChannelError": 0.0,
+        "maxAbsoluteChannelError": 0,
+        "alphaMeanAbsoluteError": 0.0,
+        "alphaMaxAbsoluteError": 0,
+        "silhouetteIoUAtAlpha128": 1.0
+      }
+    }
+  ],
+  "renderer": "rsvg-convert version 2.62.3\n\nlibraries used:\n  cairo 1.18.4\n  pango 1.58.2\n  harfbuzz 14.3.1\n  fontconfig 2.18.3",
+  "browserVerification": "Not recorded by this static helper",
+  "ownerAcceptance": "Not recorded by this helper",
+  "note": "Channel errors use 0\u2013255 units. Foreground is the union of alpha >32; silhouette IoU uses alpha >=128. Metrics are diagnostic, not visual acceptance thresholds. Enlarged PNGs add no detail. Inspect actual Chrome separately.",
+  "plainReductionPercent": 94.23,
+  "transparentPaddingChecked": 8,
+  "referenceComparisonNative": {
+    "meanAbsoluteChannelErrorByBackground": {
+      "black": 5.4051,
+      "white": 7.0195
+    },
+    "maxBackgroundMeanAbsoluteChannelError": 7.0195,
+    "foregroundPixels": 15720,
+    "foregroundMeanAbsoluteChannelErrorByBackground": {
+      "black": 12.6145,
+      "white": 16.3689
+    },
+    "maxBackgroundForegroundMeanAbsoluteChannelError": 16.3689,
+    "maxAbsoluteChannelError": 254,
+    "alphaMeanAbsoluteError": 4.3657,
+    "alphaMaxAbsoluteError": 255,
+    "silhouetteIoUAtAlpha128": 0.965715
+  },
+  "previousReferenceComparisonNative": {
+    "meanAbsoluteChannelErrorByBackground": {
+      "black": 3.3615,
+      "white": 4.1251
+    },
+    "maxBackgroundMeanAbsoluteChannelError": 4.1251,
+    "foregroundPixels": 15345,
+    "foregroundMeanAbsoluteChannelErrorByBackground": {
+      "black": 7.9844,
+      "white": 9.7867
+    },
+    "maxBackgroundForegroundMeanAbsoluteChannelError": 9.7867,
+    "maxAbsoluteChannelError": 152,
+    "alphaMeanAbsoluteError": 2.2975,
+    "alphaMaxAbsoluteError": 143,
+    "silhouetteIoUAtAlpha128": 0.983954
+  },
+  "compactionComparisonNative": {
+    "meanAbsoluteChannelErrorByBackground": {
+      "black": 0.0,
+      "white": 0.0
+    },
+    "maxBackgroundMeanAbsoluteChannelError": 0.0,
+    "foregroundPixels": 15566,
+    "foregroundMeanAbsoluteChannelErrorByBackground": {
+      "black": 0.0,
+      "white": 0.0
+    },
+    "maxBackgroundForegroundMeanAbsoluteChannelError": 0.0,
+    "maxAbsoluteChannelError": 0,
+    "alphaMeanAbsoluteError": 0.0,
+    "alphaMaxAbsoluteError": 0,
+    "silhouetteIoUAtAlpha128": 1.0
+  },
+  "optimisationPlainReductionPercent": 5.27
+}
