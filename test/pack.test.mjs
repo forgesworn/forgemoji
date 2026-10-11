@@ -56,8 +56,8 @@ test('currency and brands are explicit symbols and known shortcodes', () => {
 });
 test('detailed familiar vectors stay within plain and compressed download budgets', async () => {
  const custom = new Set(definitions.filter(item=>item.kind==='custom').map(item=>item.slug));
- const rawLimits = {'tiger':16*1024,'lion':16*1024,'jumping-spider':768*1024,'sacred-stone':32*1024};
- const gzipLimits = {'tiger':4*1024,'lion':4*1024,'jumping-spider':192*1024,'sacred-stone':8*1024};
+ const rawLimits = {'monkey':16*1024,'tiger':16*1024,'lion':16*1024,'jumping-spider':768*1024,'sacred-stone':32*1024};
+ const gzipLimits = {'monkey':4*1024,'tiger':4*1024,'lion':4*1024,'jumping-spider':192*1024,'sacred-stone':8*1024};
  const familiar=vectorArtwork.filter(item=>!custom.has(item.slug));
  let compressedTotal=0;
  for(const image of familiar) {

@@ -1,5 +1,5 @@
 {
-  "version": "0.2.0",
+  "version": "0.2.1",
   "creator": "TheCryptoDonkey",
   "model": "gpt-image-2.5-sunburst",
   "license": "MIT",
@@ -3749,8 +3749,8 @@
       "slug": "monkey",
       "tone": 0,
       "file": "svg/monkey.svg",
-      "bytes": 104041,
-      "sha256": "a9a9ead100841c230d0a7fe409e17c4b71b2c7226588cd19808e006cde69c1fe"
+      "bytes": 6005,
+      "sha256": "eea346d482f665fb504e03b5c912a347bcb4d62953cfa41c7678b8d095e3a0a9"
     },
     {
       "emoji": "🐔",
