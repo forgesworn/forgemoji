@@ -1,5 +1,5 @@
 {
-  "version": "0.1.2",
+  "version": "0.2.0",
   "creator": "TheCryptoDonkey",
   "model": "gpt-image-2.5-sunburst",
   "license": "MIT",
@@ -1121,7 +1121,14 @@
       "keywords": [
         "pizza",
         "food",
-        "slice"
+        "slice",
+        "vegetarian",
+        "veggie",
+        "mushroom",
+        "tomato",
+        "pepper",
+        "olive",
+        "onion"
       ],
       "category": "Food",
       "toneable": false
@@ -3067,6 +3074,1475 @@
       "file": "png/fs-vitark-record.png",
       "bytes": 16227,
       "sha256": "9e51b03a8270b5fc1b7f7c3bc0615e4bec046feaaa281a0a9eb6cc08dc455e45"
+    }
+  ],
+  "vectorArtwork": [
+    {
+      "emoji": "😄",
+      "baseEmoji": "😄",
+      "slug": "happy",
+      "tone": 0,
+      "file": "svg/happy.svg",
+      "bytes": 18446,
+      "sha256": "64a282cda817400a1248b5eb8c1c2420d2ca9bbfef9b7df1fe41a5270c49251f"
+    },
+    {
+      "emoji": "😂",
+      "baseEmoji": "😂",
+      "slug": "tears-of-joy",
+      "tone": 0,
+      "file": "svg/tears-of-joy.svg",
+      "bytes": 22562,
+      "sha256": "a4bed79824d08da4d297d566a29fa149de4a0f8469f19d5f39fdcdab994e5187"
+    },
+    {
+      "emoji": "😍",
+      "baseEmoji": "😍",
+      "slug": "heart-eyes",
+      "tone": 0,
+      "file": "svg/heart-eyes.svg",
+      "bytes": 13878,
+      "sha256": "a645e746a6dc113356e8887625fd1353a885b9ece4d5033f1c01818e5ea638f9"
+    },
+    {
+      "emoji": "😎",
+      "baseEmoji": "😎",
+      "slug": "cool",
+      "tone": 0,
+      "file": "svg/cool.svg",
+      "bytes": 15667,
+      "sha256": "14b7d9c3ca784c2b3714eb3994a6755ab75d5aedb9cb1d52a0dd31f5e237f050"
+    },
+    {
+      "emoji": "😉",
+      "baseEmoji": "😉",
+      "slug": "wink",
+      "tone": 0,
+      "file": "svg/wink.svg",
+      "bytes": 11873,
+      "sha256": "31eb6c28472f170e4e3c4e3ed33a82b1d4c0e952f115f07baabc6989c332dcd1"
+    },
+    {
+      "emoji": "😘",
+      "baseEmoji": "😘",
+      "slug": "kiss",
+      "tone": 0,
+      "file": "svg/kiss.svg",
+      "bytes": 15176,
+      "sha256": "a736391553e19eb82f8a15e86a971d918d4929c10615a55043579c7d517e8997"
+    },
+    {
+      "emoji": "😢",
+      "baseEmoji": "😢",
+      "slug": "sad",
+      "tone": 0,
+      "file": "svg/sad.svg",
+      "bytes": 17452,
+      "sha256": "263dd4d8b13cc3cc1f7800e90c87f8c69b6408ed90a2e654bb2a8b2381e0629c"
+    },
+    {
+      "emoji": "😭",
+      "baseEmoji": "😭",
+      "slug": "crying",
+      "tone": 0,
+      "file": "svg/crying.svg",
+      "bytes": 18443,
+      "sha256": "baebfff1c5b91dabe8495267a5463a73144161b302dac98bc6f28db77f74b0fa"
+    },
+    {
+      "emoji": "😠",
+      "baseEmoji": "😠",
+      "slug": "angry",
+      "tone": 0,
+      "file": "svg/angry.svg",
+      "bytes": 2084,
+      "sha256": "d3ce13a935163a1b99f6737d049ede97b2f229d96723d6c157e5514c3b8ef033"
+    },
+    {
+      "emoji": "😮",
+      "baseEmoji": "😮",
+      "slug": "surprised",
+      "tone": 0,
+      "file": "svg/surprised.svg",
+      "bytes": 11626,
+      "sha256": "bc79bf59bdf97d4f449fe3dc19a5ef560f25b4420f66531c2aff3c14f62b03a1"
+    },
+    {
+      "emoji": "🤔",
+      "baseEmoji": "🤔",
+      "slug": "thinking",
+      "tone": 0,
+      "file": "svg/thinking.svg",
+      "bytes": 15954,
+      "sha256": "4dd3fd147dfea3bbac657ab32d7a0d8f789272bc6ed1a91525f8af3239b854a0"
+    },
+    {
+      "emoji": "😑",
+      "baseEmoji": "😑",
+      "slug": "unimpressed",
+      "tone": 0,
+      "file": "svg/unimpressed.svg",
+      "bytes": 9773,
+      "sha256": "33e06dbb72a6c6f5485969ab06150acba0b95c7f4bdec2242de85b87cfe6cce3"
+    },
+    {
+      "emoji": "😁",
+      "baseEmoji": "😁",
+      "slug": "grin",
+      "tone": 0,
+      "file": "svg/grin.svg",
+      "bytes": 11832,
+      "sha256": "8cd62b499dedb64510fa76a0aa324ca58ccf59e0409333d7d2bf71aa7ed50cf0"
+    },
+    {
+      "emoji": "🤣",
+      "baseEmoji": "🤣",
+      "slug": "rolling-laughter",
+      "tone": 0,
+      "file": "svg/rolling-laughter.svg",
+      "bytes": 22207,
+      "sha256": "c3b3229affb22da5c0a993dc6a2c1fa78551726053dc008566f11e1e44098ede"
+    },
+    {
+      "emoji": "🥰",
+      "baseEmoji": "🥰",
+      "slug": "love",
+      "tone": 0,
+      "file": "svg/love.svg",
+      "bytes": 20815,
+      "sha256": "5b608c31be6b3edeec68d03fa8b87c091036a570725e1bded180afe3406302b9"
+    },
+    {
+      "emoji": "😱",
+      "baseEmoji": "😱",
+      "slug": "shocked",
+      "tone": 0,
+      "file": "svg/shocked.svg",
+      "bytes": 8977,
+      "sha256": "625bf3e6682dc32fe8556b107afb5d545182206eac1ee73c3dfb63cddd041a1f"
+    },
+    {
+      "emoji": "😴",
+      "baseEmoji": "😴",
+      "slug": "sleepy",
+      "tone": 0,
+      "file": "svg/sleepy.svg",
+      "bytes": 10418,
+      "sha256": "41f014a6ae8d7dd8208f720ac31c8fdccfb8e691d7416a8b2cef81b97de68603"
+    },
+    {
+      "emoji": "😅",
+      "baseEmoji": "😅",
+      "slug": "phew",
+      "tone": 0,
+      "file": "svg/phew.svg",
+      "bytes": 16586,
+      "sha256": "d311e2399924841d48de9b302eccf3dc862c1eded43771ce9e659445db385a81"
+    },
+    {
+      "emoji": "❤️",
+      "baseEmoji": "❤️",
+      "slug": "heart",
+      "tone": 0,
+      "file": "svg/heart.svg",
+      "bytes": 2212,
+      "sha256": "5b3851933eb7ca3ebdecefe7b4c7e12014ee2552c66f3cc770d45e9c43bc75ab"
+    },
+    {
+      "emoji": "💔",
+      "baseEmoji": "💔",
+      "slug": "broken-heart",
+      "tone": 0,
+      "file": "svg/broken-heart.svg",
+      "bytes": 2487,
+      "sha256": "62bebc748682a4a194f55d80e5286574b9e69398c97a7fee28ae19eb474cf4fe"
+    },
+    {
+      "emoji": "🔥",
+      "baseEmoji": "🔥",
+      "slug": "fire",
+      "tone": 0,
+      "file": "svg/fire.svg",
+      "bytes": 3069,
+      "sha256": "8b160ffe14ef71411109da77bde5a22558ac3cbb248a0dbad8b96f93d87792ab"
+    },
+    {
+      "emoji": "🎉",
+      "baseEmoji": "🎉",
+      "slug": "celebrate",
+      "tone": 0,
+      "file": "svg/celebrate.svg",
+      "bytes": 5556,
+      "sha256": "99a83a72aa14830921891b8ec5d629f4b0b2cc1c3cd66d7eed42ce9cb9def091"
+    },
+    {
+      "emoji": "✅",
+      "baseEmoji": "✅",
+      "slug": "yes",
+      "tone": 0,
+      "file": "svg/yes.svg",
+      "bytes": 1886,
+      "sha256": "1c531c58cdf2087ee82de5b1073a5e8125ffa75b812c5847074ba96b0d7109cf"
+    },
+    {
+      "emoji": "❌",
+      "baseEmoji": "❌",
+      "slug": "no",
+      "tone": 0,
+      "file": "svg/no.svg",
+      "bytes": 2079,
+      "sha256": "d537a8469f6fb66d34d4d967da74fd3232dcc968674849d4af00e461dd0fd1a0"
+    },
+    {
+      "emoji": "👍",
+      "baseEmoji": "👍",
+      "slug": "thumbs-up",
+      "tone": 0,
+      "file": "svg/thumbs-up.svg",
+      "bytes": 85622,
+      "sha256": "ba731fb17658e7b899f1267aa4f57091eff0352b38f8ea380d166db5d4ac4c90"
+    },
+    {
+      "emoji": "👎",
+      "baseEmoji": "👎",
+      "slug": "thumbs-down",
+      "tone": 0,
+      "file": "svg/thumbs-down.svg",
+      "bytes": 83976,
+      "sha256": "983893aa8c04988c88574dd0416e9b8a5f3e9145ddbb7121e47598e422d36b56"
+    },
+    {
+      "emoji": "👋",
+      "baseEmoji": "👋",
+      "slug": "wave",
+      "tone": 0,
+      "file": "svg/wave.svg",
+      "bytes": 115227,
+      "sha256": "89a7ebb9a09f139c557a543eafaf944e52a1dc0de035af67948ff8e6eb162029"
+    },
+    {
+      "emoji": "👏",
+      "baseEmoji": "👏",
+      "slug": "clap",
+      "tone": 0,
+      "file": "svg/clap.svg",
+      "bytes": 114744,
+      "sha256": "1e45cdab321c2940b9491e87a69840a26ba73b525eb517f1eb35fde66574bfba"
+    },
+    {
+      "emoji": "🙏",
+      "baseEmoji": "🙏",
+      "slug": "thanks",
+      "tone": 0,
+      "file": "svg/thanks.svg",
+      "bytes": 107973,
+      "sha256": "d2e54f5dea472419a3473757d69362bc227750d20f9fcc84e91873687e6e930e"
+    },
+    {
+      "emoji": "✌️",
+      "baseEmoji": "✌️",
+      "slug": "peace",
+      "tone": 0,
+      "file": "svg/peace.svg",
+      "bytes": 97974,
+      "sha256": "4b33da74335f80e81ce57a15daf4b7015a2316c5a44f242d9a8f8400c28cbbce"
+    },
+    {
+      "emoji": "😀",
+      "baseEmoji": "😀",
+      "slug": "grinning",
+      "tone": 0,
+      "file": "svg/grinning.svg",
+      "bytes": 11741,
+      "sha256": "bce25562b0b2d80514c7e2b0197cd13aaee2fb7a17853a24ea3d897b55b91f3c"
+    },
+    {
+      "emoji": "🙂",
+      "baseEmoji": "🙂",
+      "slug": "slight-smile",
+      "tone": 0,
+      "file": "svg/slight-smile.svg",
+      "bytes": 9249,
+      "sha256": "3a208470318db1e6b25ed589e438115bc74498d034ba329f23532f21146d0b49"
+    },
+    {
+      "emoji": "🙃",
+      "baseEmoji": "🙃",
+      "slug": "upside-down",
+      "tone": 0,
+      "file": "svg/upside-down.svg",
+      "bytes": 9288,
+      "sha256": "05f43cb25c7e02fbd1f0aa05cd3f445e192ab17890e0c01ce16df34c9ca99207"
+    },
+    {
+      "emoji": "😊",
+      "baseEmoji": "😊",
+      "slug": "blush",
+      "tone": 0,
+      "file": "svg/blush.svg",
+      "bytes": 10443,
+      "sha256": "e882daa8751687d783a010bd3c50ea92489d10e61a3225eb3f6e6332988eb31e"
+    },
+    {
+      "emoji": "😇",
+      "baseEmoji": "😇",
+      "slug": "innocent",
+      "tone": 0,
+      "file": "svg/innocent.svg",
+      "bytes": 7471,
+      "sha256": "e5b2e42df6e96a2dde7ff3010b61807f029bdf1781aff6cd03c592da80d70c56"
+    },
+    {
+      "emoji": "🥳",
+      "baseEmoji": "🥳",
+      "slug": "party-face",
+      "tone": 0,
+      "file": "svg/party-face.svg",
+      "bytes": 9377,
+      "sha256": "ce3e87f96103e208da8cfc6dfb298af0836942dd45f8ce9707615e1b74801776"
+    },
+    {
+      "emoji": "🤩",
+      "baseEmoji": "🤩",
+      "slug": "star-eyes",
+      "tone": 0,
+      "file": "svg/star-eyes.svg",
+      "bytes": 11070,
+      "sha256": "c449d32eb5f62399fe5c43e1764b23aebadef42052ce95e5c754708510edb0ba"
+    },
+    {
+      "emoji": "😋",
+      "baseEmoji": "😋",
+      "slug": "delicious",
+      "tone": 0,
+      "file": "svg/delicious.svg",
+      "bytes": 6538,
+      "sha256": "1b19dfebff058b58132c696a16c18896d7c94de120514a939f772f7107da0999"
+    },
+    {
+      "emoji": "😛",
+      "baseEmoji": "😛",
+      "slug": "tongue",
+      "tone": 0,
+      "file": "svg/tongue.svg",
+      "bytes": 6789,
+      "sha256": "b180148b5d0681a8df842b29fe0ced5c251a6b3ea928b110e2c85905837f23da"
+    },
+    {
+      "emoji": "😜",
+      "baseEmoji": "😜",
+      "slug": "wink-tongue",
+      "tone": 0,
+      "file": "svg/wink-tongue.svg",
+      "bytes": 7049,
+      "sha256": "39c614af096800ba4d0419b70a3a2981333b78a55f1b119070a5fb108bbdb80e"
+    },
+    {
+      "emoji": "🤪",
+      "baseEmoji": "🤪",
+      "slug": "zany",
+      "tone": 0,
+      "file": "svg/zany.svg",
+      "bytes": 8149,
+      "sha256": "b896775aab0090db3ad8117baf0fbe8c88587f03aaf04791ec596d70d0a055aa"
+    },
+    {
+      "emoji": "🤑",
+      "baseEmoji": "🤑",
+      "slug": "money-face",
+      "tone": 0,
+      "file": "svg/money-face.svg",
+      "bytes": 7194,
+      "sha256": "4e1ae077af6968c0d6836d940aa9bd795ef78e58a50160ff8184994876e1f33d"
+    },
+    {
+      "emoji": "🤐",
+      "baseEmoji": "🤐",
+      "slug": "zip-mouth",
+      "tone": 0,
+      "file": "svg/zip-mouth.svg",
+      "bytes": 12077,
+      "sha256": "4b131bca85847a57f1605fe7d97a1d337cccbd13c815665fe44cbe13c08bf295"
+    },
+    {
+      "emoji": "🤨",
+      "baseEmoji": "🤨",
+      "slug": "raised-eyebrow",
+      "tone": 0,
+      "file": "svg/raised-eyebrow.svg",
+      "bytes": 11609,
+      "sha256": "c86d9f0ed7cfb5fdb5aa39d951706bd37bc3e4df0bf6fcb5f1204699164e1a41"
+    },
+    {
+      "emoji": "😐",
+      "baseEmoji": "😐",
+      "slug": "neutral",
+      "tone": 0,
+      "file": "svg/neutral.svg",
+      "bytes": 9331,
+      "sha256": "acaa1974b32d333cfef391d84eb51d1bd22ef6819433c15e3f356cd4204265cd"
+    },
+    {
+      "emoji": "🙄",
+      "baseEmoji": "🙄",
+      "slug": "eye-roll",
+      "tone": 0,
+      "file": "svg/eye-roll.svg",
+      "bytes": 14310,
+      "sha256": "2d7fa1c1a41528ac0ad58b343acff4fe527d0c2a5629393260879343ecf35718"
+    },
+    {
+      "emoji": "😏",
+      "baseEmoji": "😏",
+      "slug": "smirk",
+      "tone": 0,
+      "file": "svg/smirk.svg",
+      "bytes": 11893,
+      "sha256": "79080555a8720943d22aa92b267257881c0fd211aef3fd5a69920f28d61b01bb"
+    },
+    {
+      "emoji": "😬",
+      "baseEmoji": "😬",
+      "slug": "grimace",
+      "tone": 0,
+      "file": "svg/grimace.svg",
+      "bytes": 7695,
+      "sha256": "deb29b68c76f3b0d0e8db6003c5b6c223d5afe1bf2868dfa7c5561d65e727141"
+    },
+    {
+      "emoji": "😔",
+      "baseEmoji": "😔",
+      "slug": "pensive",
+      "tone": 0,
+      "file": "svg/pensive.svg",
+      "bytes": 12248,
+      "sha256": "5035521cf261fee9d78c7ecc292ee55772e0f06c4b530d3be96aaacd3572021b"
+    },
+    {
+      "emoji": "🥺",
+      "baseEmoji": "🥺",
+      "slug": "pleading",
+      "tone": 0,
+      "file": "svg/pleading.svg",
+      "bytes": 22102,
+      "sha256": "4c7810fecb26410a23d2b6ed0475e12c426531ddc2ea802fe05f81587e43b1a5"
+    },
+    {
+      "emoji": "😤",
+      "baseEmoji": "😤",
+      "slug": "huff",
+      "tone": 0,
+      "file": "svg/huff.svg",
+      "bytes": 8067,
+      "sha256": "f74a5a541b5dbe94ee379f21005ceb148985a19fd23e18cc0471ae5507a64efb"
+    },
+    {
+      "emoji": "😡",
+      "baseEmoji": "😡",
+      "slug": "furious",
+      "tone": 0,
+      "file": "svg/furious.svg",
+      "bytes": 2032,
+      "sha256": "f466fc446bdd87108fa32a7825e7976963063e8bb393ea36f3d12df3806143df"
+    },
+    {
+      "emoji": "🤯",
+      "baseEmoji": "🤯",
+      "slug": "mind-blown",
+      "tone": 0,
+      "file": "svg/mind-blown.svg",
+      "bytes": 18977,
+      "sha256": "58a2547a5557fc2e66105acc17328347b475f59b2b5e0006584b1f5eb20fe430"
+    },
+    {
+      "emoji": "🥵",
+      "baseEmoji": "🥵",
+      "slug": "hot-face",
+      "tone": 0,
+      "file": "svg/hot-face.svg",
+      "bytes": 3362,
+      "sha256": "006567df368a02cb2f818e859d6b20a2ea078ee8b5557b5b191dff5da7004cd5"
+    },
+    {
+      "emoji": "🥶",
+      "baseEmoji": "🥶",
+      "slug": "cold-face",
+      "tone": 0,
+      "file": "svg/cold-face.svg",
+      "bytes": 4140,
+      "sha256": "11c2e7a39907ec1d84489958a1e28c163cc58303152dbda15ff5ccd11cdac611"
+    },
+    {
+      "emoji": "🤢",
+      "baseEmoji": "🤢",
+      "slug": "nauseated",
+      "tone": 0,
+      "file": "svg/nauseated.svg",
+      "bytes": 2213,
+      "sha256": "d08baf794d3759b57e75bcf9e630f9d235d26ea1ea281c995fdd4388e73b1e08"
+    },
+    {
+      "emoji": "🤮",
+      "baseEmoji": "🤮",
+      "slug": "vomit",
+      "tone": 0,
+      "file": "svg/vomit.svg",
+      "bytes": 15746,
+      "sha256": "0d9c6d552b2a7aeb64decc2c096e6bf17dd017701ad0b34012c96c40eb594f51"
+    },
+    {
+      "emoji": "🤒",
+      "baseEmoji": "🤒",
+      "slug": "fever",
+      "tone": 0,
+      "file": "svg/fever.svg",
+      "bytes": 19756,
+      "sha256": "603c16ee0f3716da3370a765d89bf7711fa56fcaf34a7877fafda4fa39a2aaf0"
+    },
+    {
+      "emoji": "🤕",
+      "baseEmoji": "🤕",
+      "slug": "bandage",
+      "tone": 0,
+      "file": "svg/bandage.svg",
+      "bytes": 8293,
+      "sha256": "cd782f942e2fc1d10fcbd248f6956e568e1c743016b1e25302b5f287bc89e704"
+    },
+    {
+      "emoji": "😷",
+      "baseEmoji": "😷",
+      "slug": "mask",
+      "tone": 0,
+      "file": "svg/mask.svg",
+      "bytes": 9096,
+      "sha256": "f66019dff5e604d45bb2dc439c7ad2bab8dffe8837760d8fe564bd862f0be1e2"
+    },
+    {
+      "emoji": "🐶",
+      "baseEmoji": "🐶",
+      "slug": "dog",
+      "tone": 0,
+      "file": "svg/dog.svg",
+      "bytes": 5228,
+      "sha256": "601666c72373aa166655c1e6f2466f2dda6e8dadabdfb7d6002838d4ebad6702"
+    },
+    {
+      "emoji": "🐱",
+      "baseEmoji": "🐱",
+      "slug": "cat",
+      "tone": 0,
+      "file": "svg/cat.svg",
+      "bytes": 4549,
+      "sha256": "6097f102c13fc1f1db4b12233786bc162ace8c07eae6b36c2b9a770c53cdc047"
+    },
+    {
+      "emoji": "🐭",
+      "baseEmoji": "🐭",
+      "slug": "mouse",
+      "tone": 0,
+      "file": "svg/mouse.svg",
+      "bytes": 4248,
+      "sha256": "80249b7290caa89b9856a6c6ad27be619a55616301b9d344759830df7f08a732"
+    },
+    {
+      "emoji": "🐹",
+      "baseEmoji": "🐹",
+      "slug": "hamster",
+      "tone": 0,
+      "file": "svg/hamster.svg",
+      "bytes": 4868,
+      "sha256": "eeb74ed1107f639d850a2b18e644c101a593663a5bfa52569391cc5ae6f44550"
+    },
+    {
+      "emoji": "🐰",
+      "baseEmoji": "🐰",
+      "slug": "rabbit",
+      "tone": 0,
+      "file": "svg/rabbit.svg",
+      "bytes": 4871,
+      "sha256": "1249e7eeac98920010ec0bcb9f178eef564ae10054a49b61d0990859107873fb"
+    },
+    {
+      "emoji": "🦊",
+      "baseEmoji": "🦊",
+      "slug": "fox",
+      "tone": 0,
+      "file": "svg/fox.svg",
+      "bytes": 5958,
+      "sha256": "4274d9e0691eb263ebe5682b38c47106d3fb36ba4a66cf8f295f5d9d7205669f"
+    },
+    {
+      "emoji": "🐻",
+      "baseEmoji": "🐻",
+      "slug": "bear",
+      "tone": 0,
+      "file": "svg/bear.svg",
+      "bytes": 4763,
+      "sha256": "067d22da08493c42f9e61240e12bcd67d53e7ab5177a0fc01827fc80b1e23d0e"
+    },
+    {
+      "emoji": "🐼",
+      "baseEmoji": "🐼",
+      "slug": "panda",
+      "tone": 0,
+      "file": "svg/panda.svg",
+      "bytes": 4854,
+      "sha256": "26834318cbb70dc8266ecc44ff87acfd8ded7da26420f10dda6d7a551626919d"
+    },
+    {
+      "emoji": "🐨",
+      "baseEmoji": "🐨",
+      "slug": "koala",
+      "tone": 0,
+      "file": "svg/koala.svg",
+      "bytes": 4538,
+      "sha256": "aa48df31c6eb50f765f8aaa019ddfa468d94869794c7df74c9711a2f87979918"
+    },
+    {
+      "emoji": "🐯",
+      "baseEmoji": "🐯",
+      "slug": "tiger",
+      "tone": 0,
+      "file": "svg/tiger.svg",
+      "bytes": 9398,
+      "sha256": "885595ef01bef7acfe9adcf621223b2a3e56c4bbf271f17833e114a8dbc33500"
+    },
+    {
+      "emoji": "🦁",
+      "baseEmoji": "🦁",
+      "slug": "lion",
+      "tone": 0,
+      "file": "svg/lion.svg",
+      "bytes": 15948,
+      "sha256": "061f416358dee08f4d5ec9f25dfbf43fa1e24601908d5e662c4e9a950885d783"
+    },
+    {
+      "emoji": "🐮",
+      "baseEmoji": "🐮",
+      "slug": "cow",
+      "tone": 0,
+      "file": "svg/cow.svg",
+      "bytes": 100049,
+      "sha256": "7f0cc316b15a9ca3d17f4ba06efa390a0e507a97d86dfb5fb23aa1a93e10e93a"
+    },
+    {
+      "emoji": "🐷",
+      "baseEmoji": "🐷",
+      "slug": "pig",
+      "tone": 0,
+      "file": "svg/pig.svg",
+      "bytes": 4374,
+      "sha256": "4e6a8a42b40b7b9dc0599ddfb5f4001aa4c6896c1fda9dab0eec4373ce64e3b4"
+    },
+    {
+      "emoji": "🐸",
+      "baseEmoji": "🐸",
+      "slug": "frog",
+      "tone": 0,
+      "file": "svg/frog.svg",
+      "bytes": 3674,
+      "sha256": "a29ba7de3b77af0a8a21646ead4cac4b2a73699b8c8e38729e65c5362b556706"
+    },
+    {
+      "emoji": "🐵",
+      "baseEmoji": "🐵",
+      "slug": "monkey",
+      "tone": 0,
+      "file": "svg/monkey.svg",
+      "bytes": 104041,
+      "sha256": "a9a9ead100841c230d0a7fe409e17c4b71b2c7226588cd19808e006cde69c1fe"
+    },
+    {
+      "emoji": "🐔",
+      "baseEmoji": "🐔",
+      "slug": "chicken",
+      "tone": 0,
+      "file": "svg/chicken.svg",
+      "bytes": 111260,
+      "sha256": "30a223fe4166070364138b119500523336b75079eeef0e7a8205d8bdaf65a566"
+    },
+    {
+      "emoji": "🐧",
+      "baseEmoji": "🐧",
+      "slug": "penguin",
+      "tone": 0,
+      "file": "svg/penguin.svg",
+      "bytes": 4231,
+      "sha256": "1f0d89dfcde1f002918c7254b72b82f09a9a59658dc431c384742d452e77d17a"
+    },
+    {
+      "emoji": "🦆",
+      "baseEmoji": "🦆",
+      "slug": "duck",
+      "tone": 0,
+      "file": "svg/duck.svg",
+      "bytes": 99236,
+      "sha256": "b061cc9752bc4d210c30ac1d331afc490fcd526ff7624f0041cff4f1c3242f40"
+    },
+    {
+      "emoji": "🦉",
+      "baseEmoji": "🦉",
+      "slug": "owl",
+      "tone": 0,
+      "file": "svg/owl.svg",
+      "bytes": 4712,
+      "sha256": "179af1cd5a2f130156ce91f9e23fb1e2c6085d3c6de439fb1cdb56c1f34cacee"
+    },
+    {
+      "emoji": "🦋",
+      "baseEmoji": "🦋",
+      "slug": "butterfly",
+      "tone": 0,
+      "file": "svg/butterfly.svg",
+      "bytes": 7992,
+      "sha256": "dd88f0b0e7763db022d0a9efa0e51c02b5ef221405b16f2a59a7c2241fa4c201"
+    },
+    {
+      "emoji": "🐝",
+      "baseEmoji": "🐝",
+      "slug": "bee",
+      "tone": 0,
+      "file": "svg/bee.svg",
+      "bytes": 123483,
+      "sha256": "d5d9a15654cde9e4392b49ea34c896fb875f01c13a27e87e64cb8c909b63c8b8"
+    },
+    {
+      "emoji": "🐢",
+      "baseEmoji": "🐢",
+      "slug": "turtle",
+      "tone": 0,
+      "file": "svg/turtle.svg",
+      "bytes": 104862,
+      "sha256": "7e19b0a765b69ed6a1338c26355148282367f3e1fad26381004840ece649d4d8"
+    },
+    {
+      "emoji": "🐙",
+      "baseEmoji": "🐙",
+      "slug": "octopus",
+      "tone": 0,
+      "file": "svg/octopus.svg",
+      "bytes": 111838,
+      "sha256": "822bf9feeb36b9559936ab44d73be29959d1b669dd5e6c0ab763fe44fe1000f1"
+    },
+    {
+      "emoji": "🐳",
+      "baseEmoji": "🐳",
+      "slug": "whale",
+      "tone": 0,
+      "file": "svg/whale.svg",
+      "bytes": 102449,
+      "sha256": "1379d3347637c0a26790f60d3b252da3c8caf61a9a268ab3e99741777eb62e0e"
+    },
+    {
+      "emoji": "🌻",
+      "baseEmoji": "🌻",
+      "slug": "sunflower",
+      "tone": 0,
+      "file": "svg/sunflower.svg",
+      "bytes": 41806,
+      "sha256": "27e5eb43f5bf9a17e33ac596f47af86b5c472414a049e03e9626727efac2bba5"
+    },
+    {
+      "emoji": "🌹",
+      "baseEmoji": "🌹",
+      "slug": "rose",
+      "tone": 0,
+      "file": "svg/rose.svg",
+      "bytes": 179066,
+      "sha256": "500a4dd5d5613e00029bd798fabedbb7f3cee0797f3448b135f4cdbf0dd8f098"
+    },
+    {
+      "emoji": "🌈",
+      "baseEmoji": "🌈",
+      "slug": "rainbow",
+      "tone": 0,
+      "file": "svg/rainbow.svg",
+      "bytes": 5923,
+      "sha256": "f4a94eb9003ae99f4aab572bbeb343d426c4219ffad595e1c9ebec867adf91a4"
+    },
+    {
+      "emoji": "☀️",
+      "baseEmoji": "☀️",
+      "slug": "sun",
+      "tone": 0,
+      "file": "svg/sun.svg",
+      "bytes": 4512,
+      "sha256": "2b933abcc4893015663cd1d97094ffa2e51e196d45e089b0d8448c66aac8c100"
+    },
+    {
+      "emoji": "🌙",
+      "baseEmoji": "🌙",
+      "slug": "moon",
+      "tone": 0,
+      "file": "svg/moon.svg",
+      "bytes": 1534,
+      "sha256": "f1e4f0ced50e61c9e126780b981511b26fd4ba43de213e8154f0b46fa1e91ea6"
+    },
+    {
+      "emoji": "⭐",
+      "baseEmoji": "⭐",
+      "slug": "star",
+      "tone": 0,
+      "file": "svg/star.svg",
+      "bytes": 81269,
+      "sha256": "70d3733b27d2f018d325777fcb1514261616986275feb0ac4f2b6f7105dd45b3"
+    },
+    {
+      "emoji": "🍎",
+      "baseEmoji": "🍎",
+      "slug": "apple",
+      "tone": 0,
+      "file": "svg/apple.svg",
+      "bytes": 88049,
+      "sha256": "99132e8b2c0596d557478aa69feed690f2f5171c6c63772831f01c978ce1af4d"
+    },
+    {
+      "emoji": "🍌",
+      "baseEmoji": "🍌",
+      "slug": "banana",
+      "tone": 0,
+      "file": "svg/banana.svg",
+      "bytes": 109891,
+      "sha256": "a6c5a42f2e0172314374ab4061e81f942283b5ef957494aba2c139458ab15c6f"
+    },
+    {
+      "emoji": "🍓",
+      "baseEmoji": "🍓",
+      "slug": "strawberry",
+      "tone": 0,
+      "file": "svg/strawberry.svg",
+      "bytes": 200177,
+      "sha256": "235b231c06dbb106efcfb94ebb7e8bf087058ddea4502a212a42d736952c6ad4"
+    },
+    {
+      "emoji": "🍉",
+      "baseEmoji": "🍉",
+      "slug": "watermelon",
+      "tone": 0,
+      "file": "svg/watermelon.svg",
+      "bytes": 102515,
+      "sha256": "1ec24fe8411c6490d83ab1b184077f194a41ddd8dbe20752e7840c8884a53858"
+    },
+    {
+      "emoji": "🍋",
+      "baseEmoji": "🍋",
+      "slug": "lemon",
+      "tone": 0,
+      "file": "svg/lemon.svg",
+      "bytes": 142802,
+      "sha256": "4546f5824cc165ea2902fb879e87d08dd054946cfd2d5bf1132719311312d649"
+    },
+    {
+      "emoji": "🥑",
+      "baseEmoji": "🥑",
+      "slug": "avocado",
+      "tone": 0,
+      "file": "svg/avocado.svg",
+      "bytes": 128251,
+      "sha256": "1b5d22485c5d7684ae90133621714e9b3f2a1edeb9537dc3ed5ec33bfb96ccc0"
+    },
+    {
+      "emoji": "🍕",
+      "baseEmoji": "🍕",
+      "slug": "pizza",
+      "tone": 0,
+      "file": "svg/pizza.svg",
+      "bytes": 197456,
+      "sha256": "3a80cec00dfee1f3f5c283b18c1ce6e572d0e3cdee84fd2d4c1960452f672c68"
+    },
+    {
+      "emoji": "🍔",
+      "baseEmoji": "🍔",
+      "slug": "burger",
+      "tone": 0,
+      "file": "svg/burger.svg",
+      "bytes": 132034,
+      "sha256": "52f3fb7d96c7dc66cf3245d5938f300abda4174543e2ecfc6ff6f6ba19e2b8d3"
+    },
+    {
+      "emoji": "🍟",
+      "baseEmoji": "🍟",
+      "slug": "fries",
+      "tone": 0,
+      "file": "svg/fries.svg",
+      "bytes": 151058,
+      "sha256": "c2391956a37a9cad8b9f135769eafcf22580ceac0f25bcf090cbd50c1e18d786"
+    },
+    {
+      "emoji": "🌮",
+      "baseEmoji": "🌮",
+      "slug": "taco",
+      "tone": 0,
+      "file": "svg/taco.svg",
+      "bytes": 16934,
+      "sha256": "5cfd79aa1a56598c50593e7636c54e0e42a023b26e9204a100740e2905cc6c94"
+    },
+    {
+      "emoji": "🍿",
+      "baseEmoji": "🍿",
+      "slug": "popcorn",
+      "tone": 0,
+      "file": "svg/popcorn.svg",
+      "bytes": 230784,
+      "sha256": "a514c9c6d1530c735349d63cf3e723c230cfc7c727a37f994972631404601af7"
+    },
+    {
+      "emoji": "🍰",
+      "baseEmoji": "🍰",
+      "slug": "cake",
+      "tone": 0,
+      "file": "svg/cake.svg",
+      "bytes": 188475,
+      "sha256": "e46e1807bfe5b39656dc15ee2de5ef1926abfc9752b78771ab8a1d681878a9e3"
+    },
+    {
+      "emoji": "🍩",
+      "baseEmoji": "🍩",
+      "slug": "doughnut",
+      "tone": 0,
+      "file": "svg/doughnut.svg",
+      "bytes": 149612,
+      "sha256": "9dc1d69b8f9c45d85462f1fc175965bc6f13f4c970213f6876d8105b2e46ccff"
+    },
+    {
+      "emoji": "🍪",
+      "baseEmoji": "🍪",
+      "slug": "cookie",
+      "tone": 0,
+      "file": "svg/cookie.svg",
+      "bytes": 234007,
+      "sha256": "d4a2a6d649de6e59fa0e0c0cbdd8571581b3e6bb295aa947c71ad123979a7421"
+    },
+    {
+      "emoji": "🍦",
+      "baseEmoji": "🍦",
+      "slug": "ice-cream",
+      "tone": 0,
+      "file": "svg/ice-cream.svg",
+      "bytes": 112716,
+      "sha256": "d09e09b5a39ae609ef41983aa84a4a7c364817579bba8d80be278a69b5561ae7"
+    },
+    {
+      "emoji": "☕",
+      "baseEmoji": "☕",
+      "slug": "coffee",
+      "tone": 0,
+      "file": "svg/coffee.svg",
+      "bytes": 91303,
+      "sha256": "db5d6b9da779077451ac6a7748dace3b28141500699e1d086d540f68307cce93"
+    },
+    {
+      "emoji": "🍺",
+      "baseEmoji": "🍺",
+      "slug": "beer",
+      "tone": 0,
+      "file": "svg/beer.svg",
+      "bytes": 26312,
+      "sha256": "dd638dfe1d15d0293781c896fb33642305895363d4df9189a82ea3b468a2d88b"
+    },
+    {
+      "emoji": "🥂",
+      "baseEmoji": "🥂",
+      "slug": "cheers",
+      "tone": 0,
+      "file": "svg/cheers.svg",
+      "bytes": 114663,
+      "sha256": "b96522132b313ec4be2b044053496f47ec2ac84b6bc47cd6f1db78f0f014f397"
+    },
+    {
+      "emoji": "🎁",
+      "baseEmoji": "🎁",
+      "slug": "gift",
+      "tone": 0,
+      "file": "svg/gift.svg",
+      "bytes": 5088,
+      "sha256": "9600d2ce0fb1f8ae455646166b520b530c0b580bfcf55cf0526a5cbf967f1bef"
+    },
+    {
+      "emoji": "💡",
+      "baseEmoji": "💡",
+      "slug": "idea",
+      "tone": 0,
+      "file": "svg/idea.svg",
+      "bytes": 4037,
+      "sha256": "bd5574da4e8059b426f448b8884975b68d2b1a10ae3924500043c1c42af3473c"
+    },
+    {
+      "emoji": "🔑",
+      "baseEmoji": "🔑",
+      "slug": "key",
+      "tone": 0,
+      "file": "svg/key.svg",
+      "bytes": 97057,
+      "sha256": "008b7e91ac70444bcb1e16ed7cf21dec61d4680f5cdd66493726784cebed06b4"
+    },
+    {
+      "emoji": "🔒",
+      "baseEmoji": "🔒",
+      "slug": "lock",
+      "tone": 0,
+      "file": "svg/lock.svg",
+      "bytes": 3605,
+      "sha256": "9e790b91f9a137501de25576f9a336433b3b6c76e19aad12bbfa530d99ff6f6d"
+    },
+    {
+      "emoji": "🚀",
+      "baseEmoji": "🚀",
+      "slug": "rocket",
+      "tone": 0,
+      "file": "svg/rocket.svg",
+      "bytes": 128282,
+      "sha256": "2c40efbb33e89d2f10de6a1f13cf0d7cafbe2743db4b66d2f627e76e87cd7a72"
+    },
+    {
+      "emoji": "💻",
+      "baseEmoji": "💻",
+      "slug": "laptop",
+      "tone": 0,
+      "file": "svg/laptop.svg",
+      "bytes": 9443,
+      "sha256": "425dd2ec7a02b0f9ff8454853c00475fe7ea3043a19859ddb40116a58b5a0422"
+    },
+    {
+      "emoji": "📱",
+      "baseEmoji": "📱",
+      "slug": "phone",
+      "tone": 0,
+      "file": "svg/phone.svg",
+      "bytes": 6537,
+      "sha256": "307c0fb85a048529a336164eeab3ad992d7b82d984de9cfd6b02c3a278391d30"
+    },
+    {
+      "emoji": "📷",
+      "baseEmoji": "📷",
+      "slug": "camera",
+      "tone": 0,
+      "file": "svg/camera.svg",
+      "bytes": 125757,
+      "sha256": "d0cf3915e9c74cf3303c21358c946d19713ec5b552079a9abde6f05619f32d8a"
+    },
+    {
+      "emoji": "🎮",
+      "baseEmoji": "🎮",
+      "slug": "gamepad",
+      "tone": 0,
+      "file": "svg/gamepad.svg",
+      "bytes": 88930,
+      "sha256": "20bd6b1e551bb60ff866ae74fbbb6c63e73d693ab0502b858a52ca02117f0edf"
+    },
+    {
+      "emoji": "⚽",
+      "baseEmoji": "⚽",
+      "slug": "football",
+      "tone": 0,
+      "file": "svg/football.svg",
+      "bytes": 124502,
+      "sha256": "1931a6e8bfe25fe1200f6c27ce654153bf6adef24c002c026f3a5a34cebf1a4b"
+    },
+    {
+      "emoji": "🏆",
+      "baseEmoji": "🏆",
+      "slug": "trophy",
+      "tone": 0,
+      "file": "svg/trophy.svg",
+      "bytes": 122225,
+      "sha256": "50526dc1933990f78eae5fd7b1398a797aeaa9a1382ac1fb2a64fd930006fa45"
+    },
+    {
+      "emoji": "💩",
+      "baseEmoji": "💩",
+      "slug": "poop",
+      "tone": 0,
+      "file": "svg/poop.svg",
+      "bytes": 4426,
+      "sha256": "6175cbcb0acc1d18b4ddfff1519cd9a21178e0a46e659123203e0e8e0fa4b787"
+    },
+    {
+      "emoji": "🫏",
+      "baseEmoji": "🫏",
+      "slug": "crypto-donkey",
+      "tone": 0,
+      "file": "svg/crypto-donkey.svg",
+      "bytes": 7978,
+      "sha256": "ba53c5d190548999945d457afc34df785987828864f2a2ca367b8232c31916e3"
+    },
+    {
+      "emoji": "👍🏻",
+      "baseEmoji": "👍",
+      "slug": "thumbs-up-tone1",
+      "tone": 1,
+      "file": "svg/thumbs-up-tone1.svg",
+      "bytes": 82232,
+      "sha256": "79f3629d978342c4d539682ca52125dc02567ca849c493e701ccbecc490aa2c1"
+    },
+    {
+      "emoji": "👎🏻",
+      "baseEmoji": "👎",
+      "slug": "thumbs-down-tone1",
+      "tone": 1,
+      "file": "svg/thumbs-down-tone1.svg",
+      "bytes": 83989,
+      "sha256": "f8f942409f9db22e87ad97b8905ecdf69bf9504043c15ba7012350ce0ada05a9"
+    },
+    {
+      "emoji": "👋🏻",
+      "baseEmoji": "👋",
+      "slug": "wave-tone1",
+      "tone": 1,
+      "file": "svg/wave-tone1.svg",
+      "bytes": 115757,
+      "sha256": "6dd1eefab429669a59c7b0674559c30aa0189cd7bc72c49a68a17de69a41262d"
+    },
+    {
+      "emoji": "👏🏻",
+      "baseEmoji": "👏",
+      "slug": "clap-tone1",
+      "tone": 1,
+      "file": "svg/clap-tone1.svg",
+      "bytes": 121302,
+      "sha256": "b0fdf260888bc903554f51a1525c5f3174e2f44f7e165304806b2571ccac65c5"
+    },
+    {
+      "emoji": "🙏🏻",
+      "baseEmoji": "🙏",
+      "slug": "thanks-tone1",
+      "tone": 1,
+      "file": "svg/thanks-tone1.svg",
+      "bytes": 108571,
+      "sha256": "4bbfeedce6a65ba4580f2d1bc6a372c08a6740abe0622b0e8edf246346b13963"
+    },
+    {
+      "emoji": "✌🏻",
+      "baseEmoji": "✌️",
+      "slug": "peace-tone1",
+      "tone": 1,
+      "file": "svg/peace-tone1.svg",
+      "bytes": 97719,
+      "sha256": "22c1f73c2f9d8b39d21e32d44060fd3be747a7fcfc7b49fec110edcc4b9d21dd"
+    },
+    {
+      "emoji": "👍🏼",
+      "baseEmoji": "👍",
+      "slug": "thumbs-up-tone2",
+      "tone": 2,
+      "file": "svg/thumbs-up-tone2.svg",
+      "bytes": 81329,
+      "sha256": "cd240edb7e4b7017748a1c4fcb83c52c77f751bb9acfcb141b826732033fe59f"
+    },
+    {
+      "emoji": "👎🏼",
+      "baseEmoji": "👎",
+      "slug": "thumbs-down-tone2",
+      "tone": 2,
+      "file": "svg/thumbs-down-tone2.svg",
+      "bytes": 82693,
+      "sha256": "ceaeab5a181276f46a8136a98153bc78fe194ed546cd8f2dd805839500cd3c70"
+    },
+    {
+      "emoji": "👋🏼",
+      "baseEmoji": "👋",
+      "slug": "wave-tone2",
+      "tone": 2,
+      "file": "svg/wave-tone2.svg",
+      "bytes": 115444,
+      "sha256": "59fe08633aa142579238bd957394dd945728bddf5849167889cdc91e28b94df3"
+    },
+    {
+      "emoji": "👏🏼",
+      "baseEmoji": "👏",
+      "slug": "clap-tone2",
+      "tone": 2,
+      "file": "svg/clap-tone2.svg",
+      "bytes": 112403,
+      "sha256": "4a500212fa03b60c9fd06741935eb410b553e7cdc5864ac90d42c192a39ed100"
+    },
+    {
+      "emoji": "🙏🏼",
+      "baseEmoji": "🙏",
+      "slug": "thanks-tone2",
+      "tone": 2,
+      "file": "svg/thanks-tone2.svg",
+      "bytes": 108892,
+      "sha256": "9c2ea59623cd656a628d377f4bb65cae9584b14cff4400d3dbc71788ad796367"
+    },
+    {
+      "emoji": "✌🏼",
+      "baseEmoji": "✌️",
+      "slug": "peace-tone2",
+      "tone": 2,
+      "file": "svg/peace-tone2.svg",
+      "bytes": 93119,
+      "sha256": "1edebca6c31ac3a0c927f398fa44605b0a60764f6e34c1bfd4ed56bb41bbc0c8"
+    },
+    {
+      "emoji": "👍🏽",
+      "baseEmoji": "👍",
+      "slug": "thumbs-up-tone3",
+      "tone": 3,
+      "file": "svg/thumbs-up-tone3.svg",
+      "bytes": 77325,
+      "sha256": "d5ed4cd0db273734d109bc584ede8a25937a729475824d60838450d45bdd00c3"
+    },
+    {
+      "emoji": "👎🏽",
+      "baseEmoji": "👎",
+      "slug": "thumbs-down-tone3",
+      "tone": 3,
+      "file": "svg/thumbs-down-tone3.svg",
+      "bytes": 79263,
+      "sha256": "5df53f11b3ec7c1c193bce10fa0ca98a0650dc800240954184905d11ab1dbddf"
+    },
+    {
+      "emoji": "👋🏽",
+      "baseEmoji": "👋",
+      "slug": "wave-tone3",
+      "tone": 3,
+      "file": "svg/wave-tone3.svg",
+      "bytes": 115864,
+      "sha256": "3e69ba7c064389078ead9f4016cec808659f31b9890235293d9445b17b85faa1"
+    },
+    {
+      "emoji": "👏🏽",
+      "baseEmoji": "👏",
+      "slug": "clap-tone3",
+      "tone": 3,
+      "file": "svg/clap-tone3.svg",
+      "bytes": 107905,
+      "sha256": "375768662a23f946dc70b8bf6e17799eff29c293fed37aec7f6ed8662ee2e693"
+    },
+    {
+      "emoji": "🙏🏽",
+      "baseEmoji": "🙏",
+      "slug": "thanks-tone3",
+      "tone": 3,
+      "file": "svg/thanks-tone3.svg",
+      "bytes": 107975,
+      "sha256": "cb571d378ea0b96e3bb1eb8487aca8ac48e87c991fe44b5735809722dd6574f7"
+    },
+    {
+      "emoji": "✌🏽",
+      "baseEmoji": "✌️",
+      "slug": "peace-tone3",
+      "tone": 3,
+      "file": "svg/peace-tone3.svg",
+      "bytes": 90808,
+      "sha256": "53321f2395abf04a4dee048996eda87a2d5fd00784e30f4df8c198c36bae553e"
+    },
+    {
+      "emoji": "👍🏾",
+      "baseEmoji": "👍",
+      "slug": "thumbs-up-tone4",
+      "tone": 4,
+      "file": "svg/thumbs-up-tone4.svg",
+      "bytes": 73209,
+      "sha256": "8d80d9abf7cb5652828c7605514c62a89aea9dc108763615d0a20430298849b2"
+    },
+    {
+      "emoji": "👎🏾",
+      "baseEmoji": "👎",
+      "slug": "thumbs-down-tone4",
+      "tone": 4,
+      "file": "svg/thumbs-down-tone4.svg",
+      "bytes": 75864,
+      "sha256": "c4fe85cbab035138ffdbe0f25cbf57309cc70f84c4086b21d0a83caf14e351d6"
+    },
+    {
+      "emoji": "👋🏾",
+      "baseEmoji": "👋",
+      "slug": "wave-tone4",
+      "tone": 4,
+      "file": "svg/wave-tone4.svg",
+      "bytes": 105310,
+      "sha256": "f20d520c8c753acd42fe17371139f44f038dcb61e504ba539dc77bc4634e319d"
+    },
+    {
+      "emoji": "👏🏾",
+      "baseEmoji": "👏",
+      "slug": "clap-tone4",
+      "tone": 4,
+      "file": "svg/clap-tone4.svg",
+      "bytes": 104032,
+      "sha256": "5deb86e6b79f907f4510ff759789a976f79d4e4c0c7d2cc3ea61659c51883b79"
+    },
+    {
+      "emoji": "🙏🏾",
+      "baseEmoji": "🙏",
+      "slug": "thanks-tone4",
+      "tone": 4,
+      "file": "svg/thanks-tone4.svg",
+      "bytes": 103701,
+      "sha256": "6ea62fe85fe011d0528f5daccdb53fab8872134d43a3312b5e2a7f72c2452e34"
+    },
+    {
+      "emoji": "✌🏾",
+      "baseEmoji": "✌️",
+      "slug": "peace-tone4",
+      "tone": 4,
+      "file": "svg/peace-tone4.svg",
+      "bytes": 86493,
+      "sha256": "dab08661a4d14f44fba4ef3f765607a37c5c5311a9b5b121641afe03200cf358"
+    },
+    {
+      "emoji": "👍🏿",
+      "baseEmoji": "👍",
+      "slug": "thumbs-up-tone5",
+      "tone": 5,
+      "file": "svg/thumbs-up-tone5.svg",
+      "bytes": 70437,
+      "sha256": "5c99fdf6bd2c5536b7966852d3a1d4f829dc14370c98014c563da6cc3cd610bf"
+    },
+    {
+      "emoji": "👎🏿",
+      "baseEmoji": "👎",
+      "slug": "thumbs-down-tone5",
+      "tone": 5,
+      "file": "svg/thumbs-down-tone5.svg",
+      "bytes": 72460,
+      "sha256": "6f4eaf9e6e0444302a0cb8cd4a552c28adacf38835103676c9775a4c78effcaf"
+    },
+    {
+      "emoji": "👋🏿",
+      "baseEmoji": "👋",
+      "slug": "wave-tone5",
+      "tone": 5,
+      "file": "svg/wave-tone5.svg",
+      "bytes": 102614,
+      "sha256": "643408a04d6cf00275ef98453ac0c1400cba209b7a4218ddcff0e773cbe8d063"
+    },
+    {
+      "emoji": "👏🏿",
+      "baseEmoji": "👏",
+      "slug": "clap-tone5",
+      "tone": 5,
+      "file": "svg/clap-tone5.svg",
+      "bytes": 101524,
+      "sha256": "89b5f52811049b3a144bf5a2fc8db4e9a9434b40817489b5facf84134a063117"
+    },
+    {
+      "emoji": "🙏🏿",
+      "baseEmoji": "🙏",
+      "slug": "thanks-tone5",
+      "tone": 5,
+      "file": "svg/thanks-tone5.svg",
+      "bytes": 99489,
+      "sha256": "c3e0d1c4bada6bc594805daad77f80f971b5fcfdedf8e8468df8023da84fbedb"
+    },
+    {
+      "emoji": "✌🏿",
+      "baseEmoji": "✌️",
+      "slug": "peace-tone5",
+      "tone": 5,
+      "file": "svg/peace-tone5.svg",
+      "bytes": 82810,
+      "sha256": "0fd18758cd00703ff411c8e39499cd2cb9c3d59d0cf692eca4cb263d293ba9b1"
+    },
+    {
+      "emoji": "🪨",
+      "baseEmoji": "🪨",
+      "slug": "sacred-stone",
+      "tone": 0,
+      "file": "svg/sacred-stone.svg",
+      "bytes": 10110,
+      "sha256": "bc8ee61ebd019950738914e47018501ff6f9ae9768a716f7c503d60bc8d0b7ad"
+    },
+    {
+      "emoji": "🕷️",
+      "baseEmoji": "🕷️",
+      "slug": "jumping-spider",
+      "tone": 0,
+      "file": "svg/jumping-spider.svg",
+      "bytes": 769634,
+      "sha256": "3af1f81158e86c1a1e68991fed4fcf3781c7749263d186b3c6d5d39dc2ef91b6"
+    },
+    {
+      "emoji": "₿",
+      "baseEmoji": "₿",
+      "slug": "bitcoin",
+      "tone": 0,
+      "file": "svg/bitcoin.svg",
+      "bytes": 3523,
+      "sha256": "9f26138dc8c326ec3e2a21fdf7c26453508b1ce55ed341e177f267c49b66be59"
+    },
+    {
+      "emoji": ":fs_forgesworn:",
+      "baseEmoji": ":fs_forgesworn:",
+      "slug": "fs-forgesworn",
+      "tone": 0,
+      "file": "svg/fs-forgesworn.svg",
+      "bytes": 249987,
+      "sha256": "4a7cd1d7d14d8c79178302cd9475c2281833f527f8dcd1d9842e178901bd2972"
+    },
+    {
+      "emoji": ":fs_kindred:",
+      "baseEmoji": ":fs_kindred:",
+      "slug": "fs-kindred",
+      "tone": 0,
+      "file": "svg/fs-kindred.svg",
+      "bytes": 618,
+      "sha256": "b96cb137c4f973c9e1088aced5fa6b7f907c3c2f6bbfd7835113929e89a7dacc"
+    },
+    {
+      "emoji": ":fs_kithmoot:",
+      "baseEmoji": ":fs_kithmoot:",
+      "slug": "fs-kithmoot",
+      "tone": 0,
+      "file": "svg/fs-kithmoot.svg",
+      "bytes": 2389,
+      "sha256": "96090ee2a96c94dbbbaeb8fb81546b30614d04b6d7e013f93af83cc4a3cf4004"
+    },
+    {
+      "emoji": ":fs_mysignet:",
+      "baseEmoji": ":fs_mysignet:",
+      "slug": "fs-mysignet",
+      "tone": 0,
+      "file": "svg/fs-mysignet.svg",
+      "bytes": 965,
+      "sha256": "cf81e1bc11c530c0f77a5b1bea6e213e4a73847d027e19ccab818228f4977ba1"
+    },
+    {
+      "emoji": ":fs_vitark:",
+      "baseEmoji": ":fs_vitark:",
+      "slug": "fs-vitark",
+      "tone": 0,
+      "file": "svg/fs-vitark.svg",
+      "bytes": 824,
+      "sha256": "3ed7686d9211b19691fad519041a73dd5b123cbab1e87ebf0269c42277974689"
+    },
+    {
+      "emoji": ":fs_vitark_den:",
+      "baseEmoji": ":fs_vitark_den:",
+      "slug": "fs-vitark-den",
+      "tone": 0,
+      "file": "svg/fs-vitark-den.svg",
+      "bytes": 969,
+      "sha256": "054a19885014374ebbe63c4052058efd3bb26fa0a086f3861ce2d59ae29339ac"
+    },
+    {
+      "emoji": ":fs_vitark_train:",
+      "baseEmoji": ":fs_vitark_train:",
+      "slug": "fs-vitark-train",
+      "tone": 0,
+      "file": "svg/fs-vitark-train.svg",
+      "bytes": 987,
+      "sha256": "33130e6e4c70d816f71c7bb5baaff11c54c9374e84f069e05371126cdc041723"
+    },
+    {
+      "emoji": ":fs_vitark_still:",
+      "baseEmoji": ":fs_vitark_still:",
+      "slug": "fs-vitark-still",
+      "tone": 0,
+      "file": "svg/fs-vitark-still.svg",
+      "bytes": 915,
+      "sha256": "e51c1bc80aef49935959185f447f7914d0c70510f00ed0c1d2040fd81919d705"
+    },
+    {
+      "emoji": ":fs_vitark_record:",
+      "baseEmoji": ":fs_vitark_record:",
+      "slug": "fs-vitark-record",
+      "tone": 0,
+      "file": "svg/fs-vitark-record.svg",
+      "bytes": 793,
+      "sha256": "7d286dd72a028a47850b9afc069a4a5fa1fc5d56e13d6734eedc1135b8cf16a6"
     }
   ]
 }

@@ -1,6 +1,7 @@
 import manifest from './manifest.json' with { type: 'json' };
 export const definitions = Object.freeze(manifest.definitions.map(entry => Object.freeze({ ...entry, keywords:Object.freeze(entry.keywords) })));
 export const artwork = Object.freeze(manifest.artwork.map(entry => Object.freeze(entry)));
+export const vectorArtwork = Object.freeze((manifest.vectorArtwork ?? []).map(entry => Object.freeze(entry)));
 export const version = manifest.version;
 const bases = new Map(definitions.map(entry => [entry.emoji.replaceAll('\uFE0F',''),entry]));
 /** Return the canonical Unicode sequence; tone 0 means the default yellow artwork. */

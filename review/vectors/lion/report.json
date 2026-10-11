@@ -1,0 +1,150 @@
+{
+  "reference": {
+    "file": "png/lion.png",
+    "width": 192,
+    "height": 192,
+    "sha256": "49c8d0ecd8f3641ec55d21f9c2ef1d4225995d3e62d7aac25de3b2279779ec76"
+  },
+  "candidate": {
+    "bytes": 15948,
+    "gzipBytes": 3839,
+    "sha256": "061f416358dee08f4d5ec9f25dfbf43fa1e24601908d5e662c4e9a950885d783",
+    "viewBox": [
+      0.0,
+      0.0,
+      192.0,
+      192.0
+    ],
+    "paths": 31,
+    "pathCommands": 215,
+    "gradients": 27,
+    "stops": 118,
+    "filters": 7,
+    "uses": 2,
+    "shapeElements": 39
+  },
+  "previous": {
+    "bytes": 195919,
+    "gzipBytes": 27599,
+    "sha256": "691f0cd3b2c29c3d39b7508302a63a6dd96b91896dac5386389bc72c35d8fabf",
+    "viewBox": [
+      0.0,
+      0.0,
+      192.0,
+      192.0
+    ],
+    "paths": 229,
+    "pathCommands": 1419,
+    "gradients": 115,
+    "stops": 3677,
+    "filters": 0,
+    "uses": 0,
+    "shapeElements": 230
+  },
+  "renders": [
+    {
+      "longEdge": 32,
+      "width": 32,
+      "height": 32,
+      "visiblePixels": 638,
+      "alphaBounds": [
+        1,
+        2,
+        31,
+        30
+      ]
+    },
+    {
+      "longEdge": 64,
+      "width": 64,
+      "height": 64,
+      "visiblePixels": 2477,
+      "alphaBounds": [
+        3,
+        5,
+        61,
+        60
+      ]
+    },
+    {
+      "longEdge": 192,
+      "width": 192,
+      "height": 192,
+      "visiblePixels": 21845,
+      "alphaBounds": [
+        10,
+        14,
+        182,
+        179
+      ]
+    },
+    {
+      "longEdge": 512,
+      "width": 512,
+      "height": 512,
+      "visiblePixels": 155228,
+      "alphaBounds": [
+        24,
+        37,
+        488,
+        478
+      ]
+    },
+    {
+      "longEdge": 1024,
+      "width": 1024,
+      "height": 1024,
+      "visiblePixels": 623415,
+      "alphaBounds": [
+        47,
+        73,
+        977,
+        957
+      ]
+    }
+  ],
+  "browserVerification": "Verified separately in installed Google Chrome; see ../lion-browser-checks.json",
+  "ownerAcceptance": {
+    "status": "approved",
+    "feedback": "this is great",
+    "svgSha256": "061f416358dee08f4d5ec9f25dfbf43fa1e24601908d5e662c4e9a950885d783"
+  },
+  "note": "Channel error is diagnostic, not a visual acceptance threshold. Static renders use librsvg; inspect actual Chrome separately.",
+  "plainReductionPercent": 91.86,
+  "transparentPaddingChecked": 8,
+  "referenceComparisonNative": {
+    "meanAbsoluteChannelErrorByBackground": {
+      "black": 5.8429,
+      "white": 7.2035
+    },
+    "maxBackgroundMeanAbsoluteChannelError": 7.2035
+  },
+  "previousReferenceComparisonNative": {
+    "meanAbsoluteChannelErrorByBackground": {
+      "black": 3.1406,
+      "white": 4.7399
+    },
+    "maxBackgroundMeanAbsoluteChannelError": 4.7399
+  },
+  "compactionComparisonNative": {
+    "meanAbsoluteChannelErrorByBackground": {
+      "black": 0.0009,
+      "white": 0.0009
+    },
+    "maxBackgroundMeanAbsoluteChannelError": 0.0009
+  },
+  "hashPreservation": {
+    "originalPngs": 163,
+    "otherDistributedSvgs": 162,
+    "otherMasterSvgs": 162,
+    "changedArtwork": [
+      "svg/lion.svg",
+      "sources/vectors/lion.svg"
+    ]
+  },
+  "chromeVersusLibrsvg192px": {
+    "meanAbsoluteChannelError": 1.0788,
+    "p99ChannelError": 17.938,
+    "note": "Renderer diagnostic; not owner acceptance."
+  }
+}

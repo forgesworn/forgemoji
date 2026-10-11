@@ -25,7 +25,7 @@ export const nature = group('Nature', [
 export const everyday = [
  ...group('Food', [
  ['🍎','apple','Apple','fruit'],['🍌','banana','Banana','fruit'],['🍓','strawberry','Strawberry','fruit'],['🍉','watermelon','Watermelon','fruit'],['🍋','lemon','Lemon','fruit'],['🥑','avocado','Avocado','food'],
- ['🍕','pizza','Pizza','food slice'],['🍔','burger','Burger','food'],['🍟','fries','Fries','chips food'],['🌮','taco','Taco','food'],['🍿','popcorn','Popcorn','movie snack'],['🍰','cake','Cake','dessert birthday'],
+ ['🍕','pizza','Pizza','food slice vegetarian veggie mushroom tomato pepper olive onion'],['🍔','burger','Burger','food'],['🍟','fries','Fries','chips food'],['🌮','taco','Taco','food'],['🍿','popcorn','Popcorn','movie snack'],['🍰','cake','Cake','dessert birthday'],
  ['🍩','doughnut','Doughnut','donut dessert'],['🍪','cookie','Cookie','biscuit snack'],['🍦','ice-cream','Ice cream','dessert'],['☕','coffee','Coffee','tea drink'],['🍺','beer','Beer','pint drink'],['🥂','cheers','Cheers','glasses toast']]),
  ...group('Objects', [
  ['🎁','gift','Gift','present birthday'],['💡','idea','Light bulb','idea'],['🔑','key','Key','unlock'],['🔒','lock','Lock','private secure'],['🚀','rocket','Rocket','launch space'],['💻','laptop','Laptop','computer work'],
