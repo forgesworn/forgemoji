@@ -386,7 +386,7 @@
     },
     {
       "slug": "pizza",
-      "visiblePixels": 12959
+      "visiblePixels": 15208
     },
     {
       "slug": "burger",
@@ -885,50 +885,6 @@
   ],
   "browser": "Installed Google Chrome",
   "mobileWidth": 390,
-  "finalPizzaCheck": {
-    "sizes": [
-      32,
-      192,
-      512
-    ],
-    "browserSizes": [
-      32,
-      64,
-      512
-    ],
-    "pageErrors": [],
-    "externalRequests": []
-  },
-  "finalTigerCheck": {
-    "svg": "svg/tiger.svg",
-    "source": "png/tiger.png",
-    "previousBytes": 221207,
-    "bytes": 9398,
-    "gzipBytes": 2547,
-    "reductionPercent": 95.75,
-    "sha256": "885595ef01bef7acfe9adcf621223b2a3e56c4bbf271f17833e114a8dbc33500",
-    "paths": 16,
-    "gradients": 14,
-    "gradientStops": 53,
-    "chromeLibrsvgMeanAbsoluteChannelDifference": 1.2445,
-    "referenceMeanAbsoluteChannelDifference": 10.965,
-    "note": "Native component reconstruction, with smooth gradients and reference-measured geometry; remains a visual approximation rather than a pixel-identical encoding. All other SVGs and all PNGs retain their previous hashes.",
-    "browserChecks": "review/vectors/tiger-browser-checks.json"
-  },
-  "finalLionCheck": {
-    "svgSha256": "061f416358dee08f4d5ec9f25dfbf43fa1e24601908d5e662c4e9a950885d783",
-    "renderedSizes": [
-      32,
-      64,
-      192,
-      512,
-      1024
-    ],
-    "browserReport": "review/vectors/lion-browser-checks.json",
-    "diagnosticReport": "review/vectors/lion/report.json",
-    "originalPngsPreserved": 163,
-    "otherDistributedSvgsPreserved": 162
-  },
   "finalStoneCheck": {
     "svgSha256": "bc8ee61ebd019950738914e47018501ff6f9ae9768a716f7c503d60bc8d0b7ad",
     "renderedSizes": [
