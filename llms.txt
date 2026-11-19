@@ -1,0 +1,14 @@
+# ForgeMoji
+
+> Original Unicode emoji artwork for local bundling, with PNG and SVG assets and JavaScript lookup.
+
+## Documentation
+
+- [Asset integration](https://github.com/forgesworn/forgemoji/blob/main/README.md): Use the manifest and local assets, and check artwork terms.
+- [Package exports](https://github.com/forgesworn/forgemoji/blob/main/package.json): JavaScript entry point, manifest and asset paths.
+
+## ForgeSworn ecosystem
+
+- [ForgeSworn library guide](https://forgesworn.dev/llms.txt): Find related libraries, tools and integration guides by task and runtime.
+- [ForgeSworn on GitHub](https://github.com/forgesworn): Browse the organisation’s public repositories.
+- [Project source](https://github.com/forgesworn/forgemoji): Canonical source repository, documentation and release information.
